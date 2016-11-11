@@ -3,7 +3,9 @@ package application;
 import java.net.*;
 import java.io.*;
 import java.util.*;
-public class ChatHandler extends Thread {
+
+public class ChatHandler extends Thread{
+
 	
 	  protected Socket s;
 	  protected DataInputStream i;
@@ -13,7 +15,6 @@ public class ChatHandler extends Thread {
 	    i = new DataInputStream (new BufferedInputStream (s.getInputStream ()));
 	    o = new DataOutputStream (new BufferedOutputStream (s.getOutputStream ()));
 	  }
-	  
 	  protected static Vector handlers = new Vector ();
 	  public void run () {
 	    try {
@@ -33,6 +34,7 @@ public class ChatHandler extends Thread {
 	      }
 	    }
 	  }
+	  
 	  protected static void broadcast (String message) {
 		    synchronized (handlers) {
 		      Enumeration e = handlers.elements ();
@@ -49,5 +51,5 @@ public class ChatHandler extends Thread {
 		      }
 		    }
 		  }
-
+	  
 }

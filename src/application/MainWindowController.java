@@ -22,6 +22,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import application.ChatClient;
+import application.ChatServer;
+
 
 
 public class MainWindowController {
@@ -41,12 +44,14 @@ public class MainWindowController {
 	@FXML private TextArea text_chat;
 	@FXML private ComboBox existing_contacts;
 	@FXML private Button remove_contact;
+	@FXML private TextField new_ip;
+	@FXML private TextField new_name;
 	
 	
+	ChatServer chatserver;
+	ChatClient chatclient;
 	
-	
-	
-	
+	int i=0;
 	
 	
 	
@@ -64,8 +69,13 @@ public class MainWindowController {
 	
 	@FXML
 	public void Connect() throws IOException{
-		new newWindow("ChatWindow.fxml");
+	
 		
+		new newWindow("ChatWindow.fxml");
+
+		if (i%2==0) chatserver = new ChatServer(10000);
+		else  chatclient = new ChatClient("localhost", 10000);
+		i++;
 		
 	}
 	@FXML
@@ -115,7 +125,13 @@ public class MainWindowController {
 
 	@FXML 
 	public void new_contact() throws IOException {
-    new newWindow("Add_Contact.fxml");
+    Database db=new Database();
+    db.setcontact(new_name.getText(), new_ip.getText());
+    
+    Import_Contacts();
+    new_name.clear();new_ip.clear();
+		
+		//new newWindow("Add_Contact.fxml");
 	}
 
 	public class newWindow  extends Stage {
