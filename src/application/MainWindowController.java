@@ -8,6 +8,7 @@ package application;
 
 import java.awt.event.ActionEvent;
 import java.io.IOException;
+import java.awt.event.ActionListener;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -38,10 +39,7 @@ public class MainWindowController {
 	@FXML private TextField Name_Add;
 	@FXML private TextField IP_Add;
 	@FXML private Button button_add;
-	@FXML private Button send_chat;
-	@FXML private Button close_chat;
-	@FXML private Label label_chat;
-	@FXML private TextArea text_chat;
+
 	@FXML private ComboBox existing_contacts;
 	@FXML private Button remove_contact;
 	@FXML private TextField new_ip;
@@ -51,7 +49,7 @@ public class MainWindowController {
 	ChatServer chatserver;
 	ChatClient chatclient;
 	
-	int i=0;
+	static int i=0;
 	
 	
 	
@@ -67,19 +65,14 @@ public class MainWindowController {
 
 	
 	
-	@FXML
-	public void Connect() throws IOException{
-	
-		
-		new newWindow("ChatWindow.fxml");
 
-		if (i%2==0) chatserver = new ChatServer(10000);
-		else  chatclient = new ChatClient("localhost", 10000);
-		i++;
-		
-	}
 	@FXML
 	public void handlebtnNeuesFensterAction(){
+		
+	}
+	
+	public void Send_Chat(){
+		
 		
 	}
 	@FXML
@@ -134,21 +127,22 @@ public class MainWindowController {
 		//new newWindow("Add_Contact.fxml");
 	}
 
-	public class newWindow  extends Stage {
-	    Stage stage;
-	    public newWindow(String name) throws IOException{
-	        stage = this;
-	        Parent root = FXMLLoader.load(getClass().getResource(name));
-	       
-	        
-	        Scene scene = new Scene(root);
-	        
-	        
-	        
-	        stage.setScene(scene);
-	        stage.show();
-	    }
-	    }
+	@FXML
+	public void Connect(){
+		
+	NewWindow window=null;
+	
+		try {
+			 window=new NewWindow("ChatWindow.fxml");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		ConnectionController controller = new ConnectionController();
+		controller.run();
+		
+	}
+
 	@FXML
 	public void handleCloseButtonAction(){
 		String text_1=(Name_Add.getText());
@@ -164,25 +158,9 @@ public class MainWindowController {
 		
 
 	}
-	public void send_chat(){
-		
-		System.out.println(text_chat.getText());
-	if (label_chat.getText().equals(""))
-		label_chat.setText(text_chat.getText());	
-		else
-	label_chat.setText(label_chat.getText()+text_chat.getText()+"\n");
-	text_chat.clear();
-		
-		
-		
-	}
+
 	
 	
-	public void close_chat(){
-		
-		Stage stage = (Stage)close_chat.getScene().getWindow();
-		stage.close();	
-		
-	}
+
 	
 }

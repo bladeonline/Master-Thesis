@@ -26,7 +26,7 @@ import javafx.scene.layout.BorderPane;
 public class Main extends Application {
 
 	 private static Stage primaryStage;
-	
+	 public static int starter=0;
 	
 	 static Stage getStage(){
 		 
@@ -42,7 +42,7 @@ public class Main extends Application {
 	
 	public void mainWindow(){
 		try {
-		FXMLLoader loader = new FXMLLoader(Main.class.getResource("MainWindow.fxml"));
+			FXMLLoader loader = new FXMLLoader(Main.class.getResource("MainWindow.fxml"));
 			AnchorPane pane = loader.load();
 			
 			primaryStage.setMinHeight(400.00);
