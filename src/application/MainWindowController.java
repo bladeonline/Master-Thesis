@@ -6,21 +6,15 @@
 
 package application;
 
-import java.awt.event.ActionEvent;
 import java.io.IOException;
-import java.awt.event.ActionListener;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import application.ChatClient;
@@ -39,13 +33,16 @@ public class MainWindowController {
 	@FXML private TextField Name_Add;
 	@FXML private TextField IP_Add;
 	@FXML private Button button_add;
+	@FXML private Button Client;
+	@FXML private Button Connect;
+	
 
-	@FXML private ComboBox existing_contacts;
+	@FXML private ComboBox<String> existing_contacts;
 	@FXML private Button remove_contact;
 	@FXML private TextField new_ip;
 	@FXML private TextField new_name;
 	
-	
+	Thread thread;
 	ChatServer chatserver;
 	ChatClient chatclient;
 	
@@ -56,11 +53,7 @@ public class MainWindowController {
 	String Name_STR="", IP_STR=""; 
 	
 
-	public Main main;
 
-	public void setMain(Main main){
-		this.main = main;
-	}
 
 
 	
@@ -68,6 +61,19 @@ public class MainWindowController {
 
 	@FXML
 	public void handlebtnNeuesFensterAction(){
+		
+	}
+	
+	
+	@FXML
+	public void Connect_Client(){
+		
+		try {
+			new NewWindow("ChatWindow_Client.fxml");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	
@@ -130,19 +136,26 @@ public class MainWindowController {
 	@FXML
 	public void Connect(){
 		
-	NewWindow window=null;
+	NewWindow window;
 	
 		try {
-			 window=new NewWindow("ChatWindow.fxml");
-		} catch (IOException e) {
+			
+		window=new NewWindow("ChatWindow_Server.fxml");
+		
+			
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		ConnectionController controller = new ConnectionController();
-		controller.run();
+		
+
+
+		
 		
 	}
 
+	
+	
 	@FXML
 	public void handleCloseButtonAction(){
 		String text_1=(Name_Add.getText());

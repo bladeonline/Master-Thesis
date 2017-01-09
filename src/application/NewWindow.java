@@ -9,9 +9,10 @@ import javafx.stage.Stage;
 
 public class NewWindow  extends Stage {
     Stage stage;
+    Parent root;
     public NewWindow(String name) throws IOException{
         stage = this;
-        Parent root = FXMLLoader.load(getClass().getResource(name));
+        root = FXMLLoader.load(getClass().getResource(name));
        
         
         Scene scene = new Scene(root);
@@ -21,4 +22,11 @@ public class NewWindow  extends Stage {
         stage.setScene(scene);
         stage.show();
     }
+    
+    public ClassLoader GetController(){
+    	return FXMLLoader.getDefaultClassLoader();
+    	
+    }
+    
+    
     }

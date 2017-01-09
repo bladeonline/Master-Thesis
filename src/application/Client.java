@@ -10,13 +10,17 @@ import java.io.*;
 import java.net.*;
 
 
-public class Client {
+public class Client implements Runnable{
 Socket socket;
 private String ip;
 private int port;
 DataInputStream input;
 DataOutputStream output;
 
+Socket getSocket(){
+	
+	return socket;
+}
 
 public Client(String ip, int port) throws UnknownHostException, IOException{
 	this.port=port;
@@ -27,7 +31,7 @@ public Client(String ip, int port) throws UnknownHostException, IOException{
 	socket = new Socket(ip, port);
 
 }
-public void connection(){
+public void connect(){
 	
 	if(socket.isConnected()){
 	try {
@@ -46,8 +50,10 @@ public void connection(){
 public String incoming(){
 	
 	try {
+		if(input.readUTF().length()>0)
 		
 		return input.readUTF();
+		else return "";
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -84,6 +90,17 @@ public void close(){
 	
 }
 
+@Override
+public void run() {
+	// TODO Auto-generated method stub
+	
+	if(socket!=null){
+		connect();
 
-
+		}
+	}
 }
+
+
+
+

@@ -49,7 +49,7 @@ public class Main extends Application {
 			primaryStage.setMinWidth(500.00);
 			
 			MainWindowController mainWindowController = loader.getController();
-			mainWindowController.setMain(this);
+			
 			mainWindowController.Import_Contacts();
 			
 			Scene scene = new Scene(pane);
