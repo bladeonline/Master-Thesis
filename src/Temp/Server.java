@@ -1,8 +1,12 @@
-package application;
+package Temp;
 
+import java.io.BufferedWriter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -10,8 +14,10 @@ public class Server extends Thread{
 ServerSocket serverSocket;
 Socket socket;
 DataInputStream input;
-DataOutputStream output;
-Boolean NewChat=false;
+PrintWriter output;
+
+
+boolean test=true;
 
 Socket GetSocket(){
 	return socket;
@@ -24,10 +30,8 @@ ServerSocket GetServerSocket(){
 }
 public Server()     {
 	try {
-		serverSocket = new ServerSocket(13345);
-		
-	
-		
+		serverSocket = new ServerSocket(Main.PortNumber);
+
 		
 		
 		
@@ -44,43 +48,58 @@ public Server()     {
 
 
 public void run(){
-	System.out.println("test");
-	while(true){
-	try {
+
+	try{
+
+		
 		socket=serverSocket.accept();
-		
-	
-		
-	
-		
+		connect();
+		socket.setTcpNoDelay(true);
 		
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+	// TODO Auto-generated catch block
+	e.printStackTrace();
 	}
+
 	
-	
-	if (socket!=null){
-		System.out.println("geht was");
+
 		
-		System.out.println(socket.getPort());
-		}
+		
+	
+	
+		
+		
+ 
+	
+
 		//clientThread test=new clientThread("localhost", 2000);
-		if(socket!=null)
-			try {
-				connect();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	}
+	
+	
 }
+
+
+public void close(){
+	
+if(socket!=null){
+	input=null;
+	output=null;
+	socket=null;
+	
+	
+}
+	
+	serverSocket=null;
+	
+	
+}
+
+
 
 
 public void connect() throws IOException{
 	if(socket!=null){
 		input= new DataInputStream(socket.getInputStream());
-		output = new DataOutputStream(socket.getOutputStream());
+		output = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
 		
 		
 	}
@@ -106,11 +125,13 @@ public String incoming(){
 
 public void outgoing(String text){
 	try {
-		if(socket!=null) System.out.println("geht doch");
 		
-		output.writeUTF(text);
+		
+		output.println(text);
+	
 		output.flush();
-	} catch (IOException e) {
+	
+	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		

@@ -1,21 +1,16 @@
-package application;
+package Temp;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.UnknownHostException;
+import java.lang.*;
 import java.io.*;
 import java.net.*;
 
 
 public class Client implements Runnable{
 Socket socket;
-private String ip;
-private int port;
-DataInputStream input;
-DataOutputStream output;
+public String ip;
+public int port;
+BufferedReader input;
+PrintWriter output;
 
 Socket getSocket(){
 	
@@ -29,15 +24,30 @@ public Client(String ip, int port) throws UnknownHostException, IOException{
 	
 	
 	socket = new Socket(ip, port);
+	
+	socket.setTcpNoDelay(true);
+}
 
+
+public Client (Socket socket){
+	
+	this.socket = socket;
+	port = socket.getPort();
+	//This Constructor is only needed when the client is started from the server Class, this why it is the Localhost as IP
+	ip = "localhost";
+	
+	
+	
+	
+	
 }
 public void connect(){
 	
 	if(socket.isConnected()){
 	try {
 		
-		input = new DataInputStream(socket.getInputStream());
-		output = new DataOutputStream(socket.getOutputStream());
+		input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+		output = new PrintWriter(socket.getOutputStream(), true);
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -47,14 +57,31 @@ public void connect(){
 }
 
 
+
 public String incoming(){
-	
+
 	try {
-		if(input.readUTF().length()>0)
 		
-		return input.readUTF();
+		String response="";
+		
+		if(input==null)connect();
+		
+		
+		if(input.ready()){
+		
+		response=input.readLine();
+		}
+	
+		
+		if( (response).length()>0){
+			
+		System.out.println("Eingehende Nachricht: "+response);
+		
+		return response;
+		
+		}
 		else return "";
-	} catch (IOException e) {
+	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		return "";
@@ -63,9 +90,9 @@ public String incoming(){
 
 public void outgoing(String text){
 	try {
-		output.writeUTF(text);
+		output.println(text);
 		output.flush();
-	} catch (IOException e) {
+	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		
@@ -74,11 +101,7 @@ public void outgoing(String text){
 	
 }
 
-public void establish_connection(){
-	
-	
-	
-}
+
 public void close(){
 	if(output!=null)
 		output=null;
@@ -94,10 +117,10 @@ public void close(){
 public void run() {
 	// TODO Auto-generated method stub
 	
-	if(socket!=null){
-		connect();
 
-		}
+//		connect();
+
+		
 	}
 }
 

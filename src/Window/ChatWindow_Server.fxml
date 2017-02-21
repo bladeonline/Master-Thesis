@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="run" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChatWindowController_Server">
+   <children>
+      <Button fx:id="send_chat" layoutX="172.0" layoutY="413.0" mnemonicParsing="false" onAction="#send" text="Send" />
+      <Button fx:id="close_chat" layoutX="307.0" layoutY="413.0" mnemonicParsing="false" onAction="#close_chat" text="Close" />
+      <TextArea fx:id="text_chat" layoutX="50.0" layoutY="192.0" prefHeight="200.0" prefWidth="406.0" />
+      <ScrollPane layoutX="28.0" prefHeight="176.0" prefWidth="450.0">
+         <content>
+            <Label fx:id="label_chat" prefHeight="125.0" prefWidth="406.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

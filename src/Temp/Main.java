@@ -11,7 +11,7 @@
  */
 
 
-package application;
+package Temp;
 	
 import java.io.IOException;
 
@@ -27,18 +27,43 @@ public class Main extends Application {
 
 	 private static Stage primaryStage;
 	 public static int starter=0;
+	 
+	 
+	 
+	 
+	 public static int PortNumber;
 	
 	 static Stage getStage(){
 		 
 		 return primaryStage;
 	 }
 	 
+	 public void SetPort(){
+		 double i=0;
+		 
+		 while(i<10000||i>65535){
+			 i=Math.random()*65536;
+			 
+			 
+		 }
+		 PortNumber =(int)i;
+		 
+	 }
+	 public int getPort(){
+		 return PortNumber;
+		 
+		 
+	 }
 	 
 	@Override
 	public void start(Stage primaryStage){
 		this.primaryStage = primaryStage;
 		mainWindow();
+		SetPort();
 	}
+	
+	
+	
 	
 	public void mainWindow(){
 		try {
@@ -56,6 +81,7 @@ public class Main extends Application {
 			
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			
 			
 			
 		} catch (IOException e) {
