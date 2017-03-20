@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.security.Timestamp;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -110,32 +111,32 @@ public class GUI {
 	
 	
 	
-	void set_price_initially(double input){
+	void set_price_initially(double input) throws SQLException{
 		
 		int detected_level = main.message.get(main.message.size()-1).level;
 		
 		if(detected_level==1){
 			
-			main.price.put(1, new Price(input, input/5));
-			main.price.put(2,new Price(input*1.5, input*1.5/5));
-			main.price.put(3,new Price( input*2, input*2/5));
+			main.price.put(1, new Price(input, input/5, input/20, 0));
+			main.price.put(2,new Price(input*1.5, input*1.5/5, input/20, 0));
+			main.price.put(3,new Price( input*2, input*2/5, input/20, 0));
 			
-			
+			main.write_price_initial();
 			
 			
 		} else if(detected_level==2){
 			
-			main.price.put(1,new Price(input*0.7, input*0.7/5));
-			main.price.put(2,new Price(input, input/5));
-			main.price.put(3,new Price( input*1.3, input*1.3/5));
-			
+			main.price.put(1,new Price(input*0.7, input*0.7/5, input/20, 0));
+			main.price.put(2,new Price(input, input/5, input/20, 0));
+			main.price.put(3,new Price( input*1.3, input*1.3/5, input/20, 0));
+			main.write_price_initial();
 			
 		}else{
 			
-			main.price.put(1,new Price(input*0.5, input*0.5/5));
-			main.price.put(2,new Price(input*0.7, input*0.7/5));
-			main.price.put(3,new Price(input, input/5));
-			
+			main.price.put(1,new Price(input*0.5, input*0.5/5, input/20, 0));
+			main.price.put(2,new Price(input*0.7, input*0.7/5, input/20, 0));
+			main.price.put(3,new Price(input, input/5, input/20, 0));
+			main.write_price_initial();
 			
 		}
 		
@@ -157,7 +158,7 @@ public class GUI {
 				if(arg0.getButton()== MouseEvent.BUTTON2){
 					JTextComponent myComponent = (JTextComponent) arg0.getComponent();
 					String message = myComponent.getSelectedText();
-					System.out.println(message);
+					
 					
 					
 				}
@@ -175,9 +176,9 @@ public class GUI {
 				
 				new History();
 				String s = chat_history.getText();
-				s+="------------------------------------------------\n";
+				s+="----------------------------------------- ----------------\n";
 				s+="Detection may have changed here, entries are not accurate.\n";
-				s+="------------------------------------------------\n";
+				s+="----------------------------------------------------------\n";
 				chat_history.setText(s);
 				
 				
@@ -191,6 +192,16 @@ public class GUI {
 		button_setprice.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				if(main.message.size()==0){
+					price_area.setText("Please provice a Message first.");
+					
+				}
+				else if(main.message.get(main.message.size()-1).level==0){
+					
+					price_area.setText("Please provide a message with privacy sensitive information first.");
+				}
+				else{
+				
 				String text = set_price.getText();
 				if(text.length()==0)
 					price_area.setText("Please enter a price and click the button again.");
@@ -200,7 +211,12 @@ public class GUI {
 						
 						Double price=Double.parseDouble(text);
 						
-						set_price_initially(price);
+						try {
+							set_price_initially(price);
+						} catch (SQLException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 						deactivate();
 						
 						
@@ -216,7 +232,7 @@ public class GUI {
 					
 					
 				}
-				
+				}
 			}
 		});
 		
@@ -225,7 +241,54 @@ public class GUI {
 		
 		price_yes.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				price_area.setText("Thank you for your response.");
+				
+				if(main.message.size()==0)
+					price_area.setText("No Input of a message yet. Please first type in a message.");
+				else if(main.message.get(main.message.size()-1).level==0)
+					price_area.setText("Input message has a level of 0. We can't offer you money for this information");
+				else{
+					
+					
+					int level = main.message.get(main.message.size()-1).level;
+					Price price=main.price.get(level);
+					
+				
+						
+						int direction=-1;
+						
+						if(price.direction==0){ direction =-1;
+						price.direction=-1;
+						}
+						
+						if(direction!=price.direction){
+							price.direction=-1;
+							price.changing=price.changing/2;
+						}
+			
+						
+						
+						if(price.changing<=price.treshold){
+							
+							price.price=price.price/(price.price-price.changing);
+						}
+					
+						try {
+							main.update_price(level, price);
+						} catch (SQLException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					
+					
+					
+					price_area.setText("Thank you for your response. Your price has been set.");
+				}
+				
+				
+				
+				
+				
+				
 				
 				
 			}
@@ -233,7 +296,47 @@ public class GUI {
 		price_no.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				price_area.setText("Thank you for your response.");
+				if(main.message.size()==0)
+					price_area.setText("No Input of a message yet. Please first type in a message.");
+				else if(main.message.get(main.message.size()-1).level==0)
+					price_area.setText("Input message has a level of 0. We can't offer you money for this information");
+				else{
+					
+					
+					int level = main.message.get(main.message.size()-1).level;
+					Price price=main.price.get(level);
+					
+				
+						
+						int direction=1;
+						
+						if(price.direction==0){ direction =1;
+						price.direction=1;
+						}
+						
+						if(direction!=price.direction){
+							price.direction=1;
+							price.changing=price.changing/2;
+						}
+			
+						
+						
+						if(price.changing<=price.treshold){
+							
+							price.price=price.price+price.changing;
+						}
+					
+						try {
+							main.update_price(level, price);
+						} catch (SQLException ex) {
+							// TODO Auto-generated catch block
+							ex.printStackTrace();
+						}
+					
+					
+					
+					price_area.setText("Thank you for your response. Your price has been set.");
+				}
 			}
 		});
 		
@@ -326,7 +429,7 @@ public class GUI {
 		
 		textField = new TextField();
 
-		textField.setBounds(33, 339, 569, 244);
+		textField.setBounds(23, 339, 569, 244);
 		frame.getContentPane().add(textField);
 		
 		history = new Button("History");
@@ -341,6 +444,7 @@ public class GUI {
 		
 		chat_history = new JTextArea();
 		chat_history.setEditable(false);
+		chat_history.setAutoscrolls(true);
 		chat_history.setBounds(23, 36, 569, 266);
 		chat_history.setLineWrap(true);
 		
@@ -349,6 +453,7 @@ public class GUI {
 		price_area = new JTextArea();
 		price_area.setEditable(false);
 		price_area.setBounds(23, 600, 569, 65);
+		price_area.setAutoscrolls(true);
 		price_area.setLineWrap(true);
 		frame.getContentPane().add(price_area);
 		
@@ -374,6 +479,10 @@ public class GUI {
 		set_price.setBounds(614, 616, 114, 32);
 		frame.getContentPane().add(set_price);
 		set_price.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("Accept offered Price?");
+		lblNewLabel.setBounds(205, 690, 138, 22);
+		frame.getContentPane().add(lblNewLabel);
 		frame.setVisible(true);
 		
 	}

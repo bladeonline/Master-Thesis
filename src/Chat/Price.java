@@ -5,9 +5,15 @@ public class Price {
 	
 	double price;
 	double changing;
-	public Price(double price, double changing) {
+	double treshold;
+	int direction;
+	
+	
+	
+	public Price(double price, double changing, double treshold, int direction) {
 		super();
-		
+		this.treshold=treshold;
+		this.direction=direction;
 		this.price = price;
 		this.changing = changing;
 	}

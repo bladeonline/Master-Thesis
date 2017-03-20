@@ -24,10 +24,9 @@ public class Add_Content {
 	
 	public void load(){
 		
-//		for(int i=0;i<main.category.size();i++)
-//		category.addItem(main.category.get(i));
-		category.addItem("bla");
-		category.addItem("blub");
+		for(int i=0;i<main.category.size();i++)
+		category.addItem(main.category.get(i));
+
 		
 		int [] different_levels = new int []{0,1,2,3}; 
 		for(int i=0;i<different_levels.length;i++)
@@ -39,7 +38,7 @@ public class Add_Content {
 			public void actionPerformed(ActionEvent e) {
 				
 				
-		System.out.println("Level: "+level.getSelectedItem()+", Category: "+category.getSelectedItem()  );
+	
 				
 			//	frame.dispose();
 				

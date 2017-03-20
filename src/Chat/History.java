@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 import java.awt.Choice;
+import javax.swing.JLabel;
 
 public class History {
 
@@ -33,6 +34,8 @@ public class History {
 	JTextArea found_expressions;
 	
 	DefaultListModel model;
+	private JLabel lblNewLabel;
+	private JLabel lblIntoTheProgram;
 
 	
 	
@@ -277,7 +280,7 @@ public class History {
 				
 				input_message(s.substring(26, s.length()));
 				int position_in_list= main.find_message(s.substring(26, s.length()), s.substring(13, 25));
-				System.out.println(position_in_list);
+			
 				
 				found_expressions( main.message.get(position_in_list).found_expressions);
 			
@@ -316,7 +319,7 @@ public class History {
 		model = new DefaultListModel();
 		list = new JList(model);
 
-		list.setBounds(77, 11, 635, 324);
+		list.setBounds(77, 11, 619, 324);
 		
 		frame.getContentPane().add(list);
 		
@@ -345,11 +348,21 @@ public class History {
 		
 		found_expressions = new JTextArea();
 		found_expressions.setBounds(465, 403, 231, 100);
+		found_expressions.setAutoscrolls(true);
 		frame.getContentPane().add(found_expressions);
 		
 		selected_text = new JTextArea();
 		selected_text.setBounds(78, 403, 377, 100);
+		selected_text.setAutoscrolls(true);
 		frame.getContentPane().add(selected_text);
+		
+		lblNewLabel = new JLabel("Please select text and the right mouse-button to import the expression");
+		lblNewLabel.setBounds(77, 514, 378, 14);
+		frame.getContentPane().add(lblNewLabel);
+		
+		lblIntoTheProgram = new JLabel("into the program.");
+		lblIntoTheProgram.setBounds(77, 527, 378, 14);
+		frame.getContentPane().add(lblIntoTheProgram);
 		frame.setVisible(true);
 	}
 }

@@ -58,7 +58,7 @@ public class Database_Import {
 		while((line= br.readLine())!=null){
 			
 			line= line.replaceAll("'", "#"); // Change apostroph to hashtag
-			System.out.println(line);
+		
 		
 			
 
@@ -81,27 +81,27 @@ public class Database_Import {
 	
 	
 	
-	public static void main(String [] args){
-		
-		Database_Import db = new Database_Import();
-		
-		
-		try {
-			db.open("C:/test.csv");
-			db.connect();
-			try {
-				db.insert("health");
-			} catch (IOException | SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		
-		
-	}
+//	public static void main(String [] args){
+//		
+//		Database_Import db = new Database_Import();
+//		
+//		
+//		try {
+//			db.open("C:/test.csv");
+//			db.connect();
+//			try {
+//				db.insert("health");
+//			} catch (IOException | SQLException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		
+//		
+//		
+//	}
 }

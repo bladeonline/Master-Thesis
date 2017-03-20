@@ -19,6 +19,32 @@ public class main {
 	static ArrayList<String> category= new ArrayList<String>();
 	static HashMap <Integer, Price> price = new HashMap <Integer, Price>();
 	static Statement statement;
+	boolean gui_needed=true;
+	
+	
+	/*
+	 * 
+	 * Constructor, in case, no GUI is needed
+	 * 
+	 */
+	public main(boolean gui_needed){
+		this.gui_needed=gui_needed;
+		
+	}
+	
+	
+	
+	/*
+	 * 
+	 * Empty Constructor for all other cases
+	 * 
+	 */
+	public main(){
+		
+		
+	}
+	
+	
 	
 	
 	void load_category(){
@@ -53,6 +79,38 @@ public class main {
 			
 	}
 	 
+	 
+	 
+	 
+	public static void write_price_initial() throws SQLException{
+		
+		
+		
+		String result;
+		
+		for (int i=1;i<=price.size();i++){
+			result ="INSERT INTO price('level', 'price', 'Changing_Factor', 'treshold', 'direction') VALUES";
+			result+="(" + (i) + ", " + price.get(i).price+", "+price.get(i).changing+", "+ price.get(i).treshold+", "+ price.get(i).direction + ");";
+			
+			statement.execute(result);
+			
+			
+			
+		}
+		
+		
+	} 
+	
+	public static void update_price(int level, Price tprice) throws SQLException{
+
+		String queue = "UPDATE price SET price ="+tprice.price+" AND Changing_Factor="+tprice.changing;
+		queue+=" AND treshold="+tprice.treshold+" AND direction="+tprice.direction+" WHERE level="+level+";";
+			statement.execute(queue);
+		
+		
+	}
+	 
+	 
 	public static boolean expression_exists(String found_expression){
 		for(int i=0;i<expression.size();i++){
 			if(expression.get(i).expression.equals(found_expression))
@@ -62,6 +120,9 @@ public class main {
 		return false;
 		
 	}
+	
+	
+	
 	 
 	 
 	 public static int find_message(String message_user, String time){
@@ -81,32 +142,7 @@ public class main {
 	 }
 	 
 	 
-	 public void print(){
-		 
-		try {
-			ResultSet rs = statement.executeQuery("SELECT * FROM privacy_tag");
-			
-			String tag;
-			while(rs.next()){
-				
-				 tag = rs.getString("tag");
-				 tag=tag.replaceAll("#", "'");
-				System.out.println(tag+"," +rs.getString("category")+","+rs.getInt(2)     );
-				
-				
-				
-			}
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		 
-		 
-		 
-	 }
-	 
+
 	 
 	 public void load_price(){
 		 
@@ -118,9 +154,9 @@ public class main {
 				while(rs.next()){
 					
 					
-					price.put(rs.getInt(1), new Price( rs.getDouble(2), rs.getDouble(3)));
+					price.put(rs.getInt(1), new Price( rs.getDouble(2), rs.getDouble(3), rs.getDouble(4), rs.getInt(5)));
 					
-					//price.add(new Price(rs.getInt(1), rs.getDouble(2), rs.getDouble(3)));
+					
 					
 				}
 			} catch (SQLException e) {
@@ -191,15 +227,19 @@ public class main {
 	 
 
 void load(){
-	
-	
+
+
 	message = new ArrayList<Message>();
 	expression = new ArrayList<Expression>();
+	
+	
 	connect();
+
 	load_category();
+
 	fill_expression();
+	
 	load_price();
-	print();
 
 
 	
@@ -209,7 +249,7 @@ void load(){
 
 	void initialize() {
 		load();
-
+		if(gui_needed)
 		new GUI();
 
 	}

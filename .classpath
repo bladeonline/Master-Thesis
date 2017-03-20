@@ -5,7 +5,6 @@
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="lib" path="Resource/sqlite-jdbc-3.8.11.2.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/Weka-3-8/weka.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Boris/Downloads/stanford-ner-2016-10-31/stanford-ner.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Boris/Downloads/apache-opennlp-1.7.2/lib/opennlp-tools-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Weka-3-8/libsvm.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

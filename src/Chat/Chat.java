@@ -20,12 +20,7 @@ public class Chat {
 	
 	
 	
-void add(){
-	
-	message.add(new Message("bla", 3, (SimpleDateFormat) sdf.getInstance()));
-	
-	System.out.println(sdf.format(cal.getTime()));
-}
+
 
 
 
@@ -34,10 +29,5 @@ void add(){
 	
 	
 	
-public static void main(String []args){
-	
 
-	new Chat().add();
-	
-}
 }
