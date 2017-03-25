@@ -6,8 +6,9 @@ public class Expression {
 
 	String expression;
 	String category;
-	int level;
-	public Expression(String expression, String category, int level) {
+	double level;
+	
+	public Expression(String expression, String category, double level) {
 		super();
 		this.expression = expression;
 		this.category = category;
@@ -25,7 +26,7 @@ public class Expression {
 	private void setCategory(String category) {
 		this.category = category;
 	}
-	private int getLevel() {
+	private double getLevel() {
 		return level;
 	}
 	private void setLevel(int level) {

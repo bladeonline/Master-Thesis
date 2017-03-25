@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.bayes.NaiveBayesUpdateable;
@@ -20,6 +21,7 @@ import weka.classifiers.functions.SMO;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.meta.MultiClassClassifierUpdateable;
 import weka.classifiers.trees.J48;
+import weka.core.AbstractInstance;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.FastVector;
@@ -28,17 +30,12 @@ import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.CSVLoader;
-import weka.core.converters.LibSVMLoader;
-import weka.knowledgeflow.steps.Classifier;
 import weka.experiment.InstanceQuery;
 import weka.filters.Filter;
-import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.Add;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToNominal;
 import weka.filters.unsupervised.attribute.StringToWordVector;
-import libsvm.*;
-import weka.classifiers.functions.supportVector.*;
 import weka.classifiers.lazy.IBk;
 import weka.classifiers.lazy.KStar;
 
@@ -384,124 +381,327 @@ public class Weka_Test {
 	
 	public void initial_train() throws Exception{
 		
-		Instances training;
-		Instances training_raw = load_file("Dictionary.arff");
-		Remove remove = new Remove();
-	
 		
-		
-		String [] remove_options = new String [2];
-		remove_options[0] = "-R";
-		remove_options[1] = "3";
-		remove.setOptions(remove_options);
-		remove.setInputFormat(training_raw);
 
-		training = Filter.useFilter(training_raw, remove);
+//		Remove rm = new Remove();
+//		rm.setOptions(weka.core.Utils.splitOptions("-R 3"));
+//		rm.setInputFormat(training);
+//		training = Filter.useFilter(training, rm);
 		
+		
+		
+		Instances training = load_file("Dictionary_Extended.arff");
 		training.setClassIndex(1);
-		
-		Instances training_num;
-		Instances training_num_raw=load_file("Dictionary_Numeric.arff");
-		
-		remove.setInputFormat(training_num_raw);
-		training_num= Filter.useFilter(training_num_raw, remove);
-		training_num.setClassIndex(1);
+		StringToNominal filter = new StringToNominal();
+		filter.setInputFormat(training);
+
+		filter.setOptions(weka.core.Utils.splitOptions("-R first"));
+	
+		training=filter.useFilter(training, filter);
 		
 
-		StringToWordVector stw = new StringToWordVector();
-		
-		stw.setOptions(weka.core.Utils.splitOptions("-C -V -prune-rate 20 -L "));
-		
-		
-		
-		
-		NaiveBayesUpdateable nb = new NaiveBayesUpdateable();
-		
-		SGD sgd = new SGD();
-		String [] options = new String[2];
-		options[0]="-F";
-		options[1]="0";
-		sgd.setOptions(options);
-		//sgd.buildClassifier(training_num);
-		
-		MultiClassClassifierUpdateable multi = new MultiClassClassifierUpdateable();
-		KStar kstar = new KStar();
-		kstar.buildClassifier(training_num);
-		SGDText sgdtext = new SGDText();
-		
-		IBk knear = new IBk();
-		
-	//	knear.setOptions(weka.core.Utils.splitOptions("-I -F -K 4"));
-		knear.buildClassifier(training);
-		
-		System.out.println(knear);
-		
-		
-		kstar.buildClassifier(training);
-		
-		Instances binary=null;
-		
-				binary=new Instances(training);
-		
-		Add filter;
-        
-      
-        filter = new Add();
-     
-		filter.setOptions(weka.core.Utils.splitOptions("-T NUM"));
-		filter.setAttributeIndex("last");
-		filter.setInputFormat(binary);
-		
-		binary = Filter.useFilter(training, filter);
-		
-		
-		
 
-		SMO smo = new SMO();
 		
 		
+//		NaiveBayesUpdateable nb= new NaiveBayesUpdateable();
+//		
+//		
+//		
+//		nb.buildClassifier(training);
+//		
 		
-		String convert;
-		Double value=0.0;
+//		Instances training_2=load_file("Training_2.arff");
+//		training_2.setClassIndex(1);
+//	
+//		StringToWordVector stw2=new StringToWordVector();
+//		stw2.setInputFormat(training_2);
+//		stw2.setOptions(weka.core.Utils.splitOptions("-R 1"));
+//		training_2=Filter.useFilter(training_2, stw2);
+//		
+//		
+//		
+//		training_2.setClassIndex(1);
+//
+//		
+//		
+//
+//	
+//		
+//		
+//		
+//		
+//		
+//		
+//		for(int i=0;i<training_2.numInstances();i++){
+//		
+//		nb.updateClassifier(training_2.get(i));
 		
-		
-		for (int i=0;i<training.numInstances();i++){
-			convert = training.get(i).stringValue(1);
-			if(convert.equals("0"))value = 0.0;
-			else if(convert.equals("1"))value =1.0;
-			else if(convert.equals("2"))value =2.0;
-			else if(convert.equals("3"))value =3.0;
 			
-			binary.instance(i).setValue(2, value);
-		
-		}
-		System.out.println(binary);
-		Remove rm = new Remove();
-		rm.setAttributeIndices("second");
-		rm.setInputFormat(binary);
-		binary=Filter.useFilter(binary, rm);
-		
-		System.out.println(binary);
-		
-//		System.out.println(binary_instance.toString());
+
 		
 		
-		
-		try {
-			nb.buildClassifier(training);
-			//sgd.buildClassifier(binary_instance);
-		
-			//sgd.buildClassifier(training);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		}
+
+//		Attribute tag = new Attribute("tag", true);
+//		
+//		
+//		ArrayList <Attribute>  dummy_list = new ArrayList<Attribute>();
+//		dummy_list.add(tag);
+//		
+//		
+//		Instance instance = new DenseInstance(1);
+//	
+//		
+//		Instances dummy = new Instances("test",  dummy_list, 1 );
+//		
+//		dummy.setClass(tag);
+//		instance.setValue(tag, "");
+//		training.add(instance);
+//		
+//	
+//		
+//		
+//		double abc = nb.classifyInstance(training.lastInstance());
+			
 		
 	
 		
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream ("Naive_Bayes_Raw.dat"));
-		out.writeObject(nb);
-		out.close();
+		training.remove(training.numClasses()-1);
+		StringToWordVector filter2 = new StringToWordVector();
+		
+		
+		
+
+		filter2.setOptions(weka.core.Utils.splitOptions("-R first -V -W 1000 -prune-rate -1.0 -T -I -N 0 -stemmer weka.core.stemmers.NullStemmer -stopwords-handler weka.core.stopwords.Null -M 1"));
+
+		filter2.setInputFormat(test);
+		Instances training_swap=filter.useFilter(test, filter2);
+	
+		
+		Instances test = load_file("testing.arff");
+		test.setClassIndex(1);
+		
+		StringToWordVector stw2=new StringToWordVector();
+		stw2.setInputFormat(test);
+		stw2.setOptions(weka.core.Utils.splitOptions("-R 1"));
+		test=Filter.useFilter(test, stw2);
+		
+	
+		
+		
+		
+		
+		
+		
+		Evaluation eval = new Evaluation(test);
+		
+		
+//		eval.crossValidateModel(nb, test, 4, new Random(1));
+//		System.out.println(eval.toSummaryString());
+//		System.out.println(eval.toClassDetailsString());
+//		System.out.println("===== Evaluating on filtered (training) dataset done =====");
+		
+
+		
+		
+		IBk knn = new IBk();
+		
+		knn.setOptions(weka.core.Utils.splitOptions("-I -K 4"));
+		knn.setCrossValidate(true);
+		knn.setKNN(3);
+		
+		knn.buildClassifier(training);
+		
+		
+		
+		eval.crossValidateModel(knn, test, 4, new Random(1));
+		System.out.println(eval.toSummaryString());
+		System.out.println(eval.toClassDetailsString());
+		System.out.println("===== Evaluating on filtered (training) dataset done =====");
+		
+		
+		
+		
+		
+		
+		
+//		Instances training;
+//		Instances training_raw = load_file("Dictionary_new.arff");
+//		Remove remove = new Remove();
+//	
+//		
+//		
+//		String [] remove_options = new String [2];
+//		remove_options[0] = "-R";
+//		remove_options[1] = "3";
+//		remove.setOptions(remove_options);
+//		remove.setInputFormat(training_raw);
+//
+//		training = Filter.useFilter(training_raw, remove);
+//		
+//		training.setClassIndex(1);
+//		
+//		
+//	
+//		
+//		
+//		
+//		
+//		
+//		Instances training_num;
+//		Instances training_num_raw=load_file("Dictionary_Numeric.arff");
+//		
+//		remove.setInputFormat(training_num_raw);
+//		training_num= Filter.useFilter(training_num_raw, remove);
+//		training_num.setClassIndex(1);
+//		
+//		
+//
+//		StringToWordVector stw = new StringToWordVector();
+//		
+//		stw.setOptions(weka.core.Utils.splitOptions("-C -V -prune-rate 20 -L "));
+//		stw.setInputFormat(training);
+//		training=Filter.useFilter(training, stw);
+//		
+//
+//		
+//		NaiveBayesUpdateable nb = new NaiveBayesUpdateable();
+//		
+//
+//		
+//		
+//		KStar kstar = new KStar();
+//		kstar.setOptions(weka.core.Utils.splitOptions(""));
+//		
+//		
+//		IBk knear = new IBk();
+//		
+//		knear.setOptions(weka.core.Utils.splitOptions("-I -K 4 -E"));
+//		
+//		
+//		
+//		
+//		
+//		
+//		nb.buildClassifier(training);
+//		knear.buildClassifier(training);
+//		kstar.buildClassifier(training);
+//		
+//		
+//		
+//		Instances training_1=load_file("Training.arff");
+//		Instances training_2=load_file("Training_2.arff");
+//		Instances testing = load_file("Testing.arff");
+//		
+//		
+//		training_1.setClassIndex(1);
+//		training_2.setClassIndex(1);
+//		testing.setClassIndex(1);
+//		
+//		
+//		
+////		stw.setInputFormat(training_1);
+////		training_1=Filter.useFilter(training_1, stw);
+//		stw.setInputFormat(training_2);
+//		training_2=Filter.useFilter(training_2, stw);
+//		stw.setInputFormat(testing);
+//		testing = Filter.useFilter(testing, stw);
+//		for(int i=0;i<training_1.numInstances();i++){
+//		
+//		
+//		nb.updateClassifier(training_1.get(i));
+//		knear.updateClassifier(training_1.get(i));
+////		kstar.updateClassifier(training_1.get(i));
+//		
+//		
+//		}
+//		
+//		for(int i=0;i<training_2.numInstances();i++){
+//			
+//			System.out.println(i);
+//			nb.updateClassifier(training_2.get(i));
+//			knear.updateClassifier(training_2.get(i));
+//			//kstar.updateClassifier(training_2.get(i));
+//			
+//			
+//			}
+//		
+//		System.out.println(nb);
+//		
+//		Evaluation eval = new Evaluation(testing);
+//		eval.crossValidateModel(nb, testing, 4, new Random(1));
+//		System.out.println(eval.toSummaryString());
+//		System.out.println(eval.toClassDetailsString());
+//		System.out.println("===== Evaluating on filtered (training) dataset done =====");
+//		
+//		
+//	
+//		eval.crossValidateModel(knear, testing, 4, new Random(1));
+//		System.out.println(eval.toSummaryString());
+//		System.out.println(eval.toClassDetailsString());
+//		System.out.println("===== Evaluating on filtered (training) dataset done =====");
+//		
+//	
+//		eval.crossValidateModel(kstar, testing, 4, new Random(1));
+//		System.out.println(eval.toSummaryString());
+//		System.out.println(eval.toClassDetailsString());
+//		System.out.println("===== Evaluating on filtered (training) dataset done =====");
+//		
+//		
+//		Instances binary=null;
+//		
+//				binary=new Instances(training);
+//		
+//		Add filter;
+//        
+//      
+//        filter = new Add();
+//     
+//		filter.setOptions(weka.core.Utils.splitOptions("-T NUM"));
+//		filter.setAttributeIndex("last");
+//		filter.setInputFormat(binary);
+//		
+//		binary = Filter.useFilter(training, filter);
+//		
+//		
+//		
+//
+//
+//		
+//		
+//		
+//		String convert;
+//		Double value=0.0;
+//		
+//		
+////		for (int i=0;i<training.numInstances();i++){
+////			convert = training.get(i).stringValue(1);
+////			if(convert.equals("0"))value = 0.0;
+////			else if(convert.equals("1"))value =1.0;
+////			else if(convert.equals("2"))value =2.0;
+////			else if(convert.equals("3"))value =3.0;
+////			
+////			binary.instance(i).setValue(2, value);
+////		
+////		}
+////		Remove rm = new Remove();
+////		rm.setAttributeIndices("second");
+////		rm.setInputFormat(binary);
+////		binary=Filter.useFilter(binary, rm);
+//		
+//
+//		
+////		System.out.println(binary_instance.toString());
+//		
+//		
+//		
+//
+//		
+//	
+//		
+//		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream ("Naive_Bayes_Raw.dat"));
+//		out.writeObject(nb);
+//		out.close();
 	}
 
 	public void future_training() throws ClassNotFoundException, IOException{

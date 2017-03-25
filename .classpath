@@ -4,7 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="lib" path="Resource/sqlite-jdbc-3.8.11.2.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Weka-3-8/weka.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-8/weka.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/Weka-3-8/libsvm.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

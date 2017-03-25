@@ -15,6 +15,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import javax.swing.JTextArea;
@@ -39,14 +40,20 @@ public class History {
 
 	
 	
-	public void change_legel(int x){
+	public void change_level(int x){
 		
 		
-		
+
 		
 	}
 
 
+	
+	/*
+	 * 
+	 * Initial loader of the list
+	 * 
+	 */
 	
 	public void load_list(){
 		
@@ -69,6 +76,11 @@ public class History {
 		
 	}
 	
+	/*
+	 * 
+	 * Sets the initial Button
+	 * 
+	 */
 	
 	
 	public void initial_button(){
@@ -105,6 +117,12 @@ public class History {
 		
 		
 	}
+	
+	/*
+	 * 
+	 * Display the found expressions
+	 * 
+	 */
 	
 	public void found_expressions(ArrayList<Expression> content){
 		
@@ -161,7 +179,115 @@ public class History {
 	}
 	
 	
+	/*
+	 * 
+	 * This is the update class, in case, the user changes the level of a message
+	 * This is the basic class for retraining the lexicon and the classification process.
+	 * 
+	 */
 	
+	public void retrain_all(Message message, int level_new) throws SQLException{
+		
+		if(message.classified==false){//this only is to be done for the lexicographic approach
+		int level= message.level;
+		double update_factor=1.0;
+		
+		if(level==0){
+			
+			update_factor+=  level_new/3;
+			
+		}else if(level==1){
+			
+			if(level_new==0)
+				update_factor=1/2;
+			else {
+				if(level_new==2)
+					update_factor =1.5;
+					else update_factor=2;
+				
+				
+			}
+			
+		}
+		else if(level==2){
+			
+			if(level_new<level){
+					if(level_new==0)
+						update_factor=1/3;
+					else update_factor=2/3;
+			}	
+			else update_factor=4/3;
+			
+			
+		}else if(level==3){
+			if(level_new==0)
+				update_factor=3/4;
+			else if(level_new==1)
+				update_factor=2/4;
+			else
+				update_factor=1/4;
+			
+		}
+		
+		
+			
+			
+		
+		
+		if(message.found_expressions.size()>0){
+			
+			for(int i=0;i<message.found_expressions.size();i++){
+				
+				main.update_expression(message.found_expressions.get(i), update_factor);
+				
+			}
+			
+			
+		}
+		
+		
+		update_all_messages();
+		}
+		
+	}
+	
+	
+	
+	/*
+	 * 
+	 * This updates all messages
+	 * 
+	 */
+	
+	
+	private void update_all_messages() {
+		
+		for(int i=0;i<main.message.size();i++){
+			for(int j=0;j<main.message.get(i).found_expressions.size();j++){
+				
+				main.update_single_expression(main.message.get(i).found_expressions.get(j));
+				
+				
+				
+				
+			}
+			
+			
+			
+		}
+		
+		
+		
+	}
+
+
+	
+	/*
+	 * 
+	 * Update the level the message found
+	 * 
+	 */
+
 	void change_level_of_message(int level){
 		
 		if(main.message.size()>0){
@@ -172,6 +298,15 @@ public class History {
 			
 			main.message.get(message_position).level=level;
 			
+			try {
+				if(main.message.get(message_position).classified==false)
+				retrain_all(main.message.get(message_position), level);
+				
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
 			
 		}
@@ -180,6 +315,13 @@ public class History {
 		
 		
 	}
+	
+	
+	/*
+	 * 
+	 * This is for the display of the button
+	 * 
+	 */
 	
 	void button_pressed(int button){
 		
@@ -207,7 +349,11 @@ public class History {
 		});
 		
 		
-		
+		/*
+		 * 
+		 * This is a class for adding content
+		 * 
+		 */
 		
 		
 		selected_text.addMouseListener(new MouseAdapter(){
@@ -219,7 +365,14 @@ public class History {
 							
 							
 							new Add_Content(e.getX(),e.getY(),highlight);
+						
+								
 							
+							
+						}else{
+							
+							
+							JOptionPane.showMessageDialog(frame, "Expression "+ highlight +" already exists in the dictionary.");
 						}
 						
 					
@@ -236,7 +389,11 @@ public class History {
 		
 		
 		
-		
+		/*
+		 * 
+		 * This are the four classes in case a button was pressed
+		 * 
+		 */
 		
 		level_0.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -266,6 +423,12 @@ public class History {
 		});
 		
 		
+		/*
+		 * 
+		 * This is the method, when a new message was selected
+		 * 
+		 */
+		
 		 ListSelectionListener listSelectionListener = new ListSelectionListener(){
 
 			@Override
@@ -278,12 +441,23 @@ public class History {
 				
 				
 				
-				input_message(s.substring(26, s.length()));
 				int position_in_list= main.find_message(s.substring(26, s.length()), s.substring(13, 25));
 			
 				
+				if(main.message.get(position_in_list).classified==false){
+				
+				input_message(s.substring(26, s.length()));
+
 				found_expressions( main.message.get(position_in_list).found_expressions);
 			
+				}else{
+					
+					selected_text.setText("");
+					found_expressions.setText("");
+					
+				}
+				
+				
 				
 			}
 			 

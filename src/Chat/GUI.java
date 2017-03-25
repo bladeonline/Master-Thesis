@@ -9,11 +9,14 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.security.Timestamp;
 import java.sql.SQLException;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPopupMenu;
 import javax.swing.SwingConstants;
 import javax.swing.text.JTextComponent;
 import javax.swing.DropMode;
@@ -28,7 +31,7 @@ import javax.swing.JTextField;
 public class GUI {
 
 	private JFrame frame;
-	TextField textField;
+	JTextArea textField;
 	Button send;
 	Button history;
 	Button price_yes;
@@ -37,7 +40,13 @@ public class GUI {
 	JTextArea chat_history;
 	JButton button_setprice;
 	JTextField set_price;
-	
+	JLabel Label_Info;
+	JButton actual_prices;
+	JButton acc_yes;
+	JButton acc_no;
+	String message;
+	int detected_level;
+
 	
 	SimpleDateFormat sdf = new SimpleDateFormat("EE, hh:dd:ss");
 	Calendar cal = Calendar.getInstance();
@@ -54,27 +63,28 @@ public class GUI {
 	 * 
 	 */
 	
+	
+	
 	int sensitivity(ArrayList<Expression> result){
 		
+		//no found expressions: level 0
 		if(result.size()==0) return 0;
 		
-		else{double x=0;
-		
+		else{
+			
+			double x=0;
+		//else: average out of all levels
 		for(int i=0;i<result.size();i++){
 			x+=result.get(i).level;
 			
 		}
 			
+		
 			
 			
 		return (int)x/result.size();	
 			
 		}
-		
-		
-		
-		
-		
 		
 		
 		
@@ -111,31 +121,37 @@ public class GUI {
 	
 	
 	
+	/*
+	 * 
+	 * This sets the initial prices after input by the user
+	 * 
+	 */
+	
 	void set_price_initially(double input) throws SQLException{
 		
 		int detected_level = main.message.get(main.message.size()-1).level;
 		
 		if(detected_level==1){
 			
-			main.price.put(1, new Price(input, input/5, input/20, 0));
-			main.price.put(2,new Price(input*1.5, input*1.5/5, input/20, 0));
-			main.price.put(3,new Price( input*2, input*2/5, input/20, 0));
+			main.price.put(1, new Price(input, input/5, input/40, 0));
+			main.price.put(2,new Price(input*2, input*1.5/5, input/40, 0));
+			main.price.put(3,new Price( input*3, input*2/5, input/40, 0));
 			
 			main.write_price_initial();
 			
 			
 		} else if(detected_level==2){
 			
-			main.price.put(1,new Price(input*0.7, input*0.7/5, input/20, 0));
-			main.price.put(2,new Price(input, input/5, input/20, 0));
-			main.price.put(3,new Price( input*1.3, input*1.3/5, input/20, 0));
+			main.price.put(1,new Price(input*0.5, input*0.7/5, input/40, 0));
+			main.price.put(2,new Price(input, input/5, input/40, 0));
+			main.price.put(3,new Price( input*1.5, input*1.3/5, input/40, 0));
 			main.write_price_initial();
 			
 		}else{
 			
-			main.price.put(1,new Price(input*0.5, input*0.5/5, input/20, 0));
-			main.price.put(2,new Price(input*0.7, input*0.7/5, input/20, 0));
-			main.price.put(3,new Price(input, input/5, input/20, 0));
+			main.price.put(1,new Price(input/3, input*0.5/5, input/40, 0));
+			main.price.put(2,new Price(input/2, input*0.7/5, input/40, 0));
+			main.price.put(3,new Price(input, input/5, input/40, 0));
 			main.write_price_initial();
 			
 		}
@@ -145,7 +161,17 @@ public class GUI {
 		
 	}
 	
+	/*
+	 * 
+	 * Helper class for displaying the price
+	 * 
+	 */
+		
 	
+	double round(double val) {
+        DecimalFormat df2 = new DecimalFormat("#######.##");
+        return Double.valueOf(df2.format(val));
+	}
 	
 	
 	void listener_collection(){
@@ -157,7 +183,7 @@ public class GUI {
 			public void mouseClicked(MouseEvent arg0) {
 				if(arg0.getButton()== MouseEvent.BUTTON2){
 					JTextComponent myComponent = (JTextComponent) arg0.getComponent();
-					String message = myComponent.getSelectedText();
+				
 					
 					
 					
@@ -166,10 +192,13 @@ public class GUI {
 			}
 		});
 		
-		textField.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
+
+		
+		/*
+		 * 
+		 * History window is not updatable, this sets some warning
+		 * 
+		 */
 		
 		history.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -188,6 +217,30 @@ public class GUI {
 				
 			}
 		});
+		/*
+		 * 
+		 * This sets the initial Price in the GUI
+		 * 
+		 */
+		
+		actual_prices.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent arg0){
+				
+			String message_price="";
+			if(main.price.size()==0)
+				message_price="No price has been set yet.";
+			else{
+				for(int i=1;i<=3;i++)
+				message_price+="prices:\nLevel+"+i+": "+main.price.get(i).price+"\n";
+				
+				}
+				JOptionPane.showMessageDialog(frame, message_price);
+			}
+			
+			
+		});
+
+		
 		
 		button_setprice.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -237,6 +290,75 @@ public class GUI {
 		});
 		
 		
+		/*
+		 * 
+		 * User accepts the price. This is based on the last input message
+		 * 
+		 */
+		
+		
+		
+		
+		acc_yes.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				String time = sdf.format(cal.getTime());
+				
+				main.message.add(new Message(message, detected_level, time, true));
+				
+				acc_no.setVisible(false);
+				acc_yes.setVisible(false);
+				frame.repaint();
+				
+			}
+		});
+		acc_no.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				
+				ArrayList<Expression> found_expressions=get_expressions(message);
+				String time = sdf.format(cal.getTime());
+				int sensitivity = sensitivity(found_expressions);
+				
+				
+				main.message.add(new Message(message, sensitivity, time, found_expressions, false));
+				
+				
+				
+				if(chat_history.getText().equals(""))
+					chat_history.setText( ">> "+ time +" "+  message+"; Level: "+sensitivity+"\n");	
+				else
+					chat_history.setText(chat_history.getText() + ">> "+ time +" "+ message +"; Level: "+sensitivity+"\n");
+				textField.setText("");
+				
+				
+				if(sensitivity>0){
+				
+				if (main.price.size()>0){
+					
+				
+				price_area.setText("We have detected a message of level "+sensitivity +". We would like to give to you a value of \n "+ main.price.get(sensitivity).price+ "\nfor the usage of this Information. Would you agree?");
+				}
+				else{
+					
+				price_area.setText("We have detected a message of level "+sensitivity+". \nWe would like to know, what this message is worth to you. Please fill in a Number in the right field and press the button");	
+					
+					
+				}
+					
+				
+			}
+				
+				
+				acc_no.setVisible(false);
+				acc_yes.setVisible(false);
+				frame.repaint();
+				
+				
+				
+				
+			}
+		});
 		
 		
 		price_yes.addActionListener(new ActionListener() {
@@ -293,6 +415,12 @@ public class GUI {
 				
 			}
 		});
+		
+		/*
+		 * 
+		 * User doesn't accept the price. This is based on the last input message
+		 * 
+		 */
 		price_no.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -341,53 +469,47 @@ public class GUI {
 		});
 		
 		
+		/*
+		 * 
+		 * User provides a new message
+		 * 
+		 */
+		
 		send.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				String message = textField.getText();
-				ArrayList<Expression> found_expressions=get_expressions(message);
-				String time = sdf.format(cal.getTime());
-				int sensitivity = sensitivity(found_expressions);
+				message = textField.getText();
 				
+				detected_level = 1;
+				double accuracy = 33.9;
+				String str= textField.getText()+"\n\nThe message was classified as level "+ detected_level +" and an accuracy of "+ accuracy+". Is this acceptable to you?";
+				textField.setText(str);
 				
-				main.message.add(new Message(message, sensitivity, time, found_expressions));
+				frame.repaint();
+				System.out.println(str);
+				acc_yes.setVisible(true);
+				acc_no.setVisible(true);
+				frame.repaint();
 				
-				
-				
-				if(chat_history.getText().equals(""))
-					chat_history.setText( ">> "+ time +" "+  message+"; Level: "+sensitivity+"\n");	
-				else
-					chat_history.setText(chat_history.getText() + ">> "+ time +" "+ message +"; Level: "+sensitivity+"\n");
-				textField.setText("");
-				
-				
-				if(sensitivity>0){
-				
-				if (main.price.size()>0){
-					
-				
-				price_area.setText("We have detected a message of level "+sensitivity +". We would like to give to you a value of \n "+ "100,00$"+ "\n for the usage of this Information. Would you agree?");
-				}
-				else{
-					
-				price_area.setText("We have detected a message of level "+sensitivity+". \n We would like to know, what this message is worth to you. Please fill in a Number in the right field and press the button");	
-					
-					
-				}
-					
-				
-			}
 				
 			}
 		});
 	}
 	
+	
+	/*
+	 * 
+	 * If a price has been set initially once, this routine eliminates the input windows
+	 * 
+	 */
 	public void deactivate(){
 		
 		frame.remove(set_price);
 		frame.remove(button_setprice);
 		frame.revalidate();
 		frame.repaint();
+		price_area.setText("After a Message with level 1-3 is provided, you will be offered a price for it.");
+		
 		
 	}
 	
@@ -402,10 +524,17 @@ public class GUI {
 		try{
 		initialize();
 		listener_collection();
-		if(!main.price.isEmpty())
+		if(!main.price.isEmpty()){
+			
+		
 			deactivate();
 		
 		
+		}else{
+			price_area.setText("Welcome to the pricing system.\nAfter providing a message that has been classified witin the levels 1-3, you can set an \ninitial price. The prices for the other categories will be set depending on your first choice.\nPlease set a price of at least 10,00");
+			
+			}
+			
 		}
 		catch(Exception e){
 			e.printStackTrace();
@@ -427,7 +556,7 @@ public class GUI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		textField = new TextField();
+		textField = new JTextArea();
 
 		textField.setBounds(23, 339, 569, 244);
 		frame.getContentPane().add(textField);
@@ -483,6 +612,30 @@ public class GUI {
 		JLabel lblNewLabel = new JLabel("Accept offered Price?");
 		lblNewLabel.setBounds(205, 690, 138, 22);
 		frame.getContentPane().add(lblNewLabel);
+		
+		Label_Info = new JLabel("Plase only use these buttons after an offer was made to you");
+		Label_Info.setBounds(457, 690, 332, 22);
+		frame.getContentPane().add(Label_Info);
+		
+	
+
+		
+		actual_prices = new JButton("show actual prices");
+		actual_prices.setBounds(624, 656, 169, 23);
+		frame.getContentPane().add(actual_prices);
+
+		
+		acc_yes = new JButton("yes");
+
+		acc_yes.setBounds(608, 390, 89, 23);
+		acc_yes.setVisible(false);
+		frame.getContentPane().add(acc_yes);
+		
+		acc_no = new JButton("no");
+		acc_no.setBounds(608, 457, 89, 23);
+		acc_no.setVisible(false);
+		frame.getContentPane().add(acc_no);
+		
 		frame.setVisible(true);
 		
 	}

@@ -36,10 +36,10 @@ public static void main(String[]bla) throws IOException{
 	String clean=null;
 	Character c;
 	line=br.readLine();
-	for (int i=0;i<1260;i++){
+	for (int i=0;i<1550;i++){
 		line = br.readLine();
 	}
-	for(int i=0;i<250;i++){
+	for(int i=0;i<750;i++){
 	line = br.readLine();
 		line = line.substring(line.indexOf(',')+1, line.length()-1);
 		clean="";

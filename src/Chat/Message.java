@@ -7,21 +7,23 @@ public class Message {
 	int level;
 	String time;
 	ArrayList <Expression> found_expressions;
+	Boolean classified;
 	
 
-	public Message(String message, int level, String time) {
+	public Message(String message, int level, String time, Boolean classified) {
 		this.message = message;
 		this.level = level;
 		this.time=time;
+		this.classified=classified;
 
 	}
 	
-	public Message(String message, int level, String time, ArrayList<Expression> found_expression) {
+	public Message(String message, int level, String time, ArrayList<Expression> found_expression, Boolean classified) {
 		this.message = message;
 		this.level = level;
 		this.time=time;
 		this.found_expressions=found_expression;
-
+		this.classified=classified;
 	}
 
 	private String getMessage() {

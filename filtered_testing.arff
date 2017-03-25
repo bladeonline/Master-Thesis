@@ -1,0 +1,1662 @@
+@relation 'Testing-weka.filters.unsupervised.attribute.StringToWordVector-R-V-W1000-prune-rate-1.0-T-I-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute #awkward numeric
+@attribute #dope numeric
+@attribute #ugh numeric
+@attribute #youlookreallynice numeric
+@attribute 0 numeric
+@attribute 21 numeric
+@attribute @lilbogie321 numeric
+@attribute able numeric
+@attribute ago numeric
+@attribute am numeric
+@attribute and numeric
+@attribute back numeric
+@attribute be numeric
+@attribute best numeric
+@attribute but numeric
+@attribute compliments numeric
+@attribute curly numeric
+@attribute dealer numeric
+@attribute drug numeric
+@attribute extremely numeric
+@attribute finally numeric
+@attribute first numeric
+@attribute flat numeric
+@attribute floor numeric
+@attribute for numeric
+@attribute friday numeric
+@attribute friend numeric
+@attribute from numeric
+@attribute get numeric
+@attribute go numeric
+@attribute gonna numeric
+@attribute hair numeric
+@attribute hate numeric
+@attribute head numeric
+@attribute home numeric
+@attribute huge numeric
+@attribute i numeric
+@attribute i#m numeric
+@attribute iron numeric
+@attribute is numeric
+@attribute just numeric
+@attribute lie numeric
+@attribute live numeric
+@attribute lives numeric
+@attribute looking numeric
+@attribute me numeric
+@attribute might numeric
+@attribute moving numeric
+@attribute my numeric
+@attribute naturally numeric
+@attribute not numeric
+@attribute ok numeric
+@attribute on numeric
+@attribute schools numeric
+@attribute sit numeric
+@attribute someone numeric
+@attribute soon numeric
+@attribute start numeric
+@attribute tells numeric
+@attribute that numeric
+@attribute that#s numeric
+@attribute the numeric
+@attribute till numeric
+@attribute to numeric
+@attribute toilet numeric
+@attribute try numeric
+@attribute turning numeric
+@attribute txt numeric
+@attribute waverly numeric
+@attribute why numeric
+@attribute yaaaaaaay numeric
+@attribute you numeric
+@attribute # numeric
+@attribute #1 numeric
+@attribute #2 numeric
+@attribute #addiction numeric
+@attribute #allme numeric
+@attribute #blessed numeric
+@attribute #boredatwork# numeric
+@attribute #boredom numeric
+@attribute #canada numeric
+@attribute #canadian numeric
+@attribute #canadianblood numeric
+@attribute #christian numeric
+@attribute #coldslush numeric
+@attribute #college numeric
+@attribute #coopproblems numeric
+@attribute #couchpotato numeric
+@attribute #cute numeric
+@attribute #cutter numeric
+@attribute #cutting numeric
+@attribute #dcbound numeric
+@attribute #depressed numeric
+@attribute #dumbfuckers numeric
+@attribute #easter numeric
+@attribute #eating numeric
+@attribute #employed numeric
+@attribute #food numeric
+@attribute #fuckthepigs numeric
+@attribute #gay numeric
+@attribute #gayboy numeric
+@attribute #gayguy numeric
+@attribute #gaylife numeric
+@attribute #hardworkpaysoff numeric
+@attribute #hatemylife numeric
+@attribute #homo numeric
+@attribute #horny numeric
+@attribute #hungry numeric
+@attribute #ill numeric
+@attribute #islam numeric
+@attribute #jetlagged numeric
+@attribute #kik numeric
+@attribute #kisses numeric
+@attribute #lent numeric
+@attribute #life numeric
+@attribute #lol numeric
+@attribute #love numeric
+@attribute #ministerintraining numeric
+@attribute #moving numeric
+@attribute #myopinion numeric
+@attribute #nah numeric
+@attribute #neverfull numeric
+@attribute #nojob numeric
+@attribute #ohiostate numeric
+@attribute #olympics2014 numeric
+@attribute #onlyincanada numeric
+@attribute #philippines numeric
+@attribute #phillysportssuck numeric
+@attribute #pride numeric
+@attribute #queer numeric
+@attribute #realtime numeric
+@attribute #religion numeric
+@attribute #resolution numeric
+@attribute #sad numeric
+@attribute #signle numeric
+@attribute #single numeric
+@attribute #singlefordays numeric
+@attribute #sohappy numeric
+@attribute #stop numeric
+@attribute #teamcanada numeric
+@attribute #toughliving numeric
+@attribute #watchingtv numeric
+@attribute #whatismylife numeric
+@attribute #womanshockey numeric
+@attribute #yummerz numeric
+@attribute $100 numeric
+@attribute $50 numeric
+@attribute & numeric
+@attribute + numeric
+@attribute -50 numeric
+@attribute / numeric
+@attribute //instagram numeric
+@attribute 1 numeric
+@attribute 1/2 numeric
+@attribute 10 numeric
+@attribute 107th numeric
+@attribute 11 numeric
+@attribute 1758 numeric
+@attribute 18th numeric
+@attribute 19 numeric
+@attribute 19-20 numeric
+@attribute 2 numeric
+@attribute 215 numeric
+@attribute 3 numeric
+@attribute 30 numeric
+@attribute 4 numeric
+@attribute 430 numeric
+@attribute 5 numeric
+@attribute 6 numeric
+@attribute 6#0 numeric
+@attribute 8 numeric
+@attribute 9/11 numeric
+@attribute 971-267-4489 numeric
+@attribute <<< numeric
+@attribute = numeric
+@attribute @ numeric
+@attribute @almighty_jai numeric
+@attribute @alyssaapaige23 numeric
+@attribute @atheistadvocate numeric
+@attribute @chrislbkk numeric
+@attribute @djrello22 numeric
+@attribute @gettinriledup_ numeric
+@attribute @jdbsperfect numeric
+@attribute @katyperry numeric
+@attribute @mikencuecsn numeric
+@attribute @mlp_hayfry numeric
+@attribute @msintervention numeric
+@attribute @notkerouac numeric
+@attribute @phones4u numeric
+@attribute @rategain numeric
+@attribute @shawn_crenshaw numeric
+@attribute @torrayleigh numeric
+@attribute a numeric
+@attribute about numeric
+@attribute above numeric
+@attribute absolutely numeric
+@attribute acceptance numeric
+@attribute access numeric
+@attribute accidental numeric
+@attribute accidently numeric
+@attribute account numeric
+@attribute actual numeric
+@attribute addict numeric
+@attribute addicting numeric
+@attribute addiction numeric
+@attribute admire numeric
+@attribute adult numeric
+@attribute af numeric
+@attribute affect numeric
+@attribute after numeric
+@attribute again numeric
+@attribute against numeric
+@attribute aifa numeric
+@attribute ain#t numeric
+@attribute alabama numeric
+@attribute all numeric
+@attribute alone numeric
+@attribute already numeric
+@attribute also numeric
+@attribute always numeric
+@attribute amazing numeric
+@attribute an numeric
+@attribute andy numeric
+@attribute angel numeric
+@attribute another numeric
+@attribute any numeric
+@attribute anymore numeric
+@attribute anyone numeric
+@attribute anyway numeric
+@attribute apartment numeric
+@attribute apparently numeric
+@attribute are numeric
+@attribute argument numeric
+@attribute arizona numeric
+@attribute arm numeric
+@attribute around numeric
+@attribute as numeric
+@attribute asks numeric
+@attribute asshole numeric
+@attribute aswell numeric
+@attribute at numeric
+@attribute attached numeric
+@attribute attack numeric
+@attribute available numeric
+@attribute award numeric
+@attribute away numeric
+@attribute awesome numeric
+@attribute awhile numeric
+@attribute ayoo numeric
+@attribute bad numeric
+@attribute balls numeric
+@attribute bank numeric
+@attribute bar numeric
+@attribute barely numeric
+@attribute bathrobe numeric
+@attribute bc numeric
+@attribute beats numeric
+@attribute beautiful numeric
+@attribute because numeric
+@attribute bed numeric
+@attribute bedroom numeric
+@attribute beef numeric
+@attribute been numeric
+@attribute beer numeric
+@attribute before numeric
+@attribute before- numeric
+@attribute behind numeric
+@attribute bein numeric
+@attribute being numeric
+@attribute believe numeric
+@attribute believing numeric
+@attribute bet numeric
+@attribute better numeric
+@attribute bid/ask numeric
+@attribute big numeric
+@attribute biggest numeric
+@attribute bird numeric
+@attribute birthday numeric
+@attribute bitches numeric
+@attribute blame numeric
+@attribute blob numeric
+@attribute blocked numeric
+@attribute bold numeric
+@attribute bong numeric
+@attribute boosie numeric
+@attribute bored numeric
+@attribute born numeric
+@attribute boss numeric
+@attribute both numeric
+@attribute bought numeric
+@attribute bound numeric
+@attribute bourbon numeric
+@attribute bout numeric
+@attribute bowl numeric
+@attribute boyfriend numeric
+@attribute boys numeric
+@attribute branch numeric
+@attribute brazil numeric
+@attribute brazilian numeric
+@attribute break numeric
+@attribute breakfast numeric
+@attribute bricks numeric
+@attribute bring numeric
+@attribute bro numeric
+@attribute broke numeric
+@attribute brother numeric
+@attribute bryce numeric
+@attribute buccanon numeric
+@attribute buck numeric
+@attribute buckeye numeric
+@attribute burn numeric
+@attribute bus numeric
+@attribute business numeric
+@attribute buy numeric
+@attribute by numeric
+@attribute came numeric
+@attribute can numeric
+@attribute can#t numeric
+@attribute canada numeric
+@attribute canadian numeric
+@attribute cancel numeric
+@attribute cannoli numeric
+@attribute car numeric
+@attribute card numeric
+@attribute cards numeric
+@attribute career numeric
+@attribute cattle numeric
+@attribute caught numeric
+@attribute cause numeric
+@attribute chance numeric
+@attribute change numeric
+@attribute cheated numeric
+@attribute check numeric
+@attribute cheeto numeric
+@attribute chem numeric
+@attribute chemical numeric
+@attribute cheque numeric
+@attribute chicken numeric
+@attribute children numeric
+@attribute choice numeric
+@attribute chooses numeric
+@attribute chosen numeric
+@attribute christian numeric
+@attribute christians numeric
+@attribute class numeric
+@attribute classes numeric
+@attribute coffee numeric
+@attribute college numeric
+@attribute com numeric
+@attribute com/p/liwenytc2q/ numeric
+@attribute com/p/ll-f1ohtlz/ numeric
+@attribute come numeric
+@attribute comes numeric
+@attribute commit numeric
+@attribute considering numeric
+@attribute constantly numeric
+@attribute construct numeric
+@attribute contact numeric
+@attribute conversion numeric
+@attribute cool numeric
+@attribute cop numeric
+@attribute cops numeric
+@attribute corner numeric
+@attribute corsair numeric
+@attribute could numeric
+@attribute couldn#t numeric
+@attribute coworkers numeric
+@attribute crack numeric
+@attribute crazy numeric
+@attribute credit numeric
+@attribute creepooo numeric
+@attribute crush numeric
+@attribute crying numeric
+@attribute currently numeric
+@attribute cus numeric
+@attribute cute numeric
+@attribute cutting numeric
+@attribute da numeric
+@attribute dad numeric
+@attribute damn numeric
+@attribute dan numeric
+@attribute dane numeric
+@attribute date numeric
+@attribute daughter numeric
+@attribute day numeric
+@attribute days numeric
+@attribute dear numeric
+@attribute decent numeric
+@attribute defence numeric
+@attribute deliciousness numeric
+@attribute deposit numeric
+@attribute depressed numeric
+@attribute desk numeric
+@attribute deviant numeric
+@attribute dick numeric
+@attribute dickhead numeric
+@attribute did numeric
+@attribute different numeric
+@attribute dildo numeric
+@attribute dinner numeric
+@attribute disability numeric
+@attribute do numeric
+@attribute doc numeric
+@attribute don#t numeric
+@attribute done numeric
+@attribute dont numeric
+@attribute down numeric
+@attribute drank numeric
+@attribute dream numeric
+@attribute drink numeric
+@attribute drive numeric
+@attribute dropped numeric
+@attribute drove numeric
+@attribute drunk numeric
+@attribute each numeric
+@attribute eachother numeric
+@attribute eagles numeric
+@attribute eat numeric
+@attribute edc numeric
+@attribute else numeric
+@attribute embraces numeric
+@attribute enjoy numeric
+@attribute enough numeric
+@attribute entire numeric
+@attribute eraser numeric
+@attribute erm numeric
+@attribute especially numeric
+@attribute even numeric
+@attribute evening numeric
+@attribute every numeric
+@attribute everysingle numeric
+@attribute everything numeric
+@attribute eyes numeric
+@attribute fall numeric
+@attribute fam numeric
+@attribute fan numeric
+@attribute fat numeric
+@attribute favorite numeric
+@attribute fear numeric
+@attribute fed numeric
+@attribute feel numeric
+@attribute feeling numeric
+@attribute feelings numeric
+@attribute feels numeric
+@attribute felicia numeric
+@attribute females numeric
+@attribute fight numeric
+@attribute finalist numeric
+@attribute finish numeric
+@attribute fired numeric
+@attribute flappy numeric
+@attribute flyers numeric
+@attribute folks numeric
+@attribute followers numeric
+@attribute food numeric
+@attribute form numeric
+@attribute found numeric
+@attribute friday#s numeric
+@attribute fridays numeric
+@attribute fried numeric
+@attribute friendlies numeric
+@attribute friends numeric
+@attribute front numeric
+@attribute fuck numeric
+@attribute fucking numeric
+@attribute fucks numeric
+@attribute funny numeric
+@attribute gah numeric
+@attribute game numeric
+@attribute gas numeric
+@attribute gave numeric
+@attribute gay numeric
+@attribute gets numeric
+@attribute getting numeric
+@attribute giants numeric
+@attribute gift numeric
+@attribute gifts numeric
+@attribute girl numeric
+@attribute girlfriend numeric
+@attribute give numeric
+@attribute going numeric
+@attribute good numeric
+@attribute goods numeric
+@attribute got numeric
+@attribute gots numeric
+@attribute gotta numeric
+@attribute gottamakemoney numeric
+@attribute govt numeric
+@attribute grades numeric
+@attribute grant numeric
+@attribute great numeric
+@attribute greyhound numeric
+@attribute grounds numeric
+@attribute group numeric
+@attribute grown numeric
+@attribute guy numeric
+@attribute guys numeric
+@attribute had numeric
+@attribute haha numeric
+@attribute hahahaha numeric
+@attribute hallway numeric
+@attribute happens numeric
+@attribute happy numeric
+@attribute hard numeric
+@attribute harder numeric
+@attribute has numeric
+@attribute hatehatehate numeric
+@attribute hates numeric
+@attribute have numeric
+@attribute haven#t numeric
+@attribute having numeric
+@attribute he numeric
+@attribute healthy numeric
+@attribute hell numeric
+@attribute hello numeric
+@attribute help numeric
+@attribute hence numeric
+@attribute her numeric
+@attribute here numeric
+@attribute hes numeric
+@attribute hey numeric
+@attribute himself numeric
+@attribute his numeric
+@attribute hit numeric
+@attribute hoes numeric
+@attribute holding numeric
+@attribute home# numeric
+@attribute homosexual numeric
+@attribute honestly numeric
+@attribute hopefully numeric
+@attribute hospital numeric
+@attribute hot numeric
+@attribute hour numeric
+@attribute hours numeric
+@attribute house numeric
+@attribute how numeric
+@attribute http numeric
+@attribute hung numeric
+@attribute hungry numeric
+@attribute i#ll numeric
+@attribute i#ve numeric
+@attribute idc numeric
+@attribute idec numeric
+@attribute identity numeric
+@attribute idgaf numeric
+@attribute idiot numeric
+@attribute if numeric
+@attribute ill numeric
+@attribute im numeric
+@attribute image numeric
+@attribute immoral numeric
+@attribute in numeric
+@attribute individual#s numeric
+@attribute infected numeric
+@attribute insane numeric
+@attribute interesting numeric
+@attribute internationals numeric
+@attribute interview numeric
+@attribute into numeric
+@attribute isnt numeric
+@attribute it numeric
+@attribute it#s numeric
+@attribute its numeric
+@attribute jail numeric
+@attribute jesus numeric
+@attribute job numeric
+@attribute joe numeric
+@attribute joke numeric
+@attribute judge numeric
+@attribute juice numeric
+@attribute k70 numeric
+@attribute kalin numeric
+@attribute keyboard numeric
+@attribute killin numeric
+@attribute kind numeric
+@attribute kiss numeric
+@attribute knew numeric
+@attribute know numeric
+@attribute knowing numeric
+@attribute known numeric
+@attribute labor numeric
+@attribute lady numeric
+@attribute las numeric
+@attribute last numeric
+@attribute laugh numeric
+@attribute leak numeric
+@attribute least numeric
+@attribute leave numeric
+@attribute leaves numeric
+@attribute leaving numeric
+@attribute lent numeric
+@attribute let numeric
+@attribute letters numeric
+@attribute letting numeric
+@attribute life numeric
+@attribute lifestyle numeric
+@attribute like numeric
+@attribute liked numeric
+@attribute line numeric
+@attribute living numeric
+@attribute lobby numeric
+@attribute lol numeric
+@attribute long numeric
+@attribute look numeric
+@attribute looks numeric
+@attribute lord numeric
+@attribute lose numeric
+@attribute losing numeric
+@attribute love numeric
+@attribute lovely numeric
+@attribute loving numeric
+@attribute luck numeric
+@attribute luckily numeric
+@attribute ludicrous numeric
+@attribute lunch numeric
+@attribute mad numeric
+@attribute magic numeric
+@attribute make numeric
+@attribute makes numeric
+@attribute making numeric
+@attribute man numeric
+@attribute march numeric
+@attribute marriage numeric
+@attribute mates numeric
+@attribute matter numeric
+@attribute may numeric
+@attribute mc#s numeric
+@attribute meals numeric
+@attribute mean numeric
+@attribute means numeric
+@attribute mechanical numeric
+@attribute medicine numeric
+@attribute memory numeric
+@attribute menstruating numeric
+@attribute mgrantp@gmail numeric
+@attribute michael numeric
+@attribute midterm numeric
+@attribute millions numeric
+@attribute minaj#s numeric
+@attribute mind numeric
+@attribute ministering numeric
+@attribute miraculously numeric
+@attribute miss numeric
+@attribute missed numeric
+@attribute missing numeric
+@attribute mister numeric
+@attribute mom numeric
+@attribute moment numeric
+@attribute money numeric
+@attribute month numeric
+@attribute months numeric
+@attribute more numeric
+@attribute morning numeric
+@attribute mother#s numeric
+@attribute mr numeric
+@attribute much numeric
+@attribute mushroom numeric
+@attribute music numeric
+@attribute myself numeric
+@attribute n numeric
+@attribute name numeric
+@attribute nbd numeric
+@attribute need numeric
+@attribute needed numeric
+@attribute needs numeric
+@attribute neighbor numeric
+@attribute never numeric
+@attribute new numeric
+@attribute next numeric
+@attribute nicki numeric
+@attribute nigga numeric
+@attribute night numeric
+@attribute no numeric
+@attribute none numeric
+@attribute noooo numeric
+@attribute nothing numeric
+@attribute nothing#s numeric
+@attribute now numeric
+@attribute nugga numeric
+@attribute number numeric
+@attribute object numeric
+@attribute occasionally numeric
+@attribute of numeric
+@attribute off numeric
+@attribute offically numeric
+@attribute officially numeric
+@attribute oh numeric
+@attribute okay numeric
+@attribute okkay numeric
+@attribute old numeric
+@attribute once numeric
+@attribute one numeric
+@attribute ones numeric
+@attribute onion numeric
+@attribute only numeric
+@attribute or numeric
+@attribute order numeric
+@attribute other numeric
+@attribute out numeric
+@attribute outfit numeric
+@attribute over numeric
+@attribute owned numeric
+@attribute oxford numeric
+@attribute p numeric
+@attribute page numeric
+@attribute panic numeric
+@attribute paper numeric
+@attribute parents numeric
+@attribute party numeric
+@attribute pass numeric
+@attribute past numeric
+@attribute patrol numeric
+@attribute pee-hole numeric
+@attribute pens numeric
+@attribute people numeric
+@attribute person numeric
+@attribute personal numeric
+@attribute philadelphia numeric
+@attribute philippines numeric
+@attribute philosophies numeric
+@attribute phone numeric
+@attribute picking numeric
+@attribute picture numeric
+@attribute pictures numeric
+@attribute piece numeric
+@attribute pisses numeric
+@attribute place numeric
+@attribute plate numeric
+@attribute plates numeric
+@attribute play numeric
+@attribute please numeric
+@attribute police numeric
+@attribute post numeric
+@attribute power numeric
+@attribute pregnant numeric
+@attribute pretend numeric
+@attribute pretending numeric
+@attribute pretty numeric
+@attribute professional numeric
+@attribute promoting numeric
+@attribute properly numeric
+@attribute public numeric
+@attribute puffs numeric
+@attribute pulled numeric
+@attribute push numeric
+@attribute pussy numeric
+@attribute put numeric
+@attribute questioned numeric
+@attribute quick numeric
+@attribute quit numeric
+@attribute rage numeric
+@attribute ran numeric
+@attribute ratchets numeric
+@attribute rb numeric
+@attribute ready numeric
+@attribute really numeric
+@attribute reason numeric
+@attribute regarding numeric
+@attribute regret numeric
+@attribute reid numeric
+@attribute released numeric
+@attribute religions numeric
+@attribute remind numeric
+@attribute republican numeric
+@attribute resolution numeric
+@attribute reward numeric
+@attribute right numeric
+@attribute righteous numeric
+@attribute rings numeric
+@attribute road numeric
+@attribute robbed numeric
+@attribute room numeric
+@attribute roommates numeric
+@attribute run numeric
+@attribute running numeric
+@attribute s numeric
+@attribute sad numeric
+@attribute said numeric
+@attribute sake numeric
+@attribute salads numeric
+@attribute same numeric
+@attribute saw numeric
+@attribute saying numeric
+@attribute scared numeric
+@attribute school numeric
+@attribute scrawled numeric
+@attribute see numeric
+@attribute semen numeric
+@attribute sent numeric
+@attribute sentence numeric
+@attribute serious numeric
+@attribute she numeric
+@attribute shit numeric
+@attribute shopping numeric
+@attribute should numeric
+@attribute shouldn#t numeric
+@attribute show numeric
+@attribute shower numeric
+@attribute showtime numeric
+@attribute sick numeric
+@attribute sigh numeric
+@attribute sign numeric
+@attribute simple numeric
+@attribute since numeric
+@attribute sincerely numeric
+@attribute single numeric
+@attribute sister numeric
+@attribute sitting numeric
+@attribute situation numeric
+@attribute skinny numeric
+@attribute sleep numeric
+@attribute slurpee numeric
+@attribute smh numeric
+@attribute so numeric
+@attribute some numeric
+@attribute something numeric
+@attribute son numeric
+@attribute sophomore numeric
+@attribute soups numeric
+@attribute south numeric
+@attribute southfield numeric
+@attribute spent numeric
+@attribute sponge numeric
+@attribute sports numeric
+@attribute squash numeric
+@attribute ss-lb numeric
+@attribute st numeric
+@attribute stalkin numeric
+@attribute stand numeric
+@attribute standing numeric
+@attribute staring_ numeric
+@attribute state numeric
+@attribute staying numeric
+@attribute steakhouse numeric
+@attribute steal numeric
+@attribute stick numeric
+@attribute still numeric
+@attribute stolen numeric
+@attribute stop numeric
+@attribute stopping numeric
+@attribute stories numeric
+@attribute strings numeric
+@attribute stuck numeric
+@attribute stupid numeric
+@attribute sub numeric
+@attribute suck numeric
+@attribute sucked numeric
+@attribute sucks numeric
+@attribute suicide numeric
+@attribute summer numeric
+@attribute suny numeric
+@attribute sure numeric
+@attribute swag numeric
+@attribute take numeric
+@attribute taken numeric
+@attribute takes numeric
+@attribute taking numeric
+@attribute talk numeric
+@attribute talking numeric
+@attribute taxes numeric
+@attribute teacher numeric
+@attribute team numeric
+@attribute tell numeric
+@attribute telling numeric
+@attribute terrible numeric
+@attribute test numeric
+@attribute tf numeric
+@attribute than numeric
+@attribute thanks numeric
+@attribute their numeric
+@attribute them numeric
+@attribute then numeric
+@attribute therapy numeric
+@attribute there numeric
+@attribute there#s numeric
+@attribute these numeric
+@attribute they numeric
+@attribute they#re numeric
+@attribute think numeric
+@attribute thinking numeric
+@attribute this numeric
+@attribute those numeric
+@attribute three numeric
+@attribute threw numeric
+@attribute ticket numeric
+@attribute time numeric
+@attribute times numeric
+@attribute today numeric
+@attribute together numeric
+@attribute tomorrow numeric
+@attribute tonight numeric
+@attribute too numeric
+@attribute took numeric
+@attribute top numeric
+@attribute trades numeric
+@attribute transferring numeric
+@attribute transparent numeric
+@attribute trash numeric
+@attribute traveling numeric
+@attribute trip numeric
+@attribute tripoli numeric
+@attribute trooper#s numeric
+@attribute tryna numeric
+@attribute turn numeric
+@attribute tv numeric
+@attribute tweets numeric
+@attribute twitter numeric
+@attribute two numeric
+@attribute u numeric
+@attribute uh numeric
+@attribute until numeric
+@attribute up numeric
+@attribute ur numeric
+@attribute use numeric
+@attribute used numeric
+@attribute usually numeric
+@attribute vacation numeric
+@attribute vaccum numeric
+@attribute validate numeric
+@attribute vegas numeric
+@attribute vengeance numeric
+@attribute verge numeric
+@attribute very numeric
+@attribute voice numeric
+@attribute voted numeric
+@attribute w numeric
+@attribute wait numeric
+@attribute waiting numeric
+@attribute wake numeric
+@attribute walk numeric
+@attribute walking numeric
+@attribute wanna numeric
+@attribute want numeric
+@attribute wanting numeric
+@attribute warning numeric
+@attribute was numeric
+@attribute washing numeric
+@attribute wasn#t numeric
+@attribute watch numeric
+@attribute water numeric
+@attribute wawa numeric
+@attribute way numeric
+@attribute we numeric
+@attribute week numeric
+@attribute weekend numeric
+@attribute well numeric
+@attribute went numeric
+@attribute wet numeric
+@attribute what numeric
+@attribute when numeric
+@attribute wherever numeric
+@attribute who numeric
+@attribute will numeric
+@attribute wilshere numeric
+@attribute win-win numeric
+@attribute with numeric
+@attribute woke numeric
+@attribute woman numeric
+@attribute won#t numeric
+@attribute wondering numeric
+@attribute work numeric
+@attribute worked numeric
+@attribute working numeric
+@attribute world numeric
+@attribute worst numeric
+@attribute woul numeric
+@attribute would numeric
+@attribute woulda numeric
+@attribute wouldn#t numeric
+@attribute write numeric
+@attribute wrong numeric
+@attribute y#all numeric
+@attribute yay numeric
+@attribute yea numeric
+@attribute year numeric
+@attribute year#s numeric
+@attribute years numeric
+@attribute yet numeric
+@attribute your numeric
+@attribute | numeric
+@attribute #21weeks numeric
+@attribute #atheism numeric
+@attribute #baby3 numeric
+@attribute #babybump numeric
+@attribute #babygirl numeric
+@attribute #byejersey numeric
+@attribute #ihearyou numeric
+@attribute #justaddcats numeric
+@attribute #latinas numeric
+@attribute #littleshuges numeric
+@attribute #live numeric
+@attribute #mexican numeric
+@attribute #mybeliefs numeric
+@attribute #newshoes numeric
+@attribute #oozingsexappeal numeric
+@attribute #pregnant numeric
+@attribute #quran numeric
+@attribute #revenge numeric
+@attribute #singlebecause numeric
+@attribute #singlefather numeric
+@attribute #sisters numeric
+@attribute #welp numeric
+@attribute #whoops numeric
+@attribute - numeric
+@attribute //t numeric
+@attribute 00 numeric
+@attribute 18 numeric
+@attribute 22nd numeric
+@attribute 3/2 numeric
+@attribute 350 numeric
+@attribute @9mostdope6 numeric
+@attribute @bossswagg_xo numeric
+@attribute @dj_mosfett numeric
+@attribute @ghostxxiv numeric
+@attribute @haleyymercer numeric
+@attribute @hornimanmuseum numeric
+@attribute @kelsyyyj numeric
+@attribute @kevinjamesnew numeric
+@attribute @miss_bbc numeric
+@attribute @rubysohowrites numeric
+@attribute @rundisney numeric
+@attribute @teamrundisney numeric
+@attribute accepted numeric
+@attribute actually numeric
+@attribute admit numeric
+@attribute advice numeric
+@attribute algebra numeric
+@attribute allow numeric
+@attribute almost numeric
+@attribute angry numeric
+@attribute anywhere numeric
+@attribute apply numeric
+@attribute applying numeric
+@attribute appointment numeric
+@attribute asking numeric
+@attribute asos numeric
+@attribute ass numeric
+@attribute assholes numeric
+@attribute attracted numeric
+@attribute augmented numeric
+@attribute awake numeric
+@attribute bagel numeric
+@attribute ball numeric
+@attribute bathroom numeric
+@attribute beach numeric
+@attribute beliefs numeric
+@attribute believer numeric
+@attribute bigger numeric
+@attribute bloody numeric
+@attribute blunt numeric
+@attribute booger numeric
+@attribute booty numeric
+@attribute boy numeric
+@attribute boyfriends numeric
+@attribute braces numeric
+@attribute breakdown numeric
+@attribute breaks numeric
+@attribute bt numeric
+@attribute buble numeric
+@attribute bunsen numeric
+@attribute burner numeric
+@attribute burnt numeric
+@attribute busts numeric
+@attribute call numeric
+@attribute called numeric
+@attribute callin numeric
+@attribute camera numeric
+@attribute campus numeric
+@attribute cannnt numeric
+@attribute cant numeric
+@attribute care numeric
+@attribute catching numeric
+@attribute changing numeric
+@attribute characters numeric
+@attribute charge numeric
+@attribute cheaper numeric
+@attribute cheese numeric
+@attribute chewy numeric
+@attribute child numeric
+@attribute chillin numeric
+@attribute christ numeric
+@attribute christmas numeric
+@attribute clicking numeric
+@attribute co-op numeric
+@attribute co/7ibtjkvusv numeric
+@attribute co/jgztnxtccb numeric
+@attribute cocaine numeric
+@attribute com/p/lnnomdr3tp/ numeric
+@attribute com/p/lnuseilyss/ numeric
+@attribute comfortable numeric
+@attribute concerns numeric
+@attribute confused numeric
+@attribute constant numeric
+@attribute contacts numeric
+@attribute continues numeric
+@attribute contract numeric
+@attribute control numeric
+@attribute conversation numeric
+@attribute cook numeric
+@attribute corpse numeric
+@attribute correction numeric
+@attribute costed numeric
+@attribute cow numeric
+@attribute cried numeric
+@attribute cruises numeric
+@attribute cry numeric
+@attribute cups numeric
+@attribute curves numeric
+@attribute d numeric
+@attribute dam numeric
+@attribute dance/cheer numeric
+@attribute dating numeric
+@attribute dawson numeric
+@attribute decides numeric
+@attribute definitely numeric
+@attribute deleted numeric
+@attribute dentist numeric
+@attribute diagnosing numeric
+@attribute didn#t numeric
+@attribute didnt numeric
+@attribute diet numeric
+@attribute direct numeric
+@attribute disorders numeric
+@attribute doesn#t numeric
+@attribute dogs numeric
+@attribute doing numeric
+@attribute don numeric
+@attribute downsides numeric
+@attribute drag numeric
+@attribute drives numeric
+@attribute driving numeric
+@attribute drop numeric
+@attribute dude numeric
+@attribute dudes numeric
+@attribute dudley numeric
+@attribute dying numeric
+@attribute earlier numeric
+@attribute ever numeric
+@attribute every1 numeric
+@attribute everybody numeric
+@attribute ex numeric
+@attribute exam numeric
+@attribute excellent numeric
+@attribute excuse numeric
+@attribute expect numeric
+@attribute expectations numeric
+@attribute experience numeric
+@attribute face numeric
+@attribute fact numeric
+@attribute failed numeric
+@attribute failing numeric
+@attribute faith numeric
+@attribute family numeric
+@attribute fb numeric
+@attribute fearless numeric
+@attribute felt numeric
+@attribute figure numeric
+@attribute find numeric
+@attribute fingers numeric
+@attribute flip numeric
+@attribute flyer numeric
+@attribute following numeric
+@attribute forever numeric
+@attribute free numeric
+@attribute freeze numeric
+@attribute friggin numeric
+@attribute fruit numeric
+@attribute frush numeric
+@attribute fun numeric
+@attribute girls numeric
+@attribute gives numeric
+@attribute god numeric
+@attribute goddamn numeric
+@attribute gotten numeric
+@attribute grading numeric
+@attribute granola numeric
+@attribute greater numeric
+@attribute grey numeric
+@attribute grier numeric
+@attribute gun numeric
+@attribute guns numeric
+@attribute ha numeric
+@attribute half numeric
+@attribute heads numeric
+@attribute heart numeric
+@attribute heartless numeric
+@attribute high numeric
+@attribute hill numeric
+@attribute holes numeric
+@attribute holy numeric
+@attribute hotter numeric
+@attribute houston numeric
+@attribute hurt numeric
+@attribute i#d numeric
+@attribute idea numeric
+@attribute ima numeric
+@attribute impossible numeric
+@attribute inspiration numeric
+@attribute isaiah numeric
+@attribute isn#t numeric
+@attribute it#ll numeric
+@attribute jersey numeric
+@attribute jets numeric
+@attribute jobs numeric
+@attribute joe#s numeric
+@attribute justify numeric
+@attribute karen numeric
+@attribute keep numeric
+@attribute kid numeric
+@attribute kids numeric
+@attribute laptop numeric
+@attribute laughing numeric
+@attribute left numeric
+@attribute less numeric
+@attribute let#s numeric
+@attribute liguanea numeric
+@attribute listen numeric
+@attribute literally numeric
+@attribute lmao numeric
+@attribute lmaoo numeric
+@attribute lmaooooo numeric
+@attribute lost numeric
+@attribute lot numeric
+@attribute loves numeric
+@attribute lucky numeric
+@attribute m numeric
+@attribute manning numeric
+@attribute many numeric
+@attribute married numeric
+@attribute maths numeric
+@attribute mayb numeric
+@attribute men numeric
+@attribute menopausal numeric
+@attribute mental numeric
+@attribute mercy numeric
+@attribute merry numeric
+@attribute met numeric
+@attribute middle numeric
+@attribute midnight numeric
+@attribute mini numeric
+@attribute minor numeric
+@attribute miracle numeric
+@attribute moments numeric
+@attribute motherfuckers numeric
+@attribute motorboat numeric
+@attribute move numeric
+@attribute movie numeric
+@attribute mum numeric
+@attribute murdered numeric
+@attribute myrtle numeric
+@attribute naming numeric
+@attribute nd numeric
+@attribute negative numeric
+@attribute neighbors numeric
+@attribute nervous numeric
+@attribute nightmare numeric
+@attribute nite numeric
+@attribute now- numeric
+@attribute nowhere numeric
+@attribute nt numeric
+@attribute nut numeric
+@attribute occasional numeric
+@attribute office numeric
+@attribute omg numeric
+@attribute oscar numeric
+@attribute our numeric
+@attribute outside numeric
+@attribute overreacting numeric
+@attribute paid numeric
+@attribute patrick numeric
+@attribute peed numeric
+@attribute period numeric
+@attribute pissed numeric
+@attribute plans numeric
+@attribute popcorn numeric
+@attribute practice numeric
+@attribute price numeric
+@attribute problem numeric
+@attribute problems numeric
+@attribute psych numeric
+@attribute puns numeric
+@attribute purse numeric
+@attribute queens numeric
+@attribute questioning numeric
+@attribute quote numeric
+@attribute quotes numeric
+@attribute races numeric
+@attribute racist numeric
+@attribute re numeric
+@attribute read numeric
+@attribute recluse numeric
+@attribute refuse numeric
+@attribute regaining numeric
+@attribute regular numeric
+@attribute relationship numeric
+@attribute reminds numeric
+@attribute respect numeric
+@attribute respond numeric
+@attribute rest numeric
+@attribute retroactively numeric
+@attribute rich numeric
+@attribute ride numeric
+@attribute ripping numeric
+@attribute romo numeric
+@attribute rotting numeric
+@attribute sam numeric
+@attribute sat numeric
+@attribute save numeric
+@attribute saved numeric
+@attribute say numeric
+@attribute scarface numeric
+@attribute scumbag numeric
+@attribute searching numeric
+@attribute second numeric
+@attribute self numeric
+@attribute sex numeric
+@attribute sh** numeric
+@attribute share numeric
+@attribute shelbie numeric
+@attribute shes numeric
+@attribute shoot numeric
+@attribute shore numeric
+@attribute short numeric
+@attribute shovel numeric
+@attribute shutdown numeric
+@attribute signed numeric
+@attribute six numeric
+@attribute skip numeric
+@attribute skipped numeric
+@attribute slice numeric
+@attribute slump numeric
+@attribute snow numeric
+@attribute some1 numeric
+@attribute somebody numeric
+@attribute somehow numeric
+@attribute sorry numeric
+@attribute spring numeric
+@attribute stage numeric
+@attribute starting numeric
+@attribute stay numeric
+@attribute stfu numeric
+@attribute stony numeric
+@attribute straight numeric
+@attribute stress numeric
+@attribute strikes numeric
+@attribute student numeric
+@attribute stuff numeric
+@attribute sunday numeric
+@attribute suppose numeric
+@attribute swearing numeric
+@attribute sweater numeric
+@attribute synchronized numeric
+@attribute t numeric
+@attribute talked numeric
+@attribute tanning numeric
+@attribute teeth numeric
+@attribute text numeric
+@attribute thieves numeric
+@attribute though numeric
+@attribute thought numeric
+@attribute tony numeric
+@attribute trader numeric
+@attribute traffic numeric
+@attribute travel numeric
+@attribute truck numeric
+@attribute true numeric
+@attribute trust numeric
+@attribute truth numeric
+@attribute turnover numeric
+@attribute uncontrollably numeric
+@attribute under numeric
+@attribute unneeded numeric
+@attribute van numeric
+@attribute vent numeric
+@attribute wat numeric
+@attribute watching numeric
+@attribute wattpad numeric
+@attribute we#re numeric
+@attribute wednesday numeric
+@attribute were numeric
+@attribute where numeric
+@attribute while numeric
+@attribute whoever numeric
+@attribute whole numeric
+@attribute wish numeric
+@attribute without numeric
+@attribute wrd numeric
+@attribute wreck numeric
+@attribute writer numeric
+@attribute yes numeric
+@attribute yesterday numeric
+@attribute you#re numeric
+@attribute youtube numeric
+@attribute z numeric
+@attribute zach numeric
+@attribute annoying numeric
+@attribute buysexual numeric
+@attribute easier numeric
+@attribute lesbian numeric
+@attribute pm numeric
+@attribute probably numeric
+@attribute sadly numeric
+@attribute seems numeric
+@attribute shitty numeric
+@attribute sometimes numeric
+@attribute sozza numeric
+@attribute super numeric
+@attribute turned numeric
+
+@data
+{4 2.304185,29 1.950108,30 2.585232,34 2.304185,40 1.446927,45 1.115577,52 1.469655,54 3.346732,55 2.231155,58 3.827185,61 0.843834,62 2.866279,63 0.798515,64 3.346732}
+{45 1.115577,161 0.581779,618 3.346732,792 2.478383,1201 3.346732,1321 3.827185,1369 3.827185,1375 3.827185}
+{48 0.731653,127 3.827185,152 0.421992,274 3.065685,394 3.065685,416 3.346732,436 2.866279,468 3.346732,474 3.827185,846 3.346732}
+{48 0.731653,161 0.581779,463 1.59603,536 2.585232,560 1.517477,1004 3.346732,1084 3.827185,1147 3.827185}
+{161 0.581779,536 2.585232,763 3.065685,1003 3.346732,1004 3.346732,1037 3.827185,1085 3.827185,1094 3.827185,1287 3.827185,1300 3.827185,1324 3.827185}
+{48 0.731653,152 0.421992,453 3.827185,845 3.827185}
+{36 0.48602,161 0.581779,658 2.866279,1011 3.827185,1028 3.346732,1220 3.827185,1263 3.827185,1270 3.827185}
+{45 1.115577,48 0.731653,63 0.798515,161 0.581779,193 2.165091,662 2.585232,707 3.065685,792 2.478383,838 2.231155,858 2.478383,986 3.827185}
+{152 0.421992,166 3.827185,561 2.231155,798 3.827185,871 2.385826,910 3.346732,960 1.950108}
+{45 1.115577,52 1.469655,161 0.581779,332 3.065685,698 1.905373,1178 3.827185,1198 3.827185,1370 3.827185,1392 3.827185}
+{36 0.48602,39 1.204185,61 0.843834,73 3.346732,152 0.421992,162 3.827185,169 3.827185,212 3.827185,215 1.59603,239 3.827185,244 3.827185,307 3.827185,329 3.827185,347 2.478383,388 3.827185,447 3.827185,551 1.204185,662 2.585232,691 1.99793,729 3.346732,753 3.827185,825 3.827185}
+{48 0.731653,161 0.581779,231 1.786255,891 2.231155,998 3.827185,1145 3.827185,1186 3.346732}
+{12 1.653826,24 1.287798,30 2.585232,40 1.446927,48 0.731653,61 0.843834,63 0.798515,110 3.827185,126 3.827185,152 0.421992,192 0.781185,317 2.165091,383 3.065685,480 1.905373,551 1.204185,562 2.866279,602 3.346732,649 3.346732,718 3.827185,786 2.478383,816 3.827185,899 3.827185,926 2.866279}
+{161 0.581779,999 3.827185}
+{24 1.287798,45 1.115577,48 0.731653,71 1.305802,161 0.581779,177 3.346732,277 2.585232,601 2.478383,794 3.346732,862 2.711608}
+{12 1.653826,37 1.204185,63 0.798515,152 0.421992,164 3.065685,177 3.346732,480 1.905373}
+{10 0.83453,20 2.866279,27 1.950108,37 1.204185,48 0.731653,63 0.798515,161 0.581779,192 0.781185,375 3.346732,477 3.065685,502 3.346732,551 1.204185,620 2.866279,667 2.478383,868 3.346732,880 1.624326,922 3.346732,944 2.866279,1151 3.827185,1201 3.346732,1224 3.827185,1231 3.827185,1292 3.827185}
+{24 1.287798,116 2.866279,161 0.581779,551 1.204185,985 3.827185,1032 3.827185,1044 3.827185,1203 3.827185,1249 3.827185}
+{39 1.204185,45 1.115577,48 0.731653,63 0.798515,71 1.305802,152 0.421992,157 3.827185,175 3.827185,190 3.827185,192 0.781185,348 3.827185,357 3.827185,457 3.827185,489 3.827185,634 3.827185,635 3.346732,660 3.065685,662 2.585232,730 2.711608,757 3.827185,808 3.346732,857 3.065685}
+{45 1.115577,63 0.798515,152 0.421992,277 2.585232,502 3.346732}
+{10 0.83453,14 1.750702,24 1.287798,36 0.48602,40 1.446927,45 1.115577,48 0.731653,59 1.786255,161 0.581779,192 0.781185,215 1.59603,219 2.478383,385 3.065685,436 2.866279,508 1.42492,677 2.165091,714 2.304185,862 2.711608,966 2.585232,1052 3.827185,1105 3.827185,1107 3.827185,1223 3.346732,1319 3.827185}
+{10 0.83453,36 0.48602,37 1.204185,45 1.115577,63 0.798515,163 2.711608,498 2.866279,548 2.304185,677 2.165091,730 2.711608,838 2.231155,858 2.478383,891 2.231155,908 3.065685,932 2.385826,1003 3.346732,1251 3.346732,1342 3.346732,1391 3.346732,1395 3.827185,1396 3.827185,1405 3.827185}
+{36 0.48602,39 1.204185,45 1.115577,59 1.786255,61 0.843834,63 0.798515,147 1.99793,161 0.581779,213 3.346732,328 2.585232,422 3.065685,466 3.346732,477 3.065685,535 2.231155,583 2.866279,655 2.585232,777 3.346732,838 2.231155,857 3.065685,858 2.478383,935 1.99793,942 2.304185,1125 3.827185}
+{10 0.83453,29 1.950108,36 0.48602,37 1.204185,45 1.115577,48 0.731653,63 0.798515,161 0.581779,193 2.165091,316 1.99793,347 2.478383,401 2.304185,403 2.049298,480 1.905373,508 1.42492,546 1.905373,729 3.346732,838 2.231155,858 2.478383,931 2.711608,1042 3.827185,1273 3.827185,1380 3.827185}
+{9 2.304185,29 1.950108,36 0.48602,45 1.115577,48 0.731653,63 0.798515,69 2.165091,71 1.305802,152 0.421992,219 2.478383,231 1.786255,259 3.346732,548 2.304185,551 1.204185,596 1.684638,707 3.065685,838 2.231155,858 2.478383}
+{36 0.48602,39 1.204185,45 1.115577,48 0.731653,63 0.798515,161 0.581779,192 0.781185,193 2.165091,347 2.478383,551 1.204185,672 2.049298,730 2.711608,756 2.711608,838 2.231155,858 2.478383,873 2.478383,1030 3.346732,1031 3.065685,1118 3.346732,1152 3.065685,1161 3.346732,1191 3.346732}
+{36 0.48602,39 1.204185,45 1.115577,48 0.731653,63 0.798515,161 0.581779,192 0.781185,193 2.165091,347 2.478383,551 1.204185,672 2.049298,730 2.711608,756 2.711608,838 2.231155,858 2.478383,873 2.478383,1030 3.346732,1031 3.065685,1118 3.346732,1152 3.065685,1161 3.346732,1191 3.346732}
+{10 0.83453,71 1.305802,161 0.581779,410 2.711608,413 2.711608,463 1.59603,546 1.905373,978 2.231155,1152 3.065685,1383 3.827185}
+{39 1.204185,61 0.843834,71 1.305802,161 0.581779,317 2.165091,372 3.346732,464 2.104779,473 2.104779,497 2.866279,508 1.42492,546 1.905373,561 2.231155,596 1.684638,691 1.99793,795 2.866279,871 2.385826,978 2.231155,1078 3.827185,1096 3.346732,1132 3.827185,1208 3.827185,1248 3.827185,1253 3.827185,1340 3.827185}
+{29 1.950108,152 0.421992,187 3.827185,551 1.204185,667 2.478383,712 3.827185,713 3.827185,835 3.827185,978 2.231155}
+{36 0.48602,40 1.446927,69 2.165091,71 1.305802,161 0.581779,240 1.305802,560 1.517477,596 1.684638,870 2.585232,1012 3.827185,1126 3.827185,1225 3.827185,1244 3.827185,1288 3.827185,1352 3.827185,1381 3.827185}
+{61 0.843834,152 0.421992,321 3.827185,398 3.827185,587 2.711608,775 3.346732,853 3.346732}
+{39 1.204185,161 0.581779,867 3.065685,997 3.827185,1102 3.827185,1165 3.827185,1189 3.827185,1190 3.827185,1269 3.827185,1316 3.827185}
+{12 1.653826,39 1.204185,63 0.798515,73 3.346732,74 3.827185,152 0.421992,184 3.827185,192 0.781185,206 3.827185,221 2.711608,222 3.827185,270 3.827185,353 3.827185,364 2.711608,416 3.346732,435 3.346732,535 2.231155,746 3.065685,756 2.711608,759 3.827185,814 2.711608,848 3.827185,861 3.827185,888 3.346732}
+{39 1.204185,161 0.581779,210 2.585232,464 2.104779,490 2.866279,880 1.624326,1344 3.827185,1360 3.827185,1368 3.827185}
+{71 1.305802,161 0.581779,238 3.346732,498 2.866279,1303 3.827185}
+{71 1.305802,152 0.421992,318 3.827185,463 1.59603,520 3.827185}
+{14 1.750702,61 0.843834,161 0.581779,463 1.59603,651 3.065685,1202 3.827185,1226 3.827185}
+{152 0.421992,451 3.827185,464 2.104779}
+{39 1.204185,45 1.115577,61 0.843834,63 0.798515,161 0.581779,192 0.781185,463 1.59603,490 2.866279,948 2.385826,1027 3.827185,1050 3.827185,1112 3.827185,1134 3.827185,1167 3.827185,1284 3.827185}
+{71 1.305802,152 0.421992,308 3.827185,386 3.827185,463 1.59603,566 3.827185,717 3.827185,804 3.827185}
+{161 0.581779,409 2.866279,1081 3.827185,1214 3.827185,1235 3.827185,1243 3.827185}
+{28 1.716883,48 0.731653,50 1.863351,71 1.305802,152 0.421992,172 3.827185,261 3.827185,292 3.346732,303 3.827185,523 3.827185,541 3.827185,546 1.905373,560 1.517477,598 3.827185,651 3.065685,672 2.049298,683 2.304185,687 3.827185,773 3.827185,802 3.827185,824 3.827185,840 3.827185,866 3.827185,902 3.827185,906 3.065685,971 3.827185}
+{4 2.304185,28 1.716883,48 0.731653,161 0.581779,165 2.866279,192 0.781185,231 1.786255,394 3.065685,488 3.346732,683 2.304185,700 2.385826,1039 3.827185}
+{28 1.716883,48 0.731653,61 0.843834,161 0.581779,405 3.346732,463 1.59603,546 1.905373,548 2.304185,683 2.304185,906 3.065685,908 3.065685,911 1.786255,912 3.346732,1302 3.827185,1305 3.827185,1350 3.827185}
+{28 1.716883,36 0.48602,39 1.204185,48 0.731653,63 0.798515,161 0.581779,328 2.585232,660 3.065685,662 2.585232,683 2.304185,906 3.065685,1036 3.827185,1065 3.827185,1376 3.827185}
+{10 0.83453,36 0.48602,52 1.469655,61 0.843834,152 0.421992,159 3.346732,192 0.781185,236 2.711608,291 3.827185,361 3.827185,413 2.711608,427 2.385826,463 1.59603,508 1.42492,596 1.684638,682 1.204185,691 1.99793,701 3.827185,722 3.827185,726 3.065685,826 3.827185,930 3.827185,935 1.99793,955 1.542685}
+{10 0.83453,37 1.204185,48 0.731653,161 0.581779,192 0.781185,240 1.305802,252 3.065685,373 3.346732,515 3.065685,599 2.866279,682 1.204185,683 2.304185,1041 3.827185,1076 3.827185,1077 3.827185,1110 3.827185,1175 3.827185,1239 3.346732,1275 3.827185,1313 3.827185,1329 3.827185}
+{63 0.798515,152 0.421992,192 0.781185,194 3.827185,197 3.827185,225 3.065685,240 1.305802,252 3.065685,532 3.346732,599 2.866279,629 3.827185,693 3.827185,768 3.827185}
+{36 0.48602,69 2.165091,161 0.581779,192 0.781185,346 3.346732,396 2.585232,403 2.049298,440 3.065685,481 2.385826,577 2.304185,596 1.684638,682 1.204185,755 2.478383,1086 3.827185,1106 3.827185,1194 3.346732,1326 3.827185,1359 3.827185,1379 3.827185}
+{36 0.48602,40 1.446927,48 0.731653,152 0.421992,229 3.065685,464 2.104779,531 3.065685,551 1.204185,814 2.711608,932 2.385826,939 3.346732}
+{29 1.950108,36 0.48602,50 1.863351,52 1.469655,63 0.798515,161 0.581779,192 0.781185,264 2.711608,407 3.346732,508 1.42492,625 3.346732,655 2.585232,671 2.866279,695 2.585232,891 2.231155,960 1.950108,1002 3.827185,1347 3.346732}
+{21 3.346732,30 2.585232,48 0.731653,147 1.99793,152 0.421992,192 0.781185,263 3.827185,283 3.827185,313 3.346732,325 3.346732,332 3.065685,337 3.827185,667 2.478383,938 3.827185,955 1.542685}
+{36 0.48602,48 0.731653,61 0.843834,161 0.581779,411 3.346732,464 2.104779,620 2.866279,1049 3.827185,1219 3.827185,1333 3.827185}
+{36 0.48602,40 1.446927,60 3.065685,159 3.346732,161 0.581779,163 2.711608,192 0.781185,210 2.585232,240 1.305802,413 2.711608,422 3.065685,481 2.385826,508 1.42492,652 2.585232,795 2.866279,813 1.684638,871 2.385826,1143 3.346732,1173 3.346732,1390 3.346732,1399 3.827185,1400 3.827185,1403 3.827185,1406 3.827185,1407 3.827185}
+{10 0.83453,24 1.287798,36 0.48602,63 0.798515,161 0.581779,409 2.866279,413 2.711608,508 1.42492,561 2.231155,795 2.866279,889 3.065685,960 1.950108,1100 3.827185,1173 3.346732,1256 3.827185,1347 3.346732,1363 3.827185}
+{10 0.83453,28 1.716883,29 1.950108,36 0.48602,37 1.204185,63 0.798515,152 0.421992,192 0.781185,381 3.827185,413 2.711608,464 2.104779,490 2.866279,551 1.204185,554 3.827185,560 1.517477,608 2.231155,682 1.204185,741 3.827185,850 3.827185,908 3.065685}
+{12 1.653826,161 0.581779,240 1.305802,403 2.049298,427 2.385826,463 1.59603,464 2.104779,726 3.065685,880 1.624326,931 2.711608,960 1.950108}
+{24 1.287798,33 3.346732,37 1.204185,39 1.204185,48 0.731653,61 0.843834,161 0.581779,325 3.346732,551 1.204185,667 2.478383,682 1.204185,685 3.346732,700 2.385826,1074 3.827185,1154 3.827185,1160 3.827185,1166 3.827185,1204 3.827185,1280 3.827185,1330 3.827185,1361 3.827185,1388 3.827185}
+{10 0.83453,36 0.48602,63 0.798515,161 0.581779,192 0.781185,508 1.42492,662 2.585232,955 1.542685,1184 3.827185,1264 3.827185,1373 3.346732}
+{14 1.750702,36 0.48602,40 1.446927,61 0.843834,63 0.798515,161 0.581779,227 3.065685,249 3.346732,662 2.585232,873 2.478383,955 1.542685,1199 3.346732,1366 3.827185,1373 3.346732}
+{10 0.83453,28 1.716883,37 1.204185,40 1.446927,45 1.115577,48 0.731653,50 1.863351,52 1.469655,61 0.843834,63 0.798515,71 1.305802,161 0.581779,192 0.781185,539 2.165091,560 1.517477,615 3.346732,682 1.204185,862 2.711608,921 2.866279,932 2.385826,949 1.950108,1055 3.346732,1090 3.827185,1121 3.827185,1216 3.827185,1267 3.827185}
+{52 1.469655,61 0.843834,161 0.581779,192 0.781185,682 1.204185,921 2.866279,1055 3.346732,1233 3.827185}
+{12 1.653826,36 0.48602,37 1.204185,52 1.469655,61 0.843834,63 0.798515,140 3.346732,152 0.421992,168 3.346732,192 0.781185,240 1.305802,299 3.346732,406 2.585232,508 1.42492,551 1.204185,578 3.346732,652 2.585232,682 1.204185,878 3.065685,911 1.786255,921 2.866279}
+{12 1.653826,36 0.48602,37 1.204185,52 1.469655,61 0.843834,63 0.798515,140 3.346732,152 0.421992,168 3.346732,192 0.781185,240 1.305802,299 3.346732,406 2.585232,508 1.42492,551 1.204185,578 3.346732,652 2.585232,682 1.204185,878 3.065685,911 1.786255,921 2.866279}
+{12 1.653826,37 1.204185,63 0.798515,161 0.581779,192 0.781185,235 3.346732,480 1.905373,621 3.346732,1254 3.827185,1387 3.827185}
+{48 0.731653,161 0.581779,594 2.478383,792 2.478383,1028 3.346732,1109 3.827185,1221 3.346732,1251 3.346732}
+{40 1.446927,45 1.115577,61 0.843834,138 3.827185,152 0.421992,216 2.866279,316 1.99793,463 1.59603,587 2.711608,601 2.478383,714 2.304185}
+{9 2.304185,36 0.48602,52 1.469655,61 0.843834,63 0.798515,69 2.165091,161 0.581779,371 3.346732,463 1.59603,596 1.684638,692 3.346732,805 2.165091,813 1.684638,854 3.065685,1038 3.827185,1069 3.346732,1137 3.827185,1169 3.827185}
+{9 2.304185,36 0.48602,45 1.115577,52 1.469655,55 2.231155,69 2.165091,152 0.421992,193 2.165091,221 2.711608,364 2.711608,465 3.827185,479 3.065685,528 3.827185,537 3.827185,545 3.346732,596 1.684638,601 2.478383,813 1.684638,907 2.304185,911 1.786255,951 1.99793}
+{10 0.83453,11 2.385826,36 0.48602,48 0.731653,52 1.469655,61 0.843834,63 0.798515,152 0.421992,192 0.781185,254 3.827185,362 3.827185,493 3.827185,496 3.827185,551 1.204185,682 1.204185,771 2.866279,797 3.827185,829 3.827185,830 3.827185,873 2.478383,874 3.346732,892 3.827185,903 3.346732,935 1.99793,941 2.866279}
+{10 0.83453,27 1.950108,36 0.48602,48 0.731653,52 1.469655,61 0.843834,152 0.421992,192 0.781185,201 3.827185,234 3.827185,310 3.827185,335 3.827185,424 3.827185,431 3.065685,463 1.59603,480 1.905373,508 1.42492,596 1.684638,616 3.827185,682 1.204185,686 3.065685,822 3.827185,887 2.478383,893 3.827185,948 2.385826,970 2.478383}
+{37 1.204185,48 0.731653,61 0.843834,152 0.421992,431 3.065685,432 3.827185,551 1.204185,653 3.827185,737 3.827185,955 1.542685,963 2.711608,970 2.478383}
+{10 0.83453,36 0.48602,37 1.204185,161 0.581779,193 2.165091,328 2.585232,351 3.065685,403 2.049298,406 2.585232,431 3.065685,539 2.165091,931 2.711608,935 1.99793,970 2.478383,1024 3.827185,1186 3.346732}
+{10 0.83453,24 1.287798,27 1.950108,48 0.731653,55 2.231155,152 0.421992,231 1.786255,391 3.827185,472 3.827185,488 3.346732,490 2.866279,507 3.827185,560 1.517477,784 2.104779,951 1.99793}
+{37 1.204185,39 1.204185,48 0.731653,63 0.798515,161 0.581779,192 0.781185,268 2.231155,404 2.866279,480 1.905373,481 2.385826,495 3.065685,558 3.065685,594 2.478383,730 2.711608,929 3.346732,949 1.950108,955 1.542685,1192 3.827185}
+{10 0.83453,24 1.287798,36 0.48602,45 1.115577,48 0.731653,69 2.165091,71 1.305802,152 0.421992,192 0.781185,215 1.59603,231 1.786255,268 2.231155,279 3.827185,280 3.827185,378 3.346732,396 2.585232,436 2.866279,461 3.065685,463 1.59603,464 2.104779,531 3.065685,617 3.346732,646 3.065685,682 1.204185,809 3.827185}
+{4 2.304185,12 1.653826,13 3.065685,16 3.827185,19 3.346732,22 3.065685,26 3.346732,31 2.866279,32 2.711608,33 3.346732,35 3.827185,36 0.48602,38 3.827185,39 1.204185,44 3.346732,48 0.731653,49 3.827185,59 1.786255,60 3.065685,69 2.165091}
+{10 0.83453,40 1.446927,59 1.786255,61 0.843834,161 0.581779,192 0.781185,240 1.305802,314 2.478383,360 3.346732,483 2.049298,517 3.065685,531 3.065685,586 3.065685,682 1.204185,691 1.99793,698 1.905373,700 2.385826,743 3.065685,791 3.065685,935 1.99793,941 2.866279,955 1.542685,1016 3.827185,1130 3.827185,1217 3.346732,1353 3.827185}
+{10 0.83453,29 1.950108,40 1.446927,45 1.115577,152 0.421992,192 0.781185,210 2.585232,218 3.827185,359 3.346732,360 3.346732,483 2.049298,591 3.065685,612 3.827185,700 2.385826,743 3.065685,880 1.624326,934 3.346732,935 1.99793,955 1.542685}
+{11 2.385826,40 1.446927,52 1.469655,61 0.843834,142 3.827185,152 0.421992,192 0.781185,245 3.346732,412 3.827185,483 2.049298,525 3.346732,560 1.517477,679 3.346732,682 1.204185,700 2.385826,743 3.065685,785 3.827185,831 3.827185,901 3.827185,934 3.346732,955 1.542685}
+{10 0.83453,27 1.950108,36 0.48602,45 1.115577,48 0.731653,61 0.843834,152 0.421992,231 1.786255,317 2.165091,372 3.346732,383 3.065685,483 2.049298,525 3.346732,694 2.711608,715 3.346732,838 2.231155,856 3.346732,876 2.866279}
+{24 1.287798,36 0.48602,37 1.204185,40 1.446927,45 1.115577,48 0.731653,69 2.165091,71 1.305802,147 1.99793,161 0.581779,396 2.585232,406 2.585232,698 1.905373,935 1.99793,948 2.385826,949 1.950108,966 2.585232,970 2.478383,1144 3.827185,1212 3.827185,1221 3.346732,1296 3.827185,1297 3.827185,1335 3.827185}
+{10 0.83453,36 0.48602,59 1.786255,152 0.421992,241 3.827185,327 3.827185,328 2.585232,483 2.049298,551 1.204185,672 2.049298,777 3.346732,836 2.231155,841 3.827185,911 1.786255,942 2.304185}
+{36 0.48602,63 0.798515,161 0.581779,215 1.59603,269 2.866279,317 2.165091,396 2.585232,483 2.049298,682 1.204185,801 3.346732,814 2.711608,870 2.585232,880 1.624326,882 3.346732,944 2.866279,1020 3.827185,1021 3.827185,1073 3.827185,1286 3.827185}
+{11 2.385826,27 1.950108,36 0.48602,48 0.731653,59 1.786255,71 1.305802,152 0.421992,185 3.827185,209 2.711608,210 2.585232,245 3.346732,315 3.827185,383 3.065685,396 2.585232,428 3.827185,456 2.585232,517 3.065685,711 3.827185,751 3.827185,786 2.478383,880 1.624326,945 2.585232}
+{32 2.711608,36 0.48602,48 0.731653,61 0.843834,63 0.798515,161 0.581779,219 2.478383,240 1.305802,464 2.104779,511 2.711608,665 3.346732,1113 3.827185,1238 3.827185,1323 3.827185,1331 3.346732}
+{36 0.48602,42 2.478383,48 0.731653,52 1.469655,63 0.798515,152 0.421992,155 3.827185,192 0.781185,219 2.478383,302 3.827185,328 2.585232,454 3.827185,534 2.866279,642 3.827185,665 3.346732,682 1.204185,727 3.827185,914 3.346732,949 1.950108}
+{10 0.83453,12 1.653826,28 1.716883,36 0.48602,48 0.731653,152 0.421992,207 3.827185,214 3.827185,267 3.827185,285 3.827185,659 3.346732,748 3.827185,755 2.478383,805 2.165091,806 3.346732,813 1.684638}
+{12 1.653826,24 1.287798,36 0.48602,48 0.731653,61 0.843834,161 0.581779,192 0.781185,440 3.065685,481 2.385826,594 2.478383,596 1.684638,682 1.204185,805 2.165091,832 2.866279,952 2.711608,1194 3.346732,1298 3.827185}
+{10 0.83453,36 0.48602,40 1.446927,61 0.843834,93 3.827185,98 3.827185,152 0.421992,192 0.781185,230 3.827185,251 3.827185,314 2.478383,380 3.827185,463 1.59603,483 2.049298,498 2.866279,601 2.478383,731 3.827185,747 3.827185,770 3.346732,942 2.304185,948 2.385826}
+{10 0.83453,24 1.287798,36 0.48602,45 1.115577,52 1.469655,61 0.843834,161 0.581779,165 2.866279,231 1.786255,385 3.065685,483 2.049298,682 1.204185,720 3.065685,770 3.346732,885 2.866279,891 2.231155,1066 3.827185,1067 3.346732,1103 3.827185,1141 3.346732,1185 3.827185,1210 3.827185,1271 3.346732,1281 3.827185,1295 3.827185,1357 3.827185}
+{48 0.731653,152 0.421992,262 3.065685,505 2.711608,543 3.827185,837 3.346732}
+{27 1.950108,36 0.48602,48 0.731653,61 0.843834,161 0.581779,264 2.711608,449 3.346732,483 2.049298,565 2.866279,583 2.866279,632 3.346732,1218 3.827185}
+{11 2.385826,24 1.287798,36 0.48602,48 0.731653,63 0.798515,147 1.99793,152 0.421992,161 0.581779,192 0.781185,287 3.827185,366 3.827185,385 3.065685,407 3.346732,449 3.346732,483 2.049298,555 3.827185,565 2.866279,581 3.827185,667 2.478383,672 2.049298,689 3.346732,749 3.346732,925 3.827185,943 3.346732,946 2.711608,961 3.827185}
+{27 1.950108,36 0.48602,61 0.843834,63 0.798515,161 0.581779,671 2.866279,682 1.204185,691 1.99793,695 2.585232,828 3.346732,907 2.304185,946 2.711608,976 2.711608,1051 3.827185,1062 3.827185,1063 3.827185,1260 3.827185,1261 3.827185,1293 3.827185}
+{30 2.585232,45 1.115577,61 0.843834,63 0.798515,152 0.421992,192 0.781185,480 1.905373,558 3.065685,579 3.827185,601 2.478383,671 2.866279,691 1.99793,708 3.346732,828 3.346732,903 3.346732,935 1.99793,951 1.99793,967 3.346732}
+{10 0.83453,11 2.385826,36 0.48602,61 0.843834,63 0.798515,152 0.421992,301 3.827185,483 2.049298,563 3.827185,682 1.204185,698 1.905373,766 2.585232,946 2.711608}
+{24 1.287798,28 1.716883,34 2.304185,63 0.798515,152 0.421992,161 0.581779,224 3.065685,240 1.305802,467 3.827185,469 3.827185,485 3.346732,533 3.065685,585 3.827185,807 2.866279,960 1.950108}
+{13 3.065685,36 0.48602,39 1.204185,61 0.843834,63 0.798515,152 0.421992,189 3.827185,726 3.065685,880 1.624326,955 1.542685,960 1.950108}
+{12 1.653826,48 0.731653,152 0.421992,192 0.781185,277 2.585232,323 3.346732,359 3.346732,458 3.827185,475 3.827185,539 2.165091,649 3.346732,668 3.346732,955 1.542685}
+{10 0.83453,12 1.653826,48 0.731653,152 0.421992,345 3.346732,347 2.478383,404 2.866279,539 2.165091,651 3.065685,682 1.204185,817 3.827185,907 2.304185,955 1.542685,974 3.827185}
+{12 1.653826,161 0.581779,192 0.781185,539 2.165091,551 1.204185,867 3.065685,943 3.346732,1006 3.827185,1213 3.827185}
+{9 2.304185,12 1.653826,36 0.48602,45 1.115577,48 0.731653,57 3.346732,61 0.843834,152 0.421992,215 1.59603,256 3.827185,374 3.827185,400 3.827185,504 3.346732,535 2.231155,539 2.165091,560 1.517477,573 3.827185,624 3.827185,626 3.827185,670 3.827185,690 3.827185,697 3.346732,744 3.827185,871 2.385826,875 3.346732,952 2.711608,958 3.827185}
+{12 1.653826,31 2.866279,36 0.48602,48 0.731653,161 0.581779,192 0.781185,314 2.478383,546 1.905373,1007 3.827185,1048 3.346732,1177 3.827185,1199 3.346732,1200 3.827185,1241 3.827185}
+{10 0.83453,12 1.653826,48 0.731653,52 1.469655,145 3.827185,152 0.421992,200 3.827185,210 2.585232,387 3.827185,390 3.827185,539 2.165091,887 2.478383}
+{10 0.83453,39 1.204185,48 0.731653,161 0.581779,240 1.305802,534 2.866279,784 2.104779,1079 3.827185,1139 3.827185,1328 3.827185}
+{10 0.83453,28 1.716883,29 1.950108,36 0.48602,40 1.446927,45 1.115577,52 1.469655,63 0.798515,152 0.421992,192 0.781185,313 3.346732,403 2.049298,491 3.827185,560 1.517477,677 2.165091,803 3.346732,855 3.065685,884 3.346732,916 3.827185,950 3.827185,952 2.711608}
+{123 3.827185,152 0.421992,290 3.346732,309 3.827185,684 3.827185}
+{10 0.83453,37 1.204185,39 1.204185,152 0.421992,290 3.346732,336 3.827185,685 3.346732,702 3.827185,788 3.827185,849 3.827185,880 1.624326}
+{14 1.750702,27 1.950108,39 1.204185,47 2.711608,61 0.843834,63 0.798515,161 0.581779,192 0.781185,229 3.065685,551 1.204185,854 3.065685,935 1.99793,1075 3.827185,1092 3.827185,1187 3.827185,1193 3.827185,1215 3.827185,1234 3.827185,1255 3.827185,1336 3.827185,1341 3.827185,1348 3.827185,1362 3.827185}
+{37 1.204185,47 2.711608,152 0.421992,698 1.905373,972 3.827185}
+{2 3.827185,4 2.304185,6 3.827185,7 3.065685,9 2.304185,10 0.83453,11 2.385826,12 1.653826,14 1.750702,25 3.065685,28 1.716883,36 0.48602,45 1.115577,46 3.065685,47 2.711608,51 3.827185,63 0.798515,65 3.346732,67 3.827185,71 1.305802}
+{47 2.711608,63 0.798515,152 0.421992,548 2.304185,551 1.204185,621 3.346732,813 1.684638,820 3.827185,873 2.478383,895 3.827185}
+{47 2.711608,52 1.469655,61 0.843834,63 0.798515,152 0.421992,209 2.711608,233 3.827185,354 3.827185,700 2.385826,755 2.478383,784 2.104779,975 3.827185}
+{27 1.950108,29 1.950108,39 1.204185,59 1.786255,61 0.843834,63 0.798515,64 3.346732,161 0.581779,240 1.305802,560 1.517477,603 3.346732,694 2.711608,839 2.711608,955 1.542685,962 2.866279,1015 3.827185,1196 3.827185,1262 3.827185,1277 3.827185,1346 3.827185,1385 3.827185}
+{24 1.287798,28 1.716883,36 0.48602,40 1.446927,45 1.115577,48 0.731653,63 0.798515,152 0.421992,164 3.065685,167 3.827185,204 3.827185,240 1.305802,264 2.711608,346 3.346732,378 3.346732,505 2.711608,508 1.42492,511 2.711608,587 2.711608,676 3.827185,839 2.711608,853 3.346732,880 1.624326,911 1.786255,956 3.827185,960 1.950108}
+{4 2.304185,10 0.83453,24 1.287798,28 1.716883,36 0.48602,48 0.731653,50 1.863351,63 0.798515,152 0.421992,158 3.827185,225 3.065685,240 1.305802,422 3.065685,427 2.385826,545 3.346732,551 1.204185,602 3.346732,723 3.065685,758 3.827185,839 2.711608,856 3.346732,945 2.585232}
+{22 3.065685,48 0.731653,63 0.798515,152 0.421992,240 1.305802,609 3.346732,661 3.827185,667 2.478383,681 3.827185,682 1.204185,723 3.065685,800 3.827185,839 2.711608,960 1.950108}
+{14 1.750702,24 1.287798,36 0.48602,63 0.798515,152 0.421992,164 3.065685,170 3.827185,209 2.711608,215 1.59603,240 1.305802,262 3.065685,266 3.346732,300 3.346732,344 2.866279,427 2.385826,560 1.517477,617 3.346732,641 3.827185,652 2.585232,774 3.827185,812 3.065685,839 2.711608,871 2.385826}
+{10 0.83453,28 1.716883,34 2.304185,36 0.48602,72 3.827185,108 3.827185,120 3.827185,152 0.421992,240 1.305802,268 2.231155,344 2.866279,401 2.304185,448 3.827185,473 2.104779,526 3.827185,547 3.827185,551 1.204185,596 1.684638,784 2.104779,807 2.866279,871 2.385826,880 1.624326,949 1.950108}
+{34 2.304185,48 0.731653,71 1.305802,152 0.421992,180 3.827185,181 3.827185,277 2.585232,316 1.99793,351 3.065685,529 3.827185,944 2.866279}
+{40 1.446927,63 0.798515,161 0.581779,347 2.478383,480 1.905373,485 3.346732,501 3.346732,548 2.304185,659 3.346732,698 1.905373,786 2.478383,1031 3.065685,1156 3.827185,1195 3.827185,1374 3.827185}
+{28 1.716883,36 0.48602,46 3.065685,63 0.798515,152 0.421992,314 2.478383,480 1.905373,546 1.905373,553 3.827185,565 2.866279,656 3.827185,658 2.866279,765 3.827185,871 2.385826,880 1.624326}
+{20 2.866279,28 1.716883,36 0.48602,48 0.731653,161 0.581779,259 3.346732,403 2.049298,505 2.711608,666 3.065685,721 2.711608,813 1.684638,887 2.478383,911 1.786255,931 2.711608,1089 3.827185,1155 3.827185,1179 3.827185}
+{37 1.204185,45 1.115577,152 0.421992,240 1.305802,258 2.866279,425 3.827185,535 2.231155,608 2.231155,672 2.049298,692 3.346732,721 2.711608,784 2.104779,836 2.231155,911 1.786255}
+{48 0.731653,61 0.843834,161 0.581779,463 1.59603,721 2.711608,911 1.786255,1059 3.827185,1060 3.827185,1061 3.827185,1158 3.827185}
+{10 0.83453,24 1.287798,29 1.950108,36 0.48602,48 0.731653,59 1.786255,76 3.827185,103 3.827185,152 0.421992,322 3.827185,330 3.346732,404 2.866279,509 3.827185,593 3.827185,672 2.049298,682 1.204185,721 2.711608,728 3.827185,859 3.827185,885 2.866279,911 1.786255,977 3.346732}
+{10 0.83453,36 0.48602,161 0.581779,314 2.478383,429 3.065685,480 1.905373,608 2.231155,652 2.585232,683 2.304185,721 2.711608,911 1.786255,1014 3.827185,1338 3.827185,1354 3.827185,1378 3.827185}
+{34 2.304185,36 0.48602,37 1.204185,48 0.731653,63 0.798515,71 1.305802,147 1.99793,152 0.421992,156 3.827185,240 1.305802,271 3.827185,311 3.065685,351 3.065685,352 3.827185,377 3.827185,444 3.827185,480 1.905373,551 1.204185,596 1.684638,643 3.827185,688 3.827185,771 2.866279,782 3.827185,784 2.104779,813 1.684638,832 2.866279}
+{19 3.346732,39 1.204185,161 0.581779,240 1.305802,503 3.065685,677 2.165091,766 2.585232,832 2.866279,960 1.950108,1040 3.827185}
+{7 3.065685,36 0.48602,37 1.204185,152 0.421992,215 1.59603,240 1.305802,266 3.346732,379 3.065685,384 2.231155,508 1.42492,546 1.905373,596 1.684638,604 3.827185,654 3.827185,784 2.104779,813 1.684638,832 2.866279,887 2.478383,891 2.231155,937 3.346732,968 3.827185}
+{39 1.204185,40 1.446927,45 1.115577,48 0.731653,71 1.305802,147 1.99793,161 0.581779,192 0.781185,215 1.59603,255 3.346732,464 2.104779,508 1.42492,546 1.905373,564 3.065685,679 3.346732,682 1.204185,720 3.065685,724 3.346732,792 2.478383,871 2.385826,1080 3.827185,1093 3.827185,1115 3.827185,1172 3.827185,1356 3.827185}
+{29 1.950108,45 1.115577,61 0.843834,63 0.798515,152 0.421992,240 1.305802,402 3.827185,530 3.827185,533 3.065685,551 1.204185,558 3.065685,580 3.827185,666 3.065685,672 2.049298,682 1.204185,762 3.827185,771 2.866279,801 3.346732,836 2.231155,880 1.624326,907 2.304185,927 3.065685}
+{10 0.83453,36 0.48602,37 1.204185,61 0.843834,154 3.065685,161 0.581779,163 2.711608,165 2.866279,192 0.781185,240 1.305802,497 2.866279,551 1.204185,561 2.231155,677 2.165091,771 2.866279,836 2.231155,927 3.065685,1005 3.827185,1033 3.827185,1048 3.346732,1116 3.827185,1306 3.827185}
+{24 1.287798,25 3.065685,36 0.48602,78 3.827185,91 3.827185,116 2.866279,118 3.827185,152 0.421992,191 3.827185,240 1.305802,317 2.165091,368 3.346732,486 3.827185,583 2.866279,596 1.684638,644 3.827185,880 1.624326,926 2.866279,927 3.065685,960 1.950108}
+{10 0.83453,34 2.304185,39 1.204185,61 0.843834,161 0.581779,240 1.305802,406 2.585232,551 1.204185,599 2.866279,682 1.204185,812 3.065685,842 3.065685,910 3.346732,978 2.231155,1056 3.827185,1168 3.346732,1237 3.827185,1258 3.827185,1364 3.346732}
+{10 0.83453,12 1.653826,36 0.48602,37 1.204185,39 1.204185,71 1.305802,152 0.421992,215 1.59603,240 1.305802,401 2.304185,677 2.165091,766 2.585232,842 3.065685,891 2.231155,932 2.385826,955 1.542685,960 1.950108}
+{10 0.83453,34 2.304185,48 0.731653,63 0.798515,161 0.581779,240 1.305802,277 2.585232,384 2.231155,461 3.065685,548 2.304185,646 3.065685,694 2.711608,786 2.478383,842 3.065685,907 2.304185,955 1.542685,1069 3.346732,1127 3.827185,1331 3.346732}
+{61 0.843834,152 0.421992,192 0.781185,219 2.478383,240 1.305802,311 3.065685,397 3.346732,443 3.827185,473 2.104779,683 2.304185,813 1.684638,838 2.231155,970 2.478383,979 3.827185}
+{32 2.711608,36 0.48602,52 1.469655,161 0.581779,240 1.305802,258 2.866279,317 2.165091,473 2.104779,784 2.104779,951 1.99793,1096 3.346732,1159 3.827185,1272 3.827185}
+{34 2.304185,79 3.827185,87 3.827185,95 3.827185,97 3.827185,107 3.827185,121 3.827185,141 3.827185,152 0.421992,224 3.065685,240 1.305802,384 2.231155,436 2.866279,473 2.104779,682 1.204185,807 2.866279}
+{30 2.585232,36 0.48602,45 1.115577,161 0.581779,268 2.231155,379 3.065685,463 1.59603,576 3.346732,620 2.866279,799 3.346732,911 1.786255,935 1.99793,962 2.866279,1266 3.827185,1390 3.346732}
+{24 1.287798,39 1.204185,63 0.798515,71 1.305802,147 1.99793,152 0.421992,192 0.781185,272 3.827185,382 3.827185,417 3.346732,463 1.59603,480 1.905373,512 3.827185,569 3.827185,698 1.905373,745 3.827185,787 3.827185,867 3.065685}
+{10 0.83453,36 0.48602,48 0.731653,152 0.421992,198 3.827185,221 2.711608,223 3.827185,229 3.065685,240 1.305802,260 3.827185,293 3.827185,304 3.346732,316 1.99793,411 3.346732,497 2.866279,551 1.204185,708 3.346732,724 3.346732,880 1.624326,883 3.827185,897 3.827185,904 3.827185,911 1.786255,944 2.866279}
+{36 0.48602,40 1.446927,63 0.798515,161 0.581779,240 1.305802,345 3.346732,456 2.585232,504 3.346732,508 1.42492,677 2.165091,698 1.905373,784 2.104779,880 1.624326,907 2.304185,960 1.950108,1149 3.827185,1174 3.827185,1271 3.346732,1291 3.827185,1339 3.827185}
+{14 1.750702,36 0.48602,39 1.204185,52 1.469655,59 1.786255,61 0.843834,152 0.421992,182 3.827185,265 3.827185,277 2.585232,371 3.346732,384 2.231155,405 3.346732,415 3.827185,456 2.585232,495 3.065685,508 1.42492,522 3.065685,577 2.304185,698 1.905373,755 2.478383,880 1.624326,942 2.304185,945 2.585232}
+{10 0.83453,36 0.48602,40 1.446927,152 0.421992,192 0.781185,195 3.827185,456 2.585232,508 1.42492,577 2.304185,636 3.827185,652 2.585232,675 3.827185,698 1.905373,813 1.684638,889 3.065685}
+{10 0.83453,40 1.446927,59 1.786255,161 0.581779,215 1.59603,401 2.304185,463 1.59603,481 2.385826,503 3.065685,539 2.165091,978 2.231155,1018 3.827185,1188 3.827185}
+{24 1.287798,63 0.798515,152 0.421992,215 1.59603,463 1.59603,484 3.827185,557 3.827185,603 3.346732,631 3.827185,738 3.827185,823 3.827185,887 2.478383}
+{22 3.065685,36 0.48602,48 0.731653,59 1.786255,152 0.421992,160 3.827185,192 0.781185,213 3.346732,215 1.59603,231 1.786255,446 3.827185,463 1.59603,473 2.104779,510 3.065685,623 3.827185,813 1.684638,939 3.346732,942 2.304185,947 3.827185}
+{8 3.346732,27 1.950108,36 0.48602,43 3.346732,52 1.469655,61 0.843834,161 0.581779,215 1.59603,231 1.786255,368 3.346732,397 3.346732,535 2.231155,608 2.231155,700 2.385826,714 2.304185,911 1.786255,946 2.711608,951 1.99793,955 1.542685,963 2.711608,976 2.711608,1008 3.827185,1071 3.827185,1104 3.827185,1236 3.827185,1265 3.346732}
+{10 0.83453,27 1.950108,37 1.204185,152 0.421992,196 3.827185,217 3.827185,231 1.786255,379 3.065685,464 2.104779,473 2.104779,483 2.049298,551 1.204185,592 3.827185,673 3.827185,682 1.204185,714 2.304185,783 3.827185,784 2.104779,869 2.866279,870 2.585232}
+{27 1.950108,28 1.716883,36 0.48602,45 1.115577,59 1.786255,61 0.843834,71 1.305802,152 0.421992,192 0.781185,231 1.786255,235 3.346732,253 3.065685,480 1.905373,482 3.827185,494 3.827185,499 3.346732,511 2.711608,567 3.827185,577 2.304185,620 2.866279,645 3.827185,714 2.304185,775 3.346732,776 3.827185,863 3.346732,948 2.385826}
+{10 0.83453,52 1.469655,61 0.843834,146 3.827185,152 0.421992,192 0.781185,215 1.59603,231 1.786255,384 2.231155,452 3.827185,539 2.165091,619 3.827185,672 2.049298,689 3.346732,694 2.711608,696 3.827185,709 3.346732,779 3.827185,818 3.827185,833 3.827185,868 3.346732,909 3.827185,942 2.304185,949 1.950108,951 1.99793,962 2.866279}
+{36 0.48602,42 2.478383,48 0.731653,62 2.866279,152 0.421992,165 2.866279,205 3.827185,215 1.59603,220 3.827185,224 3.065685,231 1.786255,257 3.827185,296 3.827185,461 3.065685,551 1.204185,682 1.204185,683 2.304185,694 2.711608,698 1.905373,880 1.624326,898 3.827185,942 2.304185,951 1.99793,963 2.711608,976 2.711608}
+{24 1.287798,36 0.48602,55 2.231155,69 2.165091,152 0.421992,215 1.59603,231 1.786255,401 2.304185,419 3.346732,433 3.827185,442 3.827185,508 1.42492,551 1.204185,608 2.231155,695 2.585232,714 2.304185,754 3.346732,854 3.065685,951 1.99793,955 1.542685}
+{24 1.287798,45 1.115577,71 1.305802,147 1.99793,161 0.581779,215 1.59603,231 1.786255,355 3.346732,546 1.905373,714 2.304185,888 3.346732,942 2.304185,951 1.99793,1010 3.827185,1034 3.827185,1111 3.827185,1207 3.827185,1389 3.827185,1394 3.827185}
+{10 0.83453,36 0.48602,37 1.204185,39 1.204185,50 1.863351,152 0.421992,258 2.866279,278 3.827185,342 2.711608,466 3.346732,508 1.42492,672 2.049298,880 1.624326}
+{10 0.83453,37 1.204185,45 1.115577,152 0.421992,216 2.866279,538 3.827185,587 2.711608,633 3.827185}
+{36 0.48602,48 0.731653,55 2.231155,63 0.798515,152 0.421992,238 3.346732,333 3.827185,551 1.204185,742 3.827185,746 3.065685,755 2.478383,932 2.385826}
+{28 1.716883,29 1.950108,36 0.48602,37 1.204185,63 0.798515,154 3.065685,161 0.581779,192 0.781185,384 2.231155,510 3.065685,622 3.346732,792 2.478383,813 1.684638,870 2.585232,886 3.346732,955 1.542685,1123 3.346732,1228 3.827185,1265 3.346732,1315 3.827185,1382 3.827185}
+{40 1.446927,61 0.843834,71 1.305802,152 0.421992,192 0.781185,231 1.786255,320 3.827185,344 2.866279,347 2.478383,505 2.711608,508 1.42492,551 1.204185,790 3.827185,812 3.065685,844 3.827185,887 2.478383,942 2.304185,951 1.99793}
+{45 1.115577,56 3.346732,63 0.798515,161 0.581779,534 2.866279,551 1.204185,599 2.866279,608 2.231155,655 2.585232,698 1.905373,813 1.684638,880 1.624326,966 2.585232,1170 3.346732,1245 3.827185,1343 3.827185,1371 3.827185}
+{36 0.48602,39 1.204185,48 0.731653,59 1.786255,63 0.798515,71 1.305802,152 0.421992,228 3.346732,240 1.305802,281 3.827185,317 2.165091,323 3.346732,328 2.585232,395 3.827185,404 2.866279,456 2.585232,561 2.231155,577 2.304185,586 3.065685,632 3.346732,720 3.065685,837 3.346732,913 3.827185,945 2.585232}
+{48 0.731653,161 0.581779,192 0.781185,216 2.866279,253 3.065685,316 1.99793,401 2.304185,427 2.385826,508 1.42492,591 3.065685,880 1.624326,955 1.542685,1026 3.827185,1097 3.827185,1114 3.827185,1141 3.346732,1150 3.827185,1229 3.827185,1247 3.827185}
+{10 0.83453,36 0.48602,52 1.469655,71 1.305802,152 0.421992,463 1.59603,546 1.905373,560 1.517477,577 2.304185,734 3.827185,792 2.478383,814 2.711608,911 1.786255,937 3.346732}
+{10 0.83453,14 1.750702,24 1.287798,36 0.48602,39 1.204185,45 1.115577,48 0.731653,63 0.798515,161 0.581779,288 3.346732,294 3.065685,403 2.049298,421 3.346732,473 2.104779,480 1.905373,508 1.42492,627 3.346732,677 2.165091,691 1.99793,735 3.346732,736 3.346732,836 2.231155,877 3.346732,907 2.304185,940 3.346732}
+{7 3.065685,10 0.83453,50 1.863351,61 0.843834,63 0.798515,152 0.421992,192 0.781185,242 3.827185,268 2.231155,408 3.827185,423 3.827185,441 3.827185,510 3.065685,551 1.204185,560 1.517477,682 1.204185,698 1.905373,705 3.827185,911 1.786255,928 3.827185,963 2.711608,964 3.346732}
+{0 3.827185,1 3.827185,3 3.827185,4 2.304185,8 3.346732,15 3.827185,17 3.827185,18 3.827185,21 3.346732,23 3.827185,24 1.287798,27 1.950108,30 2.585232,36 0.48602,41 3.827185,42 2.478383,43 3.346732,50 1.863351,52 1.469655,61 0.843834}
+{48 0.731653,61 0.843834,161 0.581779,215 1.59603,508 1.42492,876 2.866279,955 1.542685,1001 3.827185,1053 3.827185,1117 3.827185,1122 3.827185,1140 3.827185,1240 3.827185,1278 3.827185,1279 3.827185,1299 3.827185}
+{10 0.83453,24 1.287798,36 0.48602,48 0.731653,85 3.827185,86 3.827185,152 0.421992,192 0.781185,248 3.827185,252 3.065685,300 3.346732,389 3.827185,399 3.827185,401 2.304185,409 2.866279,455 3.827185,459 3.827185,614 3.346732,682 1.204185,733 3.827185,814 2.711608,915 3.827185}
+{27 1.950108,36 0.48602,45 1.115577,61 0.843834,152 0.421992,511 2.711608,513 3.827185,521 3.827185,551 1.204185,564 3.065685,576 3.346732,618 3.346732,678 3.827185,834 3.827185,878 3.065685,879 3.346732,880 1.624326,932 2.385826,935 1.99793,948 2.385826,963 2.711608,966 2.585232}
+{44 3.346732,50 1.863351,147 1.99793,161 0.581779,805 2.165091}
+{36 0.48602,37 1.204185,61 0.843834,69 2.165091,152 0.421992,249 3.346732,295 3.827185,508 1.42492,516 3.346732,601 2.478383,611 3.827185,756 2.711608,805 2.165091,955 1.542685}
+{10 0.83453,31 2.866279,36 0.48602,40 1.446927,152 0.421992,429 3.065685,517 3.065685,544 3.346732,597 3.827185,638 3.827185,669 3.827185,682 1.204185,691 1.99793,723 3.065685,805 2.165091,936 3.827185}
+{9 2.304185,10 0.83453,26 3.346732,36 0.48602,39 1.204185,59 1.786255,61 0.843834,161 0.581779,219 2.478383,805 2.165091,1025 3.827185,1170 3.346732,1217 3.346732,1294 3.827185}
+{10 0.83453,36 0.48602,61 0.843834,152 0.421992,192 0.781185,274 3.065685,311 3.065685,365 3.827185,410 2.711608,508 1.42492,750 3.827185,769 3.827185,891 2.231155,964 3.346732}
+{36 0.48602,161 0.581779,192 0.781185,403 2.049298,410 2.711608,508 1.42492,535 2.231155,666 3.065685,952 2.711608,1070 3.827185,1209 3.346732,1227 3.827185,1239 3.346732,1372 3.827185}
+{10 0.83453,36 0.48602,39 1.204185,55 2.231155,147 1.99793,161 0.581779,192 0.781185,215 1.59603,316 1.99793,410 2.711608,551 1.204185,564 3.065685,686 3.065685,755 2.478383,763 3.065685,932 2.385826,951 1.99793,957 3.346732,1098 3.827185,1180 3.827185,1223 3.346732,1301 3.827185,1320 3.827185,1322 3.827185,1364 3.346732}
+{10 0.83453,36 0.48602,39 1.204185,45 1.115577,48 0.731653,61 0.843834,161 0.581779,192 0.781185,193 2.165091,384 2.231155,410 2.711608,660 3.065685,682 1.204185,989 3.827185,1009 3.827185,1148 3.827185,1168 3.346732,1318 3.827185,1393 3.827185}
+{10 0.83453,31 2.866279,36 0.48602,42 2.478383,61 0.843834,161 0.581779,192 0.781185,215 1.59603,534 2.866279,551 1.204185,682 1.204185,700 2.385826,836 2.231155,977 3.346732,1043 3.827185,1128 3.827185,1133 3.827185,1157 3.827185,1171 3.346732,1282 3.827185,1307 3.827185}
+{36 0.48602,37 1.204185,42 2.478383,61 0.843834,71 1.305802,161 0.581779,316 1.99793,364 2.711608,551 1.204185,560 1.517477,813 1.684638,949 1.950108,955 1.542685,1162 3.827185,1164 3.827185,1242 3.827185,1384 3.346732}
+{9 2.304185,36 0.48602,37 1.204185,42 2.478383,48 0.731653,61 0.843834,63 0.798515,161 0.581779,240 1.305802,551 1.204185,594 2.478383,635 3.346732,755 2.478383,987 3.827185,994 3.827185,1058 3.827185,1082 3.827185,1232 3.827185,1337 3.827185,1351 3.827185,1377 3.827185}
+{9 2.304185,10 0.83453,36 0.48602,37 1.204185,42 2.478383,45 1.115577,63 0.798515,71 1.305802,152 0.421992,183 3.827185,192 0.781185,297 3.827185,298 3.827185,435 3.346732,514 3.827185,551 1.204185,596 1.684638,655 2.585232,862 2.711608,891 2.231155,922 3.346732,965 3.827185}
+{36 0.48602,161 0.581779,317 2.165091,338 3.346732,403 2.049298,427 2.385826,498 2.866279,813 1.684638,870 2.585232,932 2.385826,1019 3.827185,1142 3.827185,1181 3.346732,1205 3.827185,1250 3.827185}
+{10 0.83453,36 0.48602,39 1.204185,48 0.731653,50 1.863351,92 3.346732,122 3.827185,152 0.421992,209 2.711608,535 2.231155,560 1.517477,594 2.478383,781 3.346732,784 2.104779,847 3.827185,880 1.624326}
+{36 0.48602,48 0.731653,92 3.346732,152 0.421992,211 3.827185,268 2.231155,403 2.049298,426 3.827185,560 1.517477,596 1.684638,805 2.165091,935 1.99793,949 1.950108,952 2.711608}
+{36 0.48602,40 1.446927,45 1.115577,48 0.731653,104 3.346732,152 0.421992,264 2.711608,492 3.827185,511 2.711608,571 3.827185,588 3.827185,646 3.065685,786 2.478383,889 3.065685,931 2.711608,949 1.950108}
+{48 0.731653,104 3.346732,152 0.421992,173 3.827185,772 3.827185}
+{36 0.48602,39 1.204185,55 2.231155,63 0.798515,75 3.827185,89 3.827185,90 3.827185,133 3.827185,152 0.421992,192 0.781185,202 3.827185,367 3.827185,376 3.827185,560 1.517477,596 1.684638,628 3.827185,749 3.346732,855 3.065685,863 3.346732,885 2.866279}
+{10 0.83453,28 1.716883,29 1.950108,71 1.305802,81 3.827185,84 3.827185,125 3.827185,144 3.827185,149 3.827185,152 0.421992,192 0.781185,319 3.346732,561 2.231155,577 2.304185,698 1.905373,811 3.827185,836 2.231155,949 1.950108,978 2.231155}
+{36 0.48602,37 1.204185,62 2.866279,63 0.798515,83 3.065685,115 3.827185,117 3.827185,152 0.421992,192 0.781185,282 3.827185,317 2.165091,462 3.827185,551 1.204185,637 3.827185,640 3.827185,682 1.204185,698 1.905373,714 2.304185,715 3.346732,813 1.684638,926 2.866279,946 2.711608}
+{12 1.653826,63 0.798515,80 3.827185,82 3.827185,124 3.827185,139 3.827185,143 3.827185,152 0.421992,192 0.781185,319 3.346732,384 2.231155,481 2.385826,561 2.231155,957 3.346732}
+{10 0.83453,36 0.48602,83 3.065685,161 0.581779,342 2.711608,548 2.304185,560 1.517477,608 2.231155}
+{36 0.48602,37 1.204185,55 2.231155,137 3.827185,152 0.421992,153 3.827185,161 0.581779,209 2.711608,269 2.866279,317 2.165091,551 1.204185,608 2.231155,813 1.684638,836 2.231155,955 1.542685,976 2.711608}
+{48 0.731653,96 2.866279,161 0.581779,1095 3.827185,1325 3.827185}
+{36 0.48602,77 3.827185,96 2.866279,152 0.421992,192 0.781185,253 3.065685,316 1.99793,356 3.827185,740 3.827185,789 3.827185}
+{28 1.716883,36 0.48602,48 0.731653,63 0.798515,96 2.866279,152 0.421992,188 3.827185,192 0.781185,208 3.827185,314 2.478383,332 3.065685,369 3.346732,508 1.42492,535 2.231155,613 3.827185,709 3.346732,716 3.827185,795 2.866279,808 3.346732,813 1.684638,945 2.585232,960 1.950108,966 2.585232}
+{36 0.48602,61 0.843834,96 2.866279,161 0.581779,192 0.781185,396 2.585232,515 3.065685,560 1.517477,565 2.866279,682 1.204185,955 1.542685,1017 3.827185,1022 3.827185,1083 3.827185}
+{10 0.83453,39 1.204185,40 1.446927,45 1.115577,48 0.731653,63 0.798515,71 1.305802,106 3.827185,111 3.827185,152 0.421992,240 1.305802,392 3.827185,401 2.304185,535 2.231155,539 2.165091,546 1.905373,577 2.304185,591 3.065685,807 2.866279,879 3.346732,890 3.827185,935 1.99793,948 2.385826,955 1.542685,959 3.827185,960 1.950108}
+{10 0.83453,14 1.750702,24 1.287798,36 0.48602,39 1.204185,45 1.115577,48 0.731653,63 0.798515,152 0.421992,288 3.346732,294 3.065685,403 2.049298,421 3.346732,473 2.104779,480 1.905373,508 1.42492,627 3.346732,677 2.165091,691 1.99793,735 3.346732,736 3.346732,836 2.231155,877 3.346732,907 2.304185,940 3.346732}
+{36 0.48602,48 0.731653,61 0.843834,134 3.827185,152 0.421992,192 0.781185,237 3.827185,294 3.065685,430 3.827185,495 3.065685,500 3.827185,519 3.827185,546 1.905373,551 1.204185,596 1.684638,674 3.827185,852 3.827185,860 3.827185,885 2.866279,929 3.346732,955 1.542685}
+{14 1.750702,36 0.48602,37 1.204185,48 0.731653,50 1.863351,63 0.798515,65 3.346732,130 3.827185,152 0.421992,215 1.59603,219 2.478383,227 3.065685,236 2.711608,240 1.305802,273 3.827185,316 1.99793,586 3.065685,625 3.346732,732 3.827185,813 1.684638,876 2.866279,894 3.827185,896 3.827185,918 3.827185,960 1.950108}
+{10 0.83453,45 1.115577,48 0.731653,88 3.346732,114 3.346732,116 2.866279,151 2.866279,161 0.581779,536 2.585232,806 3.346732,988 3.827185,990 3.827185,991 3.827185,1000 3.827185,1087 3.827185,1108 3.827185,1206 3.827185}
+{24 1.287798,63 0.798515,114 3.346732,148 3.827185,152 0.421992,163 2.711608,174 3.827185,192 0.781185,326 3.827185,334 3.827185,533 3.065685,589 3.827185,682 1.204185,704 3.827185,706 3.827185,796 3.827185,810 3.827185,865 3.827185,882 3.346732,969 3.827185}
+{14 1.750702,24 1.287798,36 0.48602,61 0.843834,147 1.99793,161 0.581779,192 0.781185,193 2.165091,289 3.346732,409 2.866279,546 1.905373,560 1.517477,583 2.866279,671 2.866279,780 3.346732,781 3.346732,786 2.478383,792 2.478383,949 1.950108,967 3.346732,1101 3.827185,1163 3.827185,1209 3.346732,1246 3.827185,1268 3.827185,1274 3.827185,1276 3.827185}
+{152 0.421992,192 0.781185,246 3.827185,289 3.346732,363 3.827185,562 2.866279,570 3.827185,572 3.827185,630 3.827185,920 3.827185}
+{11 2.385826,14 1.750702,55 2.231155,59 1.786255,71 1.305802,102 3.346732,135 3.827185,136 3.827185,152 0.421992,403 2.049298,577 2.304185,596 1.684638,647 3.827185,876 2.866279,949 1.950108}
+{48 0.731653,59 1.786255,99 3.346732,102 3.346732,128 3.827185,151 2.866279,152 0.421992,349 3.827185,456 2.585232,536 2.585232,668 3.346732,699 3.827185}
+{4 2.304185,5 3.346732,25 3.065685,52 1.469655,66 3.346732}
+{4 2.304185,5 3.346732,14 1.750702,20 2.866279,37 1.204185,66 3.346732}
+{24 1.287798,39 1.204185,40 1.446927,83 3.065685,94 3.827185,113 3.827185,131 3.065685,132 3.827185,152 0.421992,192 0.781185,343 3.827185,590 3.065685,667 2.478383,764 3.827185,976 2.711608}
+{10 0.83453,14 1.750702,24 1.287798,36 0.48602,37 1.204185,152 0.421992,192 0.781185,312 3.827185,342 2.711608,471 2.866279,622 3.346732,639 3.827185,763 3.065685,924 3.827185,978 2.231155}
+{36 0.48602,37 1.204185,46 3.065685,48 0.731653,52 1.469655,161 0.581779,192 0.781185,316 1.99793,342 2.711608,481 2.385826,560 1.517477,664 3.346732,682 1.204185,786 2.478383,813 1.684638,951 1.99793,1057 3.827185,1138 3.827185,1153 3.827185,1197 3.827185,1222 3.827185,1230 3.827185,1259 3.827185,1285 3.827185,1309 3.827185,1317 3.827185,1332 3.827185,1386 3.827185}
+{36 0.48602,45 1.115577,52 1.469655,59 1.786255,152 0.421992,176 3.827185,262 3.065685,292 3.346732,406 2.585232,434 3.827185,522 3.065685,561 2.231155,610 3.827185,657 3.346732,746 3.065685,803 3.346732,815 3.346732,819 3.827185,923 3.827185}
+{37 1.204185,40 1.446927,61 0.843834,161 0.581779,215 1.59603,314 2.478383,468 3.346732,551 1.204185,596 1.684638,658 2.866279,677 2.165091,1310 3.827185}
+{10 0.83453,12 1.653826,14 1.750702,36 0.48602,37 1.204185,40 1.446927,50 1.863351,163 2.711608,268 2.231155,316 1.99793,364 2.711608,471 2.866279,596 1.684638,672 2.049298,874 3.346732,891 2.231155,941 2.866279,1384 3.346732,1397 3.827185,1398 3.827185,1401 3.827185,1402 3.827185,1404 3.827185}
+{24 1.287798,37 1.204185,40 1.446927,161 0.581779,268 2.231155,471 2.866279,483 2.049298,843 3.346732,1023 3.827185,1064 3.827185,1211 3.827185}
+{10 0.83453,14 1.750702,24 1.287798,36 0.48602,37 1.204185,39 1.204185,50 1.863351,152 0.421992,375 3.346732,427 2.385826,445 3.827185,470 3.827185,471 2.866279,477 3.065685,546 1.905373,590 3.065685,605 3.827185,791 3.065685,851 3.827185,880 1.624326,911 1.786255}
+{10 0.83453,14 1.750702,20 2.866279,24 1.287798,36 0.48602,37 1.204185,48 0.731653,60 3.065685,152 0.421992,231 1.786255,304 3.346732,324 3.827185,369 3.346732,418 3.827185,508 1.42492,582 3.827185,677 2.165091,766 2.585232,873 2.478383,884 3.346732,919 3.827185,948 2.385826}
+{36 0.48602,37 1.204185,61 0.843834,63 0.798515,147 1.99793,152 0.421992,171 3.827185,178 3.827185,192 0.781185,193 2.165091,215 1.59603,225 3.065685,232 3.827185,342 2.711608,420 3.827185,516 3.346732,549 3.827185,680 3.827185,719 3.827185,761 3.827185,780 3.346732,951 1.99793,966 2.585232}
+{10 0.83453,24 1.287798,28 1.716883,61 0.843834,131 3.065685,161 0.581779,192 0.781185,193 2.165091,594 2.478383,754 3.346732,981 3.827185,996 3.827185,1072 3.827185,1091 3.827185,1146 3.827185,1289 3.827185,1312 3.827185,1367 3.827185}
+{13 3.065685,39 1.204185,61 0.843834,71 1.305802,109 3.827185,131 3.065685,152 0.421992,316 1.99793,338 3.346732,414 3.827185,476 3.827185,479 3.065685,608 2.231155,682 1.204185,691 1.99793,697 3.346732,707 3.065685,767 3.827185,951 1.99793,978 2.231155}
+{10 0.83453,12 1.653826,50 1.863351,71 1.305802,161 0.581779,192 0.781185,231 1.786255,240 1.305802,269 2.866279,316 1.99793,429 3.065685,505 2.711608,594 2.478383,756 2.711608,949 1.950108,978 2.231155,992 3.827185,1029 3.827185,1045 3.827185,1046 3.827185,1171 3.346732,1283 3.827185,1308 3.827185,1365 3.827185}
+{24 1.287798,61 0.843834,119 3.346732,152 0.421992,193 2.165091,228 3.346732,268 2.231155,284 3.827185,522 3.065685,544 3.346732,657 3.346732,686 3.065685,752 3.827185,760 3.827185}
+{36 0.48602,39 1.204185,63 0.798515,119 3.346732,161 0.581779,221 2.711608,236 2.711608,403 2.049298,479 3.065685,480 1.905373,535 2.231155,546 1.905373,590 3.065685,596 1.684638,695 2.585232,815 3.346732,857 3.065685,911 1.786255,914 3.346732,1120 3.827185,1143 3.346732,1252 3.827185,1314 3.827185,1349 3.827185,1391 3.346732}
+{24 1.287798,32 2.711608,150 3.827185,152 0.421992,231 1.786255,250 3.346732,460 3.827185,463 1.59603,556 3.827185,650 3.827185,778 3.827185,907 2.304185,953 3.827185}
+{71 1.305802,161 0.581779,250 3.346732,274 3.065685,463 1.59603,508 1.42492,1013 3.827185}
+{29 1.950108,45 1.115577,71 1.305802,88 3.346732,99 3.346732,100 3.827185,101 3.827185,105 3.827185,112 3.827185,116 2.866279,129 3.827185,151 2.866279,152 0.421992,264 2.711608,350 3.827185,503 3.065685,536 2.585232,575 3.827185}
+{10 0.83453,39 1.204185,50 1.863351,61 0.843834,152 0.421992,179 3.827185,186 3.827185,286 3.827185,339 3.065685,340 3.827185,393 3.827185,527 3.065685,550 3.346732,560 1.517477,595 3.065685,691 1.99793,799 3.346732,970 2.478383}
+{12 1.653826,24 1.287798,50 1.863351,61 0.843834,63 0.798515,152 0.421992,243 3.827185,339 3.065685,341 3.827185,358 3.827185,487 3.827185,527 3.065685,552 3.827185,587 2.711608,595 3.065685,794 3.346732,869 2.866279,872 3.827185,881 3.827185,933 3.827185}
+{10 0.83453,61 0.843834,63 0.798515,152 0.421992,227 3.065685,339 3.065685,355 3.346732,419 3.346732,439 3.827185,473 2.104779,527 3.065685,550 3.346732,560 1.517477,561 2.231155,595 3.065685,600 3.827185,664 3.346732,682 1.204185,739 3.827185,838 2.231155,869 2.866279,911 1.786255,970 2.478383}
+{12 1.653826,37 1.204185,152 0.421992,226 3.827185,236 2.711608,364 2.711608,542 3.827185,805 2.165091}
+{28 1.716883,36 0.48602,37 1.204185,40 1.446927,48 0.731653,63 0.798515,152 0.421992,394 3.065685,524 3.827185,805 2.165091,846 3.346732,862 2.711608,875 3.346732}
+{24 1.287798,45 1.115577,48 0.731653,52 1.469655,147 1.99793,152 0.421992,154 3.065685,192 0.781185,331 3.827185,478 3.827185,540 3.827185,561 2.231155,791 3.065685,813 1.684638,836 2.231155,886 3.346732,954 3.827185,955 1.542685}
+{10 0.83453,14 1.750702,29 1.950108,45 1.115577,59 1.786255,63 0.798515,161 0.581779,192 0.781185,221 2.711608,344 2.866279,532 3.346732,614 3.346732,766 2.585232,805 2.165091,855 3.065685,1067 3.346732,1123 3.346732,1129 3.827185,1182 3.827185,1257 3.827185,1311 3.827185,1345 3.827185}
+{10 0.83453,50 1.863351,52 1.469655,69 2.165091,71 1.305802,152 0.421992,269 2.866279,330 3.346732,401 2.304185,548 2.304185,560 1.517477,568 3.827185,682 1.204185,691 1.99793,695 2.585232,710 3.827185,714 2.304185,870 2.585232,978 2.231155}
+{36 0.48602,71 1.305802,161 0.581779,463 1.59603,601 2.478383,672 2.049298,682 1.204185,698 1.905373,784 2.104779,1119 3.827185,1131 3.827185,1183 3.827185}
+{10 0.83453,14 1.750702,36 0.48602,39 1.204185,50 1.863351,54 3.346732,61 0.843834,152 0.421992,240 1.305802,255 3.346732,306 3.827185,317 2.165091,373 3.346732,473 2.104779,515 3.065685,518 3.827185,548 2.304185,562 2.866279,584 3.827185,615 3.346732,766 2.585232,864 3.827185,917 3.827185,962 2.866279}
+{36 0.48602,40 1.446927,61 0.843834,62 2.866279,161 0.581779,316 1.99793,508 1.42492,926 2.866279,1054 3.827185,1068 3.827185,1327 3.827185,1334 3.827185,1342 3.346732,1355 3.827185}
+{11 2.385826,27 1.950108,32 2.711608,36 0.48602,55 2.231155,71 1.305802,147 1.99793,152 0.421992,192 0.781185,199 3.827185,247 3.827185,370 3.827185,437 3.827185,440 3.065685,506 3.827185,596 1.684638,682 1.204185,691 1.99793,827 3.827185,869 2.866279,905 3.827185,912 3.346732,949 1.950108}
+{53 3.346732,71 1.305802,152 0.421992,463 1.59603,499 3.346732,900 3.827185,973 3.827185}
+{4 2.304185,53 3.346732,56 3.346732,57 3.346732,68 3.827185,70 3.827185}
+{10 0.83453,45 1.115577,152 0.421992,203 3.827185,276 3.827185,427 2.385826,450 3.827185,464 2.104779,559 3.827185,560 1.517477,562 2.866279,683 2.304185,725 3.827185,843 3.346732}
+{9 2.304185,10 0.83453,34 2.304185,36 0.48602,39 1.204185,48 0.731653,161 0.581779,192 0.781185,216 2.866279,258 2.866279,268 2.231155,275 3.346732,417 3.346732,438 3.346732,551 1.204185,672 2.049298,691 1.99793,813 1.684638,873 2.478383,1099 3.827185,1124 3.827185,1135 3.827185,1290 3.827185,1304 3.827185}
+{39 1.204185,48 0.731653,59 1.786255,61 0.843834,152 0.421992,236 2.711608,275 3.346732,305 3.827185,384 2.231155,438 3.346732,501 3.346732,539 2.165091,606 3.827185,607 3.827185,658 2.866279,945 2.585232,949 1.950108}
+{24 1.287798,52 1.469655,61 0.843834,161 0.581779,215 1.59603,481 2.385826,560 1.517477,648 3.346732,655 2.585232,821 3.346732,891 2.231155,935 1.99793,941 2.866279,993 3.827185,1035 3.827185,1136 3.827185,1176 3.827185,1358 3.827185}
+{14 1.750702,36 0.48602,63 0.798515,152 0.421992,192 0.781185,210 2.585232,215 1.59603,384 2.231155,497 2.866279,508 1.42492,560 1.517477,574 3.827185,609 3.346732,648 3.346732,655 2.585232,663 3.827185,682 1.204185,703 3.827185,793 3.827185,821 3.346732,887 2.478383}
+{39 1.204185,45 1.115577,151 2.866279,161 0.581779,473 2.104779,536 2.585232,560 1.517477,608 2.231155,695 2.585232,880 1.624326,980 3.827185,982 3.827185,983 3.827185,984 3.827185,995 3.827185,1047 3.827185,1088 3.827185,1181 3.346732}

@@ -1,0 +1,1847 @@
+@relation 'QueryResult-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000000-prune-rate-1.0-C-T-I-N0-L-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-dictionaryC:\\Users\\Boris\\workspace\\MasterThesis\\test'
+
+@attribute level {0,1,2,3}
+@attribute accessible numeric
+@attribute an numeric
+@attribute at numeric
+@attribute behaving numeric
+@attribute candidate numeric
+@attribute choice numeric
+@attribute conservative numeric
+@attribute contribution numeric
+@attribute control numeric
+@attribute conversation numeric
+@attribute could numeric
+@attribute council numeric
+@attribute data numeric
+@attribute everybody numeric
+@attribute expectation numeric
+@attribute family numeric
+@attribute feel numeric
+@attribute follow numeric
+@attribute grounds numeric
+@attribute history numeric
+@attribute home numeric
+@attribute lack numeric
+@attribute little numeric
+@attribute lock numeric
+@attribute medical numeric
+@attribute of numeric
+@attribute offer numeric
+@attribute open numeric
+@attribute option numeric
+@attribute quiet numeric
+@attribute reasonable numeric
+@attribute receive numeric
+@attribute records numeric
+@attribute refuse numeric
+@attribute refused numeric
+@attribute refusing numeric
+@attribute restrain numeric
+@attribute restrained numeric
+@attribute restraining numeric
+@attribute restraints numeric
+@attribute shy numeric
+@attribute silence numeric
+@attribute silent numeric
+@attribute slam numeric
+@attribute slammed numeric
+@attribute slamming numeric
+@attribute support numeric
+@attribute trouble numeric
+@attribute troubled numeric
+@attribute troubling numeric
+@attribute welcome numeric
+@attribute a numeric
+@attribute ability numeric
+@attribute able numeric
+@attribute about numeric
+@attribute access numeric
+@attribute acid numeric
+@attribute act numeric
+@attribute advance numeric
+@attribute advice numeric
+@attribute afd numeric
+@attribute affection numeric
+@attribute afterlife numeric
+@attribute aids numeric
+@attribute alcohol numeric
+@attribute alone numeric
+@attribute amendment numeric
+@attribute amino numeric
+@attribute analysis numeric
+@attribute anatomy numeric
+@attribute and numeric
+@attribute anonymity numeric
+@attribute anonymous numeric
+@attribute anonymously numeric
+@attribute anorexia numeric
+@attribute anthem numeric
+@attribute antichrist numeric
+@attribute antigen numeric
+@attribute antipope numeric
+@attribute appearance numeric
+@attribute are numeric
+@attribute aren#t numeric
+@attribute assimilation numeric
+@attribute atheistic numeric
+@attribute attitudes numeric
+@attribute attractive numeric
+@attribute attrativeness numeric
+@attribute bacteria numeric
+@attribute balanced numeric
+@attribute balances numeric
+@attribute be numeric
+@attribute behavior numeric
+@attribute behaviour numeric
+@attribute belief numeric
+@attribute beliefs numeric
+@attribute believe numeric
+@attribute believing numeric
+@attribute benefit numeric
+@attribute benefits numeric
+@attribute between numeric
+@attribute beyond numeric
+@attribute bible numeric
+@attribute birth numeric
+@attribute birthmark numeric
+@attribute black numeric
+@attribute blacklisted numeric
+@attribute blackmail numeric
+@attribute blocked numeric
+@attribute blood numeric
+@attribute blue numeric
+@attribute boundaries numeric
+@attribute boyfriend numeric
+@attribute breach numeric
+@attribute breached numeric
+@attribute breaches numeric
+@attribute breaching numeric
+@attribute brown numeric
+@attribute buddhism numeric
+@attribute budget numeric
+@attribute bugget numeric
+@attribute bullied numeric
+@attribute bully numeric
+@attribute bullying numeric
+@attribute cabinet numeric
+@attribute can numeric
+@attribute can#t numeric
+@attribute cannot numeric
+@attribute care numeric
+@attribute cdu numeric
+@attribute ceremony numeric
+@attribute certificate numeric
+@attribute challenge numeric
+@attribute challenger numeric
+@attribute checks numeric
+@attribute choices numeric
+@attribute choose numeric
+@attribute chose numeric
+@attribute chromosome numeric
+@attribute citizenship numeric
+@attribute civic numeric
+@attribute clinical numeric
+@attribute close numeric
+@attribute closely numeric
+@attribute closeness numeric
+@attribute coerce numeric
+@attribute collected numeric
+@attribute comment numeric
+@attribute comments numeric
+@attribute commissioner numeric
+@attribute conceal numeric
+@attribute concealment numeric
+@attribute conceals numeric
+@attribute conclave numeric
+@attribute conditions numeric
+@attribute condom numeric
+@attribute confide numeric
+@attribute confided numeric
+@attribute confidence numeric
+@attribute confidential numeric
+@attribute confidentiality numeric
+@attribute congress numeric
+@attribute consent numeric
+@attribute consented numeric
+@attribute consenting numeric
+@attribute constitution numeric
+@attribute contributor numeric
+@attribute cuisine numeric
+@attribute danger numeric
+@attribute dangerous numeric
+@attribute dangers numeric
+@attribute database numeric
+@attribute debate numeric
+@attribute deceit numeric
+@attribute deceitful numeric
+@attribute declaration numeric
+@attribute delegate numeric
+@attribute delete numeric
+@attribute deleted numeric
+@attribute deleting numeric
+@attribute deliberate numeric
+@attribute democracy numeric
+@attribute democratic numeric
+@attribute demonstration numeric
+@attribute details numeric
+@attribute dgb numeric
+@attribute dignified numeric
+@attribute dignity numeric
+@attribute directive numeric
+@attribute disclose numeric
+@attribute disclosed numeric
+@attribute disclosing numeric
+@attribute disclosure numeric
+@attribute discource numeric
+@attribute discreet numeric
+@attribute discreetly numeric
+@attribute disease numeric
+@attribute distress numeric
+@attribute distressed numeric
+@attribute distressing numeric
+@attribute disturb numeric
+@attribute disturbed numeric
+@attribute disturbing numeric
+@attribute dna numeric
+@attribute doctor numeric
+@attribute dogma numeric
+@attribute donation numeric
+@attribute door numeric
+@attribute duty numeric
+@attribute election numeric
+@attribute embarrass numeric
+@attribute embarrassed numeric
+@attribute embarrassing numeric
+@attribute embarrassment numeric
+@attribute emotional numeric
+@attribute emotions numeric
+@attribute employee numeric
+@attribute employment numeric
+@attribute encounter numeric
+@attribute encourage numeric
+@attribute encouragement numeric
+@attribute endanger numeric
+@attribute endangering numeric
+@attribute endorsement numeric
+@attribute ensure numeric
+@attribute ethics numeric
+@attribute everybody#s numeric
+@attribute everyone numeric
+@attribute everyone#s numeric
+@attribute excessive numeric
+@attribute exclude numeric
+@attribute excluding numeric
+@attribute existentialsm numeric
+@attribute expose numeric
+@attribute exposed numeric
+@attribute exposes numeric
+@attribute exposing numeric
+@attribute exposure numeric
+@attribute eye-recognition numeric
+@attribute eyes numeric
+@attribute face-recognition numeric
+@attribute faction numeric
+@attribute fair numeric
+@attribute faith numeric
+@attribute faithful numeric
+@attribute fdp numeric
+@attribute fear numeric
+@attribute federal numeric
+@attribute feelings numeric
+@attribute fight numeric
+@attribute fighting numeric
+@attribute find numeric
+@attribute finger numeric
+@attribute fingerprint numeric
+@attribute flu numeric
+@attribute folk numeric
+@attribute for numeric
+@attribute force numeric
+@attribute forced numeric
+@attribute forcing numeric
+@attribute forgiveness numeric
+@attribute freedom numeric
+@attribute friend numeric
+@attribute friends numeric
+@attribute friendship numeric
+@attribute from numeric
+@attribute front numeric
+@attribute frontman numeric
+@attribute fundamental numeric
+@attribute fundraiser numeric
+@attribute fundraising numeric
+@attribute gait numeric
+@attribute gave numeric
+@attribute gay numeric
+@attribute gene numeric
+@attribute genes numeric
+@attribute genetic numeric
+@attribute genetical numeric
+@attribute genetics numeric
+@attribute geometry numeric
+@attribute germ numeric
+@attribute germs numeric
+@attribute get numeric
+@attribute girlfriend numeric
+@attribute give numeric
+@attribute glas numeric
+@attribute glasses numeric
+@attribute glbt numeric
+@attribute goodness numeric
+@attribute gospel numeric
+@attribute gossip numeric
+@attribute grace numeric
+@attribute green numeric
+@attribute group numeric
+@attribute groups numeric
+@attribute grüne numeric
+@attribute guidance numeric
+@attribute guru numeric
+@attribute hand numeric
+@attribute handshake numeric
+@attribute happiness numeric
+@attribute have numeric
+@attribute he numeric
+@attribute heaven numeric
+@attribute hedonistic numeric
+@attribute helix numeric
+@attribute help numeric
+@attribute hepathitis numeric
+@attribute her numeric
+@attribute heritage numeric
+@attribute hetero numeric
+@attribute heterosexual numeric
+@attribute hid numeric
+@attribute hidden numeric
+@attribute hide numeric
+@attribute hiding numeric
+@attribute him numeric
+@attribute hinduism numeric
+@attribute his numeric
+@attribute historic numeric
+@attribute historical numeric
+@attribute holistic numeric
+@attribute homosexual numeric
+@attribute honest numeric
+@attribute honesty numeric
+@attribute hopsital numeric
+@attribute hospitality numeric
+@attribute identity numeric
+@attribute ig numeric
+@attribute ill numeric
+@attribute illness numeric
+@attribute immigrant numeric
+@attribute immortal numeric
+@attribute immortality numeric
+@attribute in numeric
+@attribute inappropriate numeric
+@attribute individual numeric
+@attribute individual#s numeric
+@attribute individuals numeric
+@attribute information numeric
+@attribute infringe numeric
+@attribute infringed numeric
+@attribute infringement numeric
+@attribute infringements numeric
+@attribute injunction numeric
+@attribute innocence numeric
+@attribute inspecting numeric
+@attribute inspire numeric
+@attribute inspiring numeric
+@attribute interfere numeric
+@attribute interfered numeric
+@attribute interference numeric
+@attribute interfering numeric
+@attribute intrude numeric
+@attribute intrusion numeric
+@attribute intrusive numeric
+@attribute invade numeric
+@attribute invaded numeric
+@attribute invasion numeric
+@attribute invasive numeric
+@attribute involvement numeric
+@attribute iris numeric
+@attribute is numeric
+@attribute isolated numeric
+@attribute isolating numeric
+@attribute it numeric
+@attribute jeopardy numeric
+@attribute jesus numeric
+@attribute judge numeric
+@attribute judged numeric
+@attribute judgement numeric
+@attribute judgemental numeric
+@attribute judgmental numeric
+@attribute juditial numeric
+@attribute karma numeric
+@attribute keen numeric
+@attribute kind numeric
+@attribute kindness numeric
+@attribute knock numeric
+@attribute knocked numeric
+@attribute knocking numeric
+@attribute knowledge numeric
+@attribute koran numeric
+@attribute land numeric
+@attribute law numeric
+@attribute lawful numeric
+@attribute legislature numeric
+@attribute lesbian numeric
+@attribute liberal numeric
+@attribute liberalization numeric
+@attribute liberty numeric
+@attribute lie numeric
+@attribute lied numeric
+@attribute life numeric
+@attribute lifestyle numeric
+@attribute limits numeric
+@attribute linguistics numeric
+@attribute litigation numeric
+@attribute locked numeric
+@attribute logic numeric
+@attribute lonely numeric
+@attribute lot numeric
+@attribute love numeric
+@attribute lover numeric
+@attribute loyal numeric
+@attribute loyality numeric
+@attribute lying numeric
+@attribute mark numeric
+@attribute matriarch numeric
+@attribute me numeric
+@attribute meaningful numeric
+@attribute menaced numeric
+@attribute menacing numeric
+@attribute mental numeric
+@attribute metall numeric
+@attribute metaphysics numeric
+@attribute metrosexual numeric
+@attribute minority numeric
+@attribute modest numeric
+@attribute modesty numeric
+@attribute mole numeric
+@attribute monitor numeric
+@attribute monogamy numeric
+@attribute moral numeric
+@attribute morality numeric
+@attribute morals numeric
+@attribute mortal numeric
+@attribute mortality numeric
+@attribute moslem numeric
+@attribute mutual numeric
+@attribute my numeric
+@attribute nationalism numeric
+@attribute nationality numeric
+@attribute nationwide numeric
+@attribute negotiation numeric
+@attribute nirvana numeric
+@attribute nonbeliever numeric
+@attribute not numeric
+@attribute nun numeric
+@attribute objects numeric
+@attribute obliged numeric
+@attribute occupation numeric
+@attribute occupy numeric
+@attribute offence numeric
+@attribute offense numeric
+@attribute offensive numeric
+@attribute on numeric
+@attribute only numeric
+@attribute openly numeric
+@attribute operation numeric
+@attribute oppose numeric
+@attribute opposition numeric
+@attribute organize numeric
+@attribute ostracised numeric
+@attribute our numeric
+@attribute ourselves numeric
+@attribute ousted numeric
+@attribute over numeric
+@attribute own numeric
+@attribute palm numeric
+@attribute pansexual numeric
+@attribute party numeric
+@attribute pastor numeric
+@attribute patients# numeric
+@attribute patriarch numeric
+@attribute patterns numeric
+@attribute pay numeric
+@attribute person#s numeric
+@attribute personal numeric
+@attribute physical numeric
+@attribute pilgrim numeric
+@attribute pill numeric
+@attribute pimple numeric
+@attribute policy numeric
+@attribute polygamy numeric
+@attribute pool numeric
+@attribute pope numeric
+@attribute pornography numeric
+@attribute positivism numeric
+@attribute possessions numeric
+@attribute post numeric
+@attribute posted numeric
+@attribute posting numeric
+@attribute posts numeric
+@attribute pragmatic numeric
+@attribute pragmatism numeric
+@attribute pregnancy numeric
+@attribute prevent numeric
+@attribute preventing numeric
+@attribute prevents numeric
+@attribute prints numeric
+@attribute problem numeric
+@attribute prophet numeric
+@attribute protect numeric
+@attribute protected numeric
+@attribute protecting numeric
+@attribute protection numeric
+@attribute protects numeric
+@attribute psychology numeric
+@attribute public numeric
+@attribute publication numeric
+@attribute publicise numeric
+@attribute publicity numeric
+@attribute publicize numeric
+@attribute publish numeric
+@attribute published numeric
+@attribute publishes numeric
+@attribute publishing numeric
+@attribute quicky numeric
+@attribute rates numeric
+@attribute recognition numeric
+@attribute referendum numeric
+@attribute regulate numeric
+@attribute regulated numeric
+@attribute regulation numeric
+@attribute regulations numeric
+@attribute regulatory numeric
+@attribute relationship numeric
+@attribute release numeric
+@attribute religion numeric
+@attribute religious numeric
+@attribute report numeric
+@attribute reported numeric
+@attribute reporting numeric
+@attribute reports numeric
+@attribute repression numeric
+@attribute republican numeric
+@attribute reserved numeric
+@attribute resignation numeric
+@attribute restrict numeric
+@attribute restricted numeric
+@attribute restricting numeric
+@attribute restrictions numeric
+@attribute restrictive numeric
+@attribute retina numeric
+@attribute reveal numeric
+@attribute revealing numeric
+@attribute revealling numeric
+@attribute revelation numeric
+@attribute rights numeric
+@attribute ritual numeric
+@attribute runner numeric
+@attribute safe numeric
+@attribute safeguard numeric
+@attribute safeguarding numeric
+@attribute safeguards numeric
+@attribute safety numeric
+@attribute same-sex numeric
+@attribute sample numeric
+@attribute sceptical numeric
+@attribute schizophrenia numeric
+@attribute scrutinised numeric
+@attribute scrutinising numeric
+@attribute scrutinized numeric
+@attribute scrutinizing numeric
+@attribute secluded numeric
+@attribute seclusion numeric
+@attribute secret numeric
+@attribute secretive numeric
+@attribute secretly numeric
+@attribute secrets numeric
+@attribute secure numeric
+@attribute securely numeric
+@attribute security numeric
+@attribute sense numeric
+@attribute sensitive numeric
+@attribute sensitivity numeric
+@attribute separate numeric
+@attribute separated numeric
+@attribute separation numeric
+@attribute sex numeric
+@attribute sexual numeric
+@attribute sexually numeric
+@attribute shuffeling numeric
+@attribute shuffle numeric
+@attribute shut numeric
+@attribute sick numeric
+@attribute sickness numeric
+@attribute skin numeric
+@attribute sniffles numeric
+@attribute snooped numeric
+@attribute snoopers numeric
+@attribute snooping numeric
+@attribute sociological numeric
+@attribute sociology numeric
+@attribute solidarity numeric
+@attribute solitude numeric
+@attribute somebody numeric
+@attribute somebody#s numeric
+@attribute someone numeric
+@attribute someone#s numeric
+@attribute space numeric
+@attribute spam numeric
+@attribute spd numeric
+@attribute spot numeric
+@attribute spy numeric
+@attribute statute numeric
+@attribute std numeric
+@attribute strategy numeric
+@attribute subject numeric
+@attribute subjects numeric
+@attribute supportive numeric
+@attribute suppress numeric
+@attribute suspicion numeric
+@attribute sympathy numeric
+@attribute symptoms numeric
+@attribute tabernacle numeric
+@attribute talmud numeric
+@attribute teeth numeric
+@attribute tenants# numeric
+@attribute termination numeric
+@attribute the numeric
+@attribute their numeric
+@attribute them numeric
+@attribute theologican numeric
+@attribute theology numeric
+@attribute therapy numeric
+@attribute thick numeric
+@attribute this numeric
+@attribute thought numeric
+@attribute threat numeric
+@attribute threatened numeric
+@attribute threatening numeric
+@attribute threats numeric
+@attribute to numeric
+@attribute tooth numeric
+@attribute torah numeric
+@attribute trade numeric
+@attribute transsexual numeric
+@attribute trust numeric
+@attribute trustworthy numeric
+@attribute type numeric
+@attribute types numeric
+@attribute understanding numeric
+@attribute unfair numeric
+@attribute unfairly numeric
+@attribute unioism numeric
+@attribute union numeric
+@attribute unity numeric
+@attribute unlawful numeric
+@attribute unmask numeric
+@attribute unmasking numeric
+@attribute us numeric
+@attribute ver-di numeric
+@attribute veto numeric
+@attribute virus numeric
+@attribute voice numeric
+@attribute war numeric
+@attribute was numeric
+@attribute watched numeric
+@attribute weight numeric
+@attribute welcoming numeric
+@attribute welfare numeric
+@attribute well numeric
+@attribute were numeric
+@attribute will numeric
+@attribute women#s numeric
+@attribute working numeric
+@attribute workplace numeric
+@attribute wrongful numeric
+@attribute yang numeric
+@attribute yin numeric
+@attribute you numeric
+@attribute your numeric
+@attribute accessed numeric
+@attribute activist numeric
+@attribute addict numeric
+@attribute addiction numeric
+@attribute affair numeric
+@attribute afraid numeric
+@attribute african numeric
+@attribute am numeric
+@attribute american numeric
+@attribute anal numeric
+@attribute anti-trust numeric
+@attribute argument numeric
+@attribute arguments numeric
+@attribute asexual numeric
+@attribute asian numeric
+@attribute atheistics numeric
+@attribute authentication numeric
+@attribute avoided numeric
+@attribute avoiding numeric
+@attribute being numeric
+@attribute blacklisting numeric
+@attribute block numeric
+@attribute blocking numeric
+@attribute boundary numeric
+@attribute campaign numeric
+@attribute cancer numeric
+@attribute caucasian numeric
+@attribute charismatic numeric
+@attribute christ numeric
+@attribute christian numeric
+@attribute clinic numeric
+@attribute club numeric
+@attribute coalition numeric
+@attribute colony numeric
+@attribute commenting numeric
+@attribute community numeric
+@attribute concealed numeric
+@attribute concern numeric
+@attribute concerned numeric
+@attribute concerns numeric
+@attribute confession numeric
+@attribute controls numeric
+@attribute cosmology numeric
+@attribute couldn#t numeric
+@attribute criminal numeric
+@attribute degree numeric
+@attribute depression numeric
+@attribute devil numeric
+@attribute discretion numeric
+@attribute drugs numeric
+@attribute employees numeric
+@attribute epistemology numeric
+@attribute ethnicity numeric
+@attribute european numeric
+@attribute excluded numeric
+@attribute exotic numeric
+@attribute false numeric
+@attribute feminism numeric
+@attribute feminist numeric
+@attribute financial numeric
+@attribute foreign numeric
+@attribute foreigner numeric
+@attribute god numeric
+@attribute hacking numeric
+@attribute harassed numeric
+@attribute harassment numeric
+@attribute hebrew numeric
+@attribute hell numeric
+@attribute holy numeric
+@attribute human numeric
+@attribute i numeric
+@attribute illegal numeric
+@attribute immigrants numeric
+@attribute independence numeric
+@attribute independent numeric
+@attribute indignity numeric
+@attribute integration numeric
+@attribute intimate numeric
+@attribute intruded numeric
+@attribute isis numeric
+@attribute islamic numeric
+@attribute isn#t numeric
+@attribute jelaous numeric
+@attribute jelaousy numeric
+@attribute jew numeric
+@attribute jewish numeric
+@attribute kin numeric
+@attribute labour numeric
+@attribute laws numeric
+@attribute legal numeric
+@attribute legitimate numeric
+@attribute lose numeric
+@attribute loss numeric
+@attribute matching numeric
+@attribute medicine numeric
+@attribute mob numeric
+@attribute monitored numeric
+@attribute monitoring numeric
+@attribute nation numeric
+@attribute naughty numeric
+@attribute negative numeric
+@attribute nice numeric
+@attribute nigger numeric
+@attribute no numeric
+@attribute nonbelief numeric
+@attribute offend numeric
+@attribute offended numeric
+@attribute offenders numeric
+@attribute offending numeric
+@attribute opinion numeric
+@attribute orgy numeric
+@attribute ostracized numeric
+@attribute overweight numeric
+@attribute password numeric
+@attribute pattern numeric
+@attribute permission numeric
+@attribute policies numeric
+@attribute political numeric
+@attribute politics numeric
+@attribute positive numeric
+@attribute prayer numeric
+@attribute priest numeric
+@attribute prior numeric
+@attribute privacy numeric
+@attribute private numeric
+@attribute promiscous numeric
+@attribute propaganda numeric
+@attribute property numeric
+@attribute quest numeric
+@attribute rabbi numeric
+@attribute race numeric
+@attribute racial numeric
+@attribute racism numeric
+@attribute re-election numeric
+@attribute respect numeric
+@attribute respected numeric
+@attribute respectful numeric
+@attribute respecting numeric
+@attribute revealed numeric
+@attribute reveals numeric
+@attribute risk numeric
+@attribute risks numeric
+@attribute ruling numeric
+@attribute rumor numeric
+@attribute rumors numeric
+@attribute rumour numeric
+@attribute rumours numeric
+@attribute safely numeric
+@attribute safer numeric
+@attribute safest numeric
+@attribute scent numeric
+@attribute settings numeric
+@attribute sexuality numeric
+@attribute share numeric
+@attribute shared numeric
+@attribute shares numeric
+@attribute sharing numeric
+@attribute she numeric
+@attribute smoke numeric
+@attribute smoking numeric
+@attribute spying numeric
+@attribute stalking numeric
+@attribute strategic numeric
+@attribute suppressed numeric
+@attribute suppressing numeric
+@attribute surveillance numeric
+@attribute surveilled numeric
+@attribute swinger numeric
+@attribute taoism numeric
+@attribute they numeric
+@attribute third numeric
+@attribute track numeric
+@attribute tracked numeric
+@attribute tracking numeric
+@attribute trial numeric
+@attribute uncomfortable numeric
+@attribute violated numeric
+@attribute wonderful numeric
+
+@data
+{0 2,6 2.615425,52 4.308331}
+{0 2,52 4.308331,391 3.827878}
+{0 2,9 2.408525,53 4.788784,624 3.265784}
+{0 2,9 2.408525,54 4.788784,624 3.265784}
+{0 2,56 4.788784}
+{0 3,664 4.788784}
+{0 1,1 4.788784}
+{0 2,59 4.788784,188 4.788784}
+{0 2,47 1.632277,60 4.308331,71 2.585925}
+{0 3,669 4.788784}
+{0 2,66 4.788784}
+{0 2,67 4.788784}
+{0 1,2 4.788784,29 2.82495}
+{0 2,72 4.788784}
+{0 2,73 4.788784}
+{0 2,74 4.788784}
+{0 2,82 4.788784,242 4.027284}
+{0 1,3 3.827878,21 4.308331}
+{0 2,71 2.585925,85 4.308331,92 2.911707}
+{0 2,71 2.585925,85 4.308331,93 2.911707}
+{0 3,681 4.788784}
+{0 3,682 4.788784}
+{0 2,91 3.439982,649 4.027284}
+{0 1,4 4.788784}
+{0 2,26 2.615425,92 2.911707,338 4.308331}
+{0 2,92 2.911707,465 3.827878}
+{0 3,26 2.615425,93 2.911707,338 4.308331}
+{0 2,93 2.911707,465 3.827878}
+{0 3,649 4.027284,683 4.788784}
+{0 2,71 2.585925,92 2.911707,95 4.308331}
+{0 2,71 2.585925,93 2.911707,95 4.308331}
+{0 2,9 2.408525,101 3.192754,226 3.546831}
+{0 2,9 2.408525,101 3.192754,228 3.546831}
+{0 3,9 2.408525,101 3.192754,308 3.192754}
+{0 3,9 2.408525,101 3.192754,318 3.265784}
+{0 3,9 2.408525,101 3.192754,430 3.347425}
+{0 3,9 2.408525,101 3.192754,454 3.265784}
+{0 2,9 2.408525,101 3.192754,588 3.673207}
+{0 2,9 2.408525,101 3.192754,590 3.673207}
+{0 3,9 2.408525,101 3.192754,612 3.192754}
+{0 3,9 2.408525,101 3.192754,663 3.347425}
+{0 2,106 4.788784}
+{0 3,684 4.788784}
+{0 2,107 4.788784}
+{0 3,685 4.788784}
+{0 2,108 4.788784}
+{0 3,686 4.788784}
+{0 2,111 4.788784}
+{0 3,687 4.788784}
+{0 2,113 4.788784}
+{0 2,114 4.788784}
+{0 2,115 4.788784}
+{0 2,116 4.788784}
+{0 2,121 4.788784}
+{0 2,122 4.788784}
+{0 2,123 4.788784}
+{0 2,9 2.408525,125 4.308331}
+{0 2,9 2.408525,125 4.308331,437 4.027284}
+{0 2,9 2.408525,127 4.788784}
+{0 2,9 2.408525,126 4.788784}
+{0 2,47 1.632277,71 2.585925,128 4.308331}
+{0 2,6 2.615425,100 4.308331}
+{0 2,135 4.788784}
+{0 2,136 4.788784}
+{0 2,137 4.788784}
+{0 2,142 4.027284,262 4.308331}
+{0 2,142 4.027284,263 4.308331}
+{0 2,142 4.027284,207 4.788784,611 3.673207}
+{0 2,143 4.788784,649 4.027284}
+{0 2,144 4.788784}
+{0 2,145 4.788784}
+{0 2,146 4.788784}
+{0 2,147 4.788784}
+{0 3,698 4.788784}
+{0 2,148 4.788784}
+{0 3,699 4.788784}
+{0 2,150 4.788784}
+{0 3,700 4.788784}
+{0 2,151 4.788784}
+{0 2,152 4.788784}
+{0 3,701 4.788784}
+{0 3,702 4.788784}
+{0 3,703 4.788784}
+{0 2,156 4.788784}
+{0 2,157 4.788784}
+{0 2,158 4.308331}
+{0 2,159 4.027284}
+{0 3,159 4.027284,339 3.546831}
+{0 2,160 4.308331}
+{0 2,162 4.788784}
+{0 2,163 4.788784}
+{0 2,164 4.788784}
+{0 2,9 2.408525,365 4.788784}
+{0 2,9 2.408525,26 2.615425}
+{0 2,9 2.408525,457 4.788784}
+{0 3,705 4.788784}
+{0 1,10 4.788784}
+{0 1,9 2.408525,11 4.308331}
+{0 2,9 2.408525,11 4.308331,437 4.027284}
+{0 3,9 2.408525,707 4.788784}
+{0 3,708 4.788784}
+{0 2,168 4.788784}
+{0 2,169 4.308331}
+{0 2,170 4.788784}
+{0 1,13 4.788784}
+{0 2,171 4.788784}
+{0 2,173 4.788784}
+{0 2,174 4.788784}
+{0 3,26 2.615425,175 4.308331,539 2.866972}
+{0 3,9 2.408525,26 2.615425,709 4.788784}
+{0 2,177 4.788784}
+{0 2,178 4.788784}
+{0 2,179 4.788784}
+{0 3,182 4.308331,539 2.866972}
+{0 2,184 4.788784}
+{0 2,186 4.788784}
+{0 2,187 4.788784}
+{0 2,189 4.788784}
+{0 2,190 4.788784}
+{0 2,191 4.788784}
+{0 2,192 4.788784}
+{0 2,194 4.788784}
+{0 2,195 4.788784}
+{0 3,712 4.788784}
+{0 2,197 4.788784}
+{0 2,198 4.788784}
+{0 2,199 4.788784}
+{0 2,200 4.788784}
+{0 2,201 4.788784}
+{0 2,202 4.788784}
+{0 2,26 2.615425,160 4.308331,208 4.308331}
+{0 2,210 4.788784}
+{0 2,211 4.788784}
+{0 2,212 4.788784}
+{0 2,213 4.788784}
+{0 2,47 1.632277,214 4.788784}
+{0 2,215 4.788784}
+{0 2,217 4.788784,539 2.866972}
+{0 2,47 1.632277,71 2.585925,219 4.788784}
+{0 2,47 1.632277,71 2.585925,220 4.308331}
+{0 2,221 4.788784}
+{0 2,222 4.788784}
+{0 2,224 4.788784}
+{0 3,6 2.615425,226 3.546831}
+{0 3,226 3.546831,381 3.010896}
+{0 2,29 2.82495,226 3.546831}
+{0 2,6 2.615425,228 3.546831}
+{0 2,228 3.546831,381 3.010896}
+{0 2,29 2.82495,228 3.546831}
+{0 2,230 4.788784}
+{0 3,718 4.788784}
+{0 2,231 4.788784}
+{0 2,233 4.788784}
+{0 2,234 4.788784}
+{0 2,235 4.788784}
+{0 2,236 4.788784}
+{0 2,237 4.788784}
+{0 1,16 4.308331}
+{0 2,16 4.308331,20 4.027284}
+{0 2,246 4.788784}
+{0 1,17 4.788784,51 4.788784}
+{0 2,71 2.585925,92 2.911707,248 4.308331}
+{0 2,71 2.585925,93 2.911707,248 4.308331}
+{0 3,339 3.546831,723 4.788784}
+{0 2,47 1.632277,251 4.788784}
+{0 1,14 3.827878,18 3.12669}
+{0 2,18 3.12669,227 3.827878}
+{0 2,18 3.12669,308 3.192754}
+{0 2,18 3.12669,316 3.673207}
+{0 2,18 3.12669,409 3.827878}
+{0 2,18 3.12669,454 3.265784}
+{0 2,18 3.12669,587 3.673207}
+{0 2,18 3.12669,589 3.673207}
+{0 2,18 3.12669,613 3.673207}
+{0 2,18 3.12669,642 3.673207}
+{0 2,18 3.12669,662 3.439982}
+{0 2,47 1.632277,226 3.546831,256 3.192754}
+{0 2,47 1.632277,228 3.546831,256 3.192754}
+{0 2,47 1.632277,256 3.192754,308 3.192754}
+{0 2,47 1.632277,256 3.192754,318 3.265784}
+{0 2,47 1.632277,256 3.192754,430 3.347425}
+{0 2,47 1.632277,256 3.192754,454 3.265784}
+{0 2,47 1.632277,256 3.192754,588 3.673207}
+{0 2,47 1.632277,256 3.192754,590 3.673207}
+{0 2,47 1.632277,256 3.192754,612 3.192754}
+{0 2,47 1.632277,256 3.192754,663 3.347425}
+{0 2,257 4.788784}
+{0 2,258 4.788784}
+{0 2,259 4.788784}
+{0 2,261 3.827878}
+{0 2,26 2.615425,261 3.827878}
+{0 2,6 2.615425,26 2.615425,261 3.827878}
+{0 2,262 4.308331}
+{0 2,263 4.308331}
+{0 2,264 4.308331}
+{0 2,14 3.827878,47 1.632277,272 2.866972}
+{0 2,47 1.632277,227 3.827878,272 2.866972}
+{0 2,47 1.632277,272 2.866972,308 3.192754}
+{0 2,47 1.632277,272 2.866972,316 3.673207}
+{0 2,47 1.632277,272 2.866972,318 3.265784}
+{0 2,47 1.632277,272 2.866972,409 3.827878}
+{0 2,47 1.632277,272 2.866972,430 3.347425}
+{0 3,47 1.632277,272 2.866972,454 3.265784}
+{0 2,47 1.632277,272 2.866972,587 3.673207}
+{0 2,47 1.632277,272 2.866972,589 3.673207}
+{0 2,47 1.632277,272 2.866972}
+{0 3,47 1.632277,272 2.866972,612 3.192754}
+{0 2,47 1.632277,272 2.866972,613 3.673207}
+{0 3,47 1.632277,272 2.866972,642 3.673207}
+{0 2,47 1.632277,272 2.866972,662 3.439982}
+{0 2,47 1.632277,272 2.866972,663 3.347425}
+{0 2,273 4.308331,539 2.866972}
+{0 2,47 1.632277,226 3.546831,282 2.82495}
+{0 2,47 1.632277,228 3.546831,282 2.82495}
+{0 2,47 1.632277,282 2.82495,308 3.192754}
+{0 2,47 1.632277,282 2.82495,316 3.673207}
+{0 2,47 1.632277,282 2.82495,318 3.265784}
+{0 2,47 1.632277,282 2.82495,409 3.827878}
+{0 2,47 1.632277,282 2.82495,430 3.347425}
+{0 2,47 1.632277,282 2.82495,454 3.265784}
+{0 2,47 1.632277,282 2.82495,455 4.788784}
+{0 2,47 1.632277,282 2.82495,587 3.673207}
+{0 2,47 1.632277,282 2.82495,589 3.673207}
+{0 2,47 1.632277,282 2.82495,611 3.673207}
+{0 2,47 1.632277,282 2.82495,612 3.192754}
+{0 2,47 1.632277,282 2.82495,613 3.673207}
+{0 2,47 1.632277,282 2.82495,642 3.673207}
+{0 2,47 1.632277,282 2.82495,663 3.347425}
+{0 2,14 3.827878,47 1.632277,284 2.866972}
+{0 2,47 1.632277,227 3.827878,284 2.866972}
+{0 2,47 1.632277,284 2.866972,308 3.192754}
+{0 2,47 1.632277,284 2.866972,316 3.673207}
+{0 2,47 1.632277,284 2.866972,318 3.265784}
+{0 2,47 1.632277,284 2.866972,409 3.827878}
+{0 2,47 1.632277,284 2.866972,430 3.347425}
+{0 2,47 1.632277,284 2.866972,454 3.265784}
+{0 2,47 1.632277,284 2.866972,587 3.673207}
+{0 2,47 1.632277,284 2.866972,589 3.673207}
+{0 2,47 1.632277,284 2.866972}
+{0 2,47 1.632277,284 2.866972,612 3.192754}
+{0 2,47 1.632277,284 2.866972,613 3.673207}
+{0 2,47 1.632277,284 2.866972,642 3.673207}
+{0 2,47 1.632277,284 2.866972,662 3.439982}
+{0 2,47 1.632277,284 2.866972,663 3.347425}
+{0 2,290 4.788784}
+{0 2,293 4.027284}
+{0 2,294 4.308331}
+{0 3,727 4.788784}
+{0 3,728 4.788784}
+{0 3,729 4.788784}
+{0 2,6 2.615425,301 4.308331}
+{0 2,9 2.408525,301 4.308331}
+{0 2,302 4.027284,362 4.308331,406 2.82495}
+{0 2,302 4.027284,406 2.82495,648 4.027284}
+{0 2,91 3.439982,302 4.027284,406 2.82495,655 3.673207}
+{0 2,47 1.632277,71 2.585925,306 4.308331}
+{0 2,6 2.615425,308 3.192754}
+{0 2,308 3.192754,381 3.010896}
+{0 2,29 2.82495,308 3.192754}
+{0 2,312 4.788784}
+{0 2,313 4.788784}
+{0 2,314 4.788784}
+{0 2,315 4.788784}
+{0 2,6 2.615425,318 3.265784}
+{0 2,318 3.265784,381 3.010896}
+{0 2,29 2.82495,318 3.265784}
+{0 3,539 2.866972,733 4.788784}
+{0 3,406 2.82495,671 4.788784,734 4.027284}
+{0 3,406 2.82495,648 4.027284,734 4.027284}
+{0 3,91 3.439982,406 2.82495,655 3.673207,734 4.027284}
+{0 2,327 4.788784}
+{0 3,735 4.788784}
+{0 2,9 2.408525,334 4.308331}
+{0 3,334 4.308331,557 4.308331}
+{0 3,739 4.788784}
+{0 2,6 2.615425,336 4.308331}
+{0 2,336 4.308331,539 2.866972}
+{0 2,92 2.911707,337 4.308331}
+{0 2,93 2.911707,337 4.308331}
+{0 2,149 4.788784,339 3.546831}
+{0 2,340 4.788784}
+{0 2,341 4.788784}
+{0 2,342 4.788784}
+{0 2,343 4.788784}
+{0 2,344 4.788784}
+{0 2,346 4.788784}
+{0 2,349 4.788784}
+{0 2,350 4.788784}
+{0 2,351 4.788784}
+{0 2,352 4.788784}
+{0 3,741 4.788784}
+{0 2,353 4.788784}
+{0 3,742 4.788784}
+{0 2,354 4.788784}
+{0 2,355 4.788784}
+{0 2,356 4.788784}
+{0 2,357 4.788784}
+{0 2,358 4.788784}
+{0 2,359 4.788784}
+{0 3,242 4.027284,745 4.788784}
+{0 2,363 4.788784}
+{0 2,364 4.788784}
+{0 2,368 4.308331}
+{0 2,369 4.788784}
+{0 2,371 4.788784}
+{0 2,372 4.788784}
+{0 3,3 3.827878,378 4.308331}
+{0 2,378 4.308331,446 4.027284}
+{0 2,3 3.827878,379 4.308331}
+{0 2,379 4.308331,446 4.027284}
+{0 2,3 3.827878,380 4.308331}
+{0 2,380 4.308331,446 4.027284}
+{0 1,6 2.615425,22 4.308331,26 2.615425}
+{0 3,9 2.408525,22 4.308331,26 2.615425}
+{0 2,383 4.788784,539 2.866972}
+{0 3,384 4.027284}
+{0 2,385 4.788784}
+{0 3,539 2.866972,753 4.788784}
+{0 3,754 4.788784}
+{0 2,390 4.788784}
+{0 3,55 4.027284,391 3.827878}
+{0 2,391 3.827878,624 3.265784}
+{0 2,55 4.027284,392 4.308331}
+{0 2,392 4.308331,624 3.265784}
+{0 2,6 2.615425,394 4.788784}
+{0 2,395 4.788784}
+{0 1,6 2.615425,23 4.788784}
+{0 1,24 4.788784}
+{0 2,398 4.788784}
+{0 2,400 4.788784}
+{0 3,9 2.408525,755 4.788784}
+{0 3,9 2.408525,26 2.615425,756 4.788784}
+{0 2,26 2.615425,47 1.632277,401 4.788784}
+{0 3,55 4.027284,406 2.82495}
+{0 2,406 2.82495,624 3.265784}
+{0 1,20 4.027284,25 4.027284}
+{0 1,25 4.027284,33 4.788784}
+{0 2,411 4.788784}
+{0 2,412 4.788784}
+{0 2,417 4.788784,539 2.866972}
+{0 2,418 4.788784}
+{0 2,419 4.788784}
+{0 3,760 4.788784}
+{0 3,761 4.788784}
+{0 2,47 1.632277,423 4.027284}
+{0 2,47 1.632277,429 4.788784}
+{0 2,6 2.615425,430 3.347425}
+{0 2,381 3.010896,430 3.347425}
+{0 2,29 2.82495,430 3.347425}
+{0 3,6 2.615425,767 3.827878}
+{0 3,9 2.408525,767 3.827878}
+{0 3,381 3.010896,767 3.827878}
+{0 3,29 2.82495,767 3.827878}
+{0 2,242 4.027284,437 4.027284}
+{0 2,440 4.788784}
+{0 2,443 4.788784}
+{0 3,769 4.788784}
+{0 3,770 4.788784}
+{0 3,771 4.788784}
+{0 3,772 4.788784}
+{0 2,444 4.788784}
+{0 2,445 4.788784}
+{0 1,27 4.788784,47 1.632277}
+{0 2,6 2.615425,447 4.308331}
+{0 2,29 2.82495,447 4.308331}
+{0 1,28 4.788784}
+{0 2,448 4.788784}
+{0 2,26 2.615425,29 2.82495}
+{0 2,29 2.82495,624 3.265784}
+{0 2,453 4.788784}
+{0 3,775 4.788784}
+{0 2,6 2.615425,454 3.265784}
+{0 2,381 3.010896,454 3.265784}
+{0 2,29 2.82495,454 3.265784}
+{0 2,456 4.788784}
+{0 3,92 2.911707,458 3.439982}
+{0 2,93 2.911707,458 3.439982}
+{0 2,6 2.615425,458 3.439982}
+{0 2,21 4.308331,458 3.439982}
+{0 2,381 3.010896,458 3.439982}
+{0 2,458 3.439982,591 4.308331}
+{0 3,777 4.788784}
+{0 2,463 4.788784,539 2.866972}
+{0 3,26 2.615425,92 2.911707,778 4.308331}
+{0 3,26 2.615425,93 2.911707,778 4.308331}
+{0 3,26 2.615425,92 2.911707,465 3.827878}
+{0 3,26 2.615425,93 2.911707,465 3.827878}
+{0 3,779 4.788784}
+{0 2,468 3.673207}
+{0 2,6 2.615425,468 3.673207}
+{0 2,339 3.546831,468 3.673207}
+{0 2,468 3.673207,479 4.788784}
+{0 2,468 3.673207,591 4.308331}
+{0 2,92 2.911707,467 4.308331}
+{0 2,93 2.911707,467 4.308331}
+{0 2,473 4.308331}
+{0 2,480 4.788784}
+{0 2,481 4.788784}
+{0 2,482 4.788784}
+{0 2,483 4.788784}
+{0 2,487 4.788784}
+{0 2,488 4.788784}
+{0 2,489 4.788784}
+{0 3,381 3.010896,786 4.788784}
+{0 3,787 3.827878}
+{0 3,384 4.027284,787 3.827878}
+{0 3,752 4.788784,787 3.827878}
+{0 3,787 3.827878,815 4.788784}
+{0 3,788 4.308331}
+{0 3,339 3.546831,788 4.308331}
+{0 2,92 2.911707,491 4.308331}
+{0 2,93 2.911707,491 4.308331}
+{0 3,539 2.866972,791 4.788784}
+{0 2,493 4.788784}
+{0 2,494 4.788784}
+{0 2,495 4.788784}
+{0 2,58 4.788784,496 4.308331}
+{0 2,384 4.027284,496 4.308331}
+{0 2,497 4.788784}
+{0 2,499 4.308331}
+{0 2,393 4.308331,499 4.308331}
+{0 2,500 4.788784}
+{0 2,501 4.788784}
+{0 2,502 4.788784}
+{0 2,503 4.788784}
+{0 2,504 4.788784}
+{0 2,505 4.788784}
+{0 2,506 4.788784}
+{0 2,507 4.788784}
+{0 1,30 4.788784}
+{0 1,31 3.827878}
+{0 1,15 4.788784,31 3.827878}
+{0 1,19 4.788784,31 3.827878}
+{0 2,31 3.827878,603 4.788784}
+{0 1,32 4.788784,47 1.632277}
+{0 1,34 4.788784}
+{0 1,35 4.788784}
+{0 1,36 4.788784}
+{0 2,512 4.788784}
+{0 2,513 4.788784}
+{0 2,514 4.308331}
+{0 2,515 4.788784}
+{0 2,517 4.788784}
+{0 2,518 4.788784}
+{0 2,521 4.788784}
+{0 2,522 4.788784}
+{0 2,523 4.788784}
+{0 2,524 4.788784}
+{0 2,527 4.788784}
+{0 3,798 4.788784}
+{0 3,799 4.788784}
+{0 3,800 4.788784}
+{0 3,801 4.788784}
+{0 1,37 4.788784}
+{0 1,38 4.788784}
+{0 1,39 4.788784}
+{0 1,40 4.788784}
+{0 2,529 4.788784}
+{0 2,530 4.788784}
+{0 2,531 4.788784}
+{0 2,532 4.788784}
+{0 2,533 4.788784}
+{0 3,535 4.308331}
+{0 3,802 4.788784}
+{0 3,536 4.308331}
+{0 3,803 4.788784}
+{0 2,538 4.788784}
+{0 3,804 4.788784}
+{0 3,805 4.788784}
+{0 3,806 4.788784}
+{0 3,807 4.788784}
+{0 3,808 4.788784}
+{0 3,809 4.788784}
+{0 3,810 4.788784}
+{0 2,542 4.788784}
+{0 2,543 4.788784}
+{0 2,544 4.788784}
+{0 2,545 4.788784}
+{0 3,811 4.788784}
+{0 3,812 4.788784}
+{0 3,813 4.788784}
+{0 3,546 4.308331}
+{0 2,551 4.788784}
+{0 2,552 4.788784}
+{0 2,553 4.788784}
+{0 2,554 4.788784}
+{0 2,555 4.788784}
+{0 2,556 4.788784}
+{0 2,557 4.308331}
+{0 2,558 4.788784}
+{0 2,559 4.788784}
+{0 2,560 4.788784}
+{0 2,561 4.788784}
+{0 2,562 4.788784}
+{0 2,563 4.788784}
+{0 2,9 2.408525,26 2.615425,564 4.788784}
+{0 2,565 4.308331}
+{0 2,339 3.546831,565 4.308331}
+{0 2,566 4.788784}
+{0 2,567 4.788784}
+{0 2,568 4.788784}
+{0 2,569 4.788784}
+{0 2,393 4.308331,570 4.308331}
+{0 3,92 2.911707,571 3.827878}
+{0 3,93 2.911707,571 3.827878}
+{0 3,20 4.027284,571 3.827878}
+{0 3,816 4.788784}
+{0 3,817 4.788784}
+{0 3,818 4.788784}
+{0 3,819 4.788784}
+{0 3,820 4.788784}
+{0 3,362 4.308331,406 2.82495,821 4.027284}
+{0 3,406 2.82495,648 4.027284,821 4.027284}
+{0 3,91 3.439982,406 2.82495,655 3.673207,821 4.027284}
+{0 2,575 4.788784}
+{0 1,41 4.788784}
+{0 1,42 4.788784}
+{0 1,43 4.788784}
+{0 1,44 4.788784}
+{0 1,45 4.788784}
+{0 1,46 4.788784}
+{0 2,580 4.788784}
+{0 2,581 4.788784}
+{0 2,582 4.788784}
+{0 2,586 4.788784}
+{0 2,6 2.615425,588 3.673207}
+{0 2,381 3.010896,588 3.673207}
+{0 2,29 2.82495,588 3.673207}
+{0 2,6 2.615425,590 3.673207}
+{0 2,381 3.010896,590 3.673207}
+{0 2,29 2.82495,590 3.673207}
+{0 2,592 4.788784}
+{0 2,595 4.788784}
+{0 3,824 4.788784}
+{0 3,825 4.788784}
+{0 2,596 4.308331}
+{0 2,47 1.632277,60 4.308331,71 2.585925}
+{0 2,47 1.632277,62 4.788784,71 2.585925}
+{0 2,47 1.632277,71 2.585925,128 4.308331}
+{0 2,47 1.632277,71 2.585925,220 4.308331}
+{0 2,47 1.632277,71 2.585925,264 4.308331}
+{0 2,47 1.632277,71 2.585925,296 4.788784}
+{0 2,47 1.632277,71 2.585925,306 4.308331}
+{0 2,47 1.632277,71 2.585925,585 4.788784}
+{0 2,47 1.632277,71 2.585925,604 4.788784}
+{0 2,47 1.632277,71 2.585925,633 4.788784}
+{0 3,47 1.632277,100 4.308331,750 4.788784}
+{0 2,14 3.827878,47 1.632277}
+{0 2,47 1.632277,227 3.827878}
+{0 2,47 1.632277,265 4.788784}
+{0 2,47 1.632277,293 4.027284}
+{0 2,47 1.632277,294 4.308331}
+{0 2,47 1.632277,308 3.192754}
+{0 2,47 1.632277,316 3.673207}
+{0 2,47 1.632277,318 3.265784}
+{0 2,47 1.632277,587 3.673207}
+{0 2,47 1.632277,589 3.673207}
+{0 2,47 1.632277,612 3.192754}
+{0 2,47 1.632277,613 3.673207}
+{0 2,47 1.632277,642 3.673207}
+{0 2,47 1.632277,662 3.439982}
+{0 2,601 4.788784}
+{0 2,602 4.788784}
+{0 3,827 4.788784}
+{0 3,828 4.788784}
+{0 3,829 4.788784}
+{0 3,830 4.788784}
+{0 2,539 2.866972,609 4.788784}
+{0 2,6 2.615425,611 3.673207}
+{0 2,29 2.82495,611 3.673207}
+{0 2,6 2.615425,612 3.192754}
+{0 2,381 3.010896,612 3.192754}
+{0 2,29 2.82495,612 3.192754}
+{0 2,458 3.439982,612 3.192754}
+{0 3,81 4.308331,406 2.82495,833 4.027284}
+{0 3,406 2.82495,654 4.308331,833 4.027284}
+{0 3,91 3.439982,406 2.82495,655 3.673207,833 4.027284}
+{0 3,461 4.308331,539 2.866972,834 4.788784}
+{0 2,29 2.82495,618 4.788784}
+{0 2,71 2.585925,92 2.911707,619 4.308331}
+{0 2,71 2.585925,93 2.911707,619 4.308331}
+{0 2,620 4.788784}
+{0 2,621 4.788784}
+{0 2,622 4.788784}
+{0 2,623 4.788784}
+{0 2,9 2.408525,624 3.265784}
+{0 3,391 3.827878,624 3.265784}
+{0 2,421 4.788784,624 3.265784}
+{0 3,835 4.788784}
+{0 3,836 4.788784}
+{0 3,837 4.788784}
+{0 1,48 4.788784}
+{0 1,49 4.788784}
+{0 1,50 4.788784}
+{0 2,629 4.308331}
+{0 2,630 4.308331}
+{0 2,26 2.615425,92 2.911707,631 4.308331}
+{0 2,26 2.615425,93 2.911707,631 4.308331}
+{0 2,26 2.615425,92 2.911707,632 4.308331}
+{0 2,26 2.615425,93 2.911707,632 4.308331}
+{0 3,839 4.788784}
+{0 2,634 4.788784}
+{0 2,635 4.788784}
+{0 2,639 4.788784}
+{0 2,640 4.788784}
+{0 2,641 4.788784}
+{0 3,840 4.788784}
+{0 2,651 4.788784}
+{0 2,539 2.866972,652 4.788784}
+{0 2,539 2.866972,656 4.788784}
+{0 2,81 4.308331,406 2.82495,662 3.439982}
+{0 2,406 2.82495,654 4.308331,662 3.439982}
+{0 2,91 3.439982,406 2.82495,655 3.673207,662 3.439982}
+{0 2,6 2.615425,663 3.347425}
+{0 2,381 3.010896,663 3.347425}
+{0 2,29 2.82495,663 3.347425}
+{0 3,665 4.788784}
+{0 2,61 4.788784}
+{0 2,76 4.788784}
+{0 3,674 4.788784}
+{0 3,675 4.788784}
+{0 3,676 4.788784}
+{0 2,89 4.788784,119 4.788784}
+{0 2,120 4.788784}
+{0 2,124 4.788784}
+{0 3,688 4.788784}
+{0 1,5 4.788784}
+{0 2,129 4.788784}
+{0 2,132 4.788784}
+{0 2,133 4.788784}
+{0 3,691 4.788784}
+{0 2,71 2.585925,90 4.788784,134 4.788784}
+{0 2,140 4.788784}
+{0 3,696 4.788784}
+{0 3,158 4.308331}
+{0 3,159 4.027284}
+{0 2,161 4.788784}
+{0 1,7 4.788784}
+{0 2,165 4.788784}
+{0 1,8 4.788784}
+{0 2,166 4.788784}
+{0 1,12 4.788784}
+{0 2,172 4.788784}
+{0 2,175 4.308331}
+{0 2,176 4.788784}
+{0 2,180 4.788784}
+{0 2,181 4.788784}
+{0 2,182 4.308331}
+{0 2,193 4.788784}
+{0 2,205 4.788784}
+{0 2,206 4.788784}
+{0 2,208 4.308331}
+{0 2,209 4.788784}
+{0 2,223 4.788784}
+{0 2,229 4.788784}
+{0 2,241 4.788784}
+{0 2,245 4.788784}
+{0 2,247 4.788784}
+{0 3,261 3.827878}
+{0 2,266 4.788784,541 4.788784}
+{0 2,268 4.788784}
+{0 2,269 4.788784}
+{0 2,270 4.788784}
+{0 2,292 4.027284,461 4.308331}
+{0 2,295 4.788784}
+{0 2,299 4.788784}
+{0 2,319 4.788784}
+{0 2,320 4.788784}
+{0 2,323 4.788784}
+{0 2,324 4.788784}
+{0 2,331 4.788784}
+{0 3,736 4.788784}
+{0 3,737 4.788784}
+{0 3,738 4.788784}
+{0 2,348 4.788784}
+{0 2,347 4.788784}
+{0 2,360 4.788784}
+{0 2,366 4.788784}
+{0 2,368 4.308331}
+{0 2,373 4.788784}
+{0 2,375 4.788784}
+{0 2,386 4.788784}
+{0 2,388 4.788784}
+{0 2,389 4.788784}
+{0 2,397 4.788784}
+{0 2,410 4.788784}
+{0 2,431 4.308331}
+{0 2,432 4.308331}
+{0 2,433 4.788784}
+{0 2,439 4.788784}
+{0 3,773 4.788784}
+{0 3,790 4.308331}
+{0 3,797 4.788784}
+{0 2,511 4.788784}
+{0 2,514 4.308331}
+{0 2,516 4.788784}
+{0 2,526 4.788784}
+{0 2,528 4.788784}
+{0 2,535 4.308331}
+{0 2,537 4.788784}
+{0 2,573 4.788784}
+{0 2,574 4.788784}
+{0 2,593 4.788784}
+{0 2,596 4.308331}
+{0 3,826 4.788784}
+{0 2,598 4.788784}
+{0 2,599 4.788784}
+{0 2,600 4.788784}
+{0 3,838 4.788784}
+{0 3,629 4.308331}
+{0 3,630 4.308331}
+{0 2,638 4.788784}
+{0 2,644 4.788784}
+{0 3,670 4.788784}
+{0 3,672 4.788784}
+{0 3,678 4.788784}
+{0 2,83 4.788784}
+{0 3,105 4.308331}
+{0 3,690 4.788784}
+{0 2,139 4.788784}
+{0 3,697 4.788784}
+{0 3,716 4.788784}
+{0 3,717 4.788784}
+{0 3,719 4.788784}
+{0 2,255 4.788784}
+{0 3,724 4.788784}
+{0 3,725 4.788784}
+{0 2,274 4.788784,475 4.788784}
+{0 2,309 4.788784}
+{0 3,740 4.788784}
+{0 3,746 4.788784}
+{0 3,747 4.788784}
+{0 3,749 4.308331}
+{0 2,370 4.788784}
+{0 2,376 4.788784}
+{0 2,377 4.788784}
+{0 2,404 4.788784}
+{0 2,405 4.788784}
+{0 2,423 4.027284}
+{0 2,425 4.788784}
+{0 3,762 4.788784}
+{0 3,431 4.308331}
+{0 3,432 4.308331}
+{0 3,766 4.788784}
+{0 3,790 4.308331}
+{0 3,794 4.788784}
+{0 3,795 4.788784}
+{0 3,796 4.788784}
+{0 2,525 4.788784}
+{0 2,167 4.788784,540 4.788784}
+{0 2,63 4.788784}
+{0 2,77 4.788784}
+{0 2,79 4.788784}
+{0 2,84 4.308331}
+{0 2,94 4.788784}
+{0 2,96 4.788784}
+{0 2,97 4.788784}
+{0 2,98 4.308331}
+{0 2,99 4.308331}
+{0 2,102 4.788784}
+{0 2,118 4.788784}
+{0 2,130 4.788784}
+{0 3,692 4.788784}
+{0 3,693 4.788784}
+{0 2,153 4.788784}
+{0 3,704 4.788784}
+{0 3,711 4.788784}
+{0 2,243 4.788784}
+{0 2,244 4.788784}
+{0 2,260 4.788784}
+{0 3,726 4.788784}
+{0 2,288 4.788784}
+{0 2,289 4.788784}
+{0 2,291 4.788784}
+{0 2,297 4.788784}
+{0 2,303 4.788784}
+{0 3,730 4.788784}
+{0 3,731 4.788784}
+{0 2,317 4.788784}
+{0 2,321 4.788784}
+{0 3,732 4.788784}
+{0 2,332 4.788784}
+{0 2,333 4.788784}
+{0 3,743 4.788784}
+{0 3,744 4.788784}
+{0 2,367 4.788784}
+{0 3,748 4.788784}
+{0 3,749 4.308331}
+{0 2,374 4.788784}
+{0 2,382 4.788784}
+{0 2,408 4.788784}
+{0 2,428 4.788784}
+{0 3,768 4.788784}
+{0 2,436 4.788784}
+{0 2,438 4.788784}
+{0 2,462 4.788784}
+{0 2,464 4.788784}
+{0 2,470 4.788784}
+{0 2,476 4.788784}
+{0 3,784 4.788784}
+{0 3,785 4.788784}
+{0 2,492 4.788784}
+{0 3,792 4.788784}
+{0 3,793 4.788784}
+{0 2,520 4.308331,647 4.788784}
+{0 2,519 4.788784}
+{0 2,520 4.308331}
+{0 2,606 4.788784}
+{0 2,607 4.788784}
+{0 3,832 4.788784}
+{0 2,614 4.788784}
+{0 2,615 4.788784}
+{0 2,626 4.788784}
+{0 2,660 4.788784}
+{0 2,661 4.788784}
+{0 3,84 4.308331}
+{0 3,679 4.788784}
+{0 3,706 4.788784}
+{0 3,715 4.788784}
+{0 2,225 4.788784}
+{0 2,232 4.788784}
+{0 3,721 4.788784}
+{0 3,722 4.788784}
+{0 2,300 4.788784}
+{0 2,304 4.788784}
+{0 2,396 4.788784}
+{0 2,399 4.788784}
+{0 2,415 4.788784}
+{0 2,423 4.027284}
+{0 2,424 4.788784}
+{0 2,426 4.788784}
+{0 2,427 4.788784}
+{0 2,435 4.788784}
+{0 2,478 4.788784}
+{0 2,484 4.788784}
+{0 2,485 4.788784}
+{0 2,549 4.788784}
+{0 2,583 4.788784}
+{0 2,584 4.788784}
+{0 2,57 4.788784,68 4.788784}
+{0 2,78 4.788784}
+{0 2,105 4.308331,239 3.265784}
+{0 2,109 4.308331,293 4.027284}
+{0 2,109 4.308331,548 4.788784}
+{0 2,110 4.308331,239 3.265784}
+{0 2,117 4.308331,239 3.265784}
+{0 2,138 4.788784}
+{0 2,252 4.788784,490 4.788784}
+{0 2,253 4.308331}
+{0 2,275 4.788784}
+{0 2,276 4.788784}
+{0 2,277 4.788784}
+{0 2,278 4.788784}
+{0 2,285 4.788784}
+{0 2,286 4.788784}
+{0 3,239 3.265784,292 4.027284}
+{0 2,305 4.788784}
+{0 3,361 4.027284}
+{0 3,239 3.265784,765 4.788784}
+{0 3,239 3.265784,841 4.788784}
+{0 2,98 4.308331}
+{0 2,99 4.308331}
+{0 2,183 4.788784}
+{0 2,185 4.788784}
+{0 2,216 4.308331}
+{0 2,216 4.308331,539 2.866972}
+{0 3,714 4.788784}
+{0 2,249 4.788784}
+{0 2,250 4.788784}
+{0 2,328 4.788784,414 4.788784}
+{0 3,751 4.788784}
+{0 3,759 4.788784}
+{0 2,434 4.788784}
+{0 2,441 4.788784}
+{0 2,442 4.788784}
+{0 2,450 4.788784}
+{0 2,451 4.788784}
+{0 2,452 4.788784}
+{0 3,780 4.788784}
+{0 3,473 4.308331}
+{0 3,781 4.788784}
+{0 3,782 4.788784}
+{0 2,26 2.615425,466 4.788784,509 4.788784}
+{0 2,610 4.308331}
+{0 2,627 4.788784,637 4.308331}
+{0 2,636 4.788784}
+{0 2,267 4.788784,637 4.308331}
+{0 2,643 4.788784}
+{0 2,154 4.788784,657 4.788784}
+{0 2,546 4.308331,658 4.788784}
+{0 2,610 4.308331,659 4.788784}
+{0 3,680 4.788784}
+{0 2,103 4.788784,407 4.788784}
+{0 2,104 4.788784}
+{0 2,110 4.308331,239 3.265784}
+{0 2,117 4.308331,239 3.265784}
+{0 2,203 4.788784}
+{0 2,238 4.788784}
+{0 2,240 4.788784}
+{0 3,720 4.308331,764 4.788784}
+{0 3,720 4.308331,783 4.788784}
+{0 2,253 4.308331}
+{0 2,69 4.788784,271 4.788784}
+{0 2,239 3.265784,292 4.027284}
+{0 2,279 4.308331,298 4.788784}
+{0 2,361 4.027284}
+{0 2,361 4.027284,510 4.308331}
+{0 3,757 4.788784}
+{0 2,420 4.788784}
+{0 2,279 4.308331,459 4.788784}
+{0 2,472 4.788784}
+{0 2,534 4.788784}
+{0 3,814 4.788784}
+{0 2,578 4.308331,594 4.788784}
+{0 2,578 4.308331,617 4.788784}
+{0 2,510 4.308331,646 4.788784}
+{0 3,668 4.788784}
+{0 3,673 4.788784}
+{0 3,677 4.788784}
+{0 2,86 4.788784}
+{0 2,87 4.788784}
+{0 2,112 4.788784}
+{0 2,155 4.788784}
+{0 2,218 4.788784}
+{0 2,273 4.308331}
+{0 2,283 4.788784}
+{0 2,287 4.788784}
+{0 2,310 4.788784}
+{0 2,311 4.788784}
+{0 2,322 4.788784}
+{0 2,335 4.788784}
+{0 2,345 4.788784}
+{0 2,387 4.788784}
+{0 2,402 4.788784}
+{0 2,403 4.788784}
+{0 2,416 4.788784}
+{0 2,422 4.788784}
+{0 3,763 4.788784}
+{0 3,774 4.788784}
+{0 2,460 4.788784}
+{0 2,80 4.788784,469 4.788784}
+{0 2,474 4.788784}
+{0 2,477 4.788784}
+{0 3,789 4.788784}
+{0 2,508 4.788784}
+{0 2,536 4.308331}
+{0 2,547 4.788784}
+{0 2,570 4.308331}
+{0 2,571 3.827878}
+{0 2,572 4.788784}
+{0 3,831 4.308331}
+{0 3,695 4.788784,831 4.308331}
+{0 2,471 4.788784,611 3.673207}
+{0 2,628 4.788784}
+{0 3,666 4.788784}
+{0 3,667 4.788784}
+{0 2,64 4.788784}
+{0 2,65 4.788784}
+{0 2,70 4.788784}
+{0 2,75 4.788784}
+{0 2,88 4.788784}
+{0 2,91 3.439982,576 3.827878}
+{0 3,689 4.788784}
+{0 3,694 4.788784}
+{0 2,141 4.788784}
+{0 2,169 4.308331}
+{0 3,710 4.788784}
+{0 2,196 4.788784}
+{0 2,204 4.788784}
+{0 3,713 4.788784}
+{0 2,254 4.788784}
+{0 2,280 4.788784}
+{0 2,281 4.788784}
+{0 2,282 2.82495,653 4.788784}
+{0 2,307 4.788784}
+{0 2,326 4.788784}
+{0 2,325 4.788784}
+{0 2,329 4.788784}
+{0 2,330 4.788784}
+{0 3,25 4.027284}
+{0 3,758 4.788784}
+{0 2,413 4.308331,576 3.827878}
+{0 3,413 4.308331,577 4.308331}
+{0 2,449 4.788784}
+{0 3,776 4.788784}
+{0 2,486 4.788784}
+{0 2,498 4.788784}
+{0 2,550 4.788784}
+{0 2,576 3.827878}
+{0 2,131 4.788784,576 3.827878}
+{0 2,577 4.308331}
+{0 3,822 4.788784}
+{0 3,823 4.788784}
+{0 2,579 4.788784}
+{0 2,597 4.788784}
+{0 2,605 4.788784}
+{0 2,608 4.788784}
+{0 2,616 4.788784}
+{0 2,625 4.788784}
+{0 2,645 4.788784}
+{0 2,650 4.788784}

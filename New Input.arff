@@ -1,0 +1,1505 @@
+@relation Input
+
+@attribute tag string
+@attribute level {0,1,2,3}
+
+@data
+'a choice',2
+'a lie',2
+'ability to control',2
+'able to control',2
+access,2
+accessed,3
+accessible,1
+'advance directive',2
+'advice and support',2
+afraid,3
+alone,2
+amendment,2
+'an option',1
+anonymity,2
+anonymous,2
+anonymously,2
+'aren#t fair',2
+'at home',1
+'attitudes and behavior',2
+'attitudes and behaviour',2
+avoided,3
+avoiding,3
+'be watched',2
+behaving,1
+'behavior of individuals',2
+'behavior patterns',2
+'behaviour of individuals',3
+'behaviour patterns',2
+'being watched',3
+'beliefs and behavior',2
+'beliefs and behaviour',2
+'beyond everybody#s control',2
+'beyond everyone#s control',2
+'beyond her control',3
+'beyond his control',3
+'beyond my control',3
+'beyond our control',3
+'beyond somebody#s control',2
+'beyond someone#s control',2
+'beyond their control',3
+'beyond your control',3
+blacklisted,2
+blacklisting,3
+blackmail,2
+block,3
+blocked,2
+blocking,3
+boundaries,2
+boundary,3
+breach,2
+breached,2
+breaches,2
+breaching,2
+bullied,2
+bully,2
+bullying,2
+'can control',2
+'can not control',2
+'cannot control',2
+'can#t control',2
+'care and support',2
+'choice between',2
+choices,2
+choose,2
+chose,2
+'close friend',2
+'close friends',2
+'close the door',2
+'closely watched',2
+closeness,2
+coerce,2
+collected,2
+comment,2
+commenting,3
+comments,2
+community,3
+conceal,2
+concealed,3
+concealment,2
+conceals,2
+concern,3
+concerned,3
+concerns,3
+confide,2
+confided,2
+confidence,2
+confidential,2
+'confidential information',3
+confidentiality,2
+consent,2
+consented,2
+consenting,2
+'control it',2
+'control of',2
+'control over',2
+controls,3
+conversation,1
+'could control',1
+'could not control',2
+'couldn#t control',3
+criminal,3
+danger,2
+dangerous,2
+dangers,2
+data,1
+database,2
+deceit,2
+deceitful,2
+'declaration of rights',3
+'degree of control',3
+delete,2
+deleted,2
+deleting,2
+'democratic rights',3
+details,2
+dignified,2
+dignity,2
+disclose,2
+disclosed,2
+disclosing,2
+disclosure,2
+discreet,2
+discreetly,2
+discretion,3
+distress,2
+distressed,2
+distressing,2
+disturb,2
+disturbed,2
+disturbing,2
+'duty of confidentiality',2
+embarrass,2
+embarrassed,2
+embarrassing,2
+embarrassment,2
+'emotional support',2
+emotions,2
+'employment rights',2
+'encourage and support',2
+'encouragement and support',2
+endanger,2
+endangering,2
+ensure,2
+'everybody#s choice',3
+'everybody#s knowledge',3
+'everybody#s option',2
+'everyone#s choice',2
+'everyone#s knowledge',2
+'everyone#s option',2
+exclude,2
+excluded,3
+excluding,2
+expose,2
+exposed,2
+exposes,2
+exposing,2
+exposure,2
+family,1
+'family history',2
+fear,2
+'feel welcome',1
+'feelings and behavior',2
+'feelings and behaviour',2
+'financial information',3
+'find support',2
+'follow everybody',1
+'follow everyone',2
+'follow her',2
+'follow him',2
+'follow me',2
+'follow our',2
+'follow somebody',2
+'follow someone',2
+'follow them',2
+'follow us',2
+'follow you',2
+'for everybody#s support',2
+'for everyone#s support',2
+'for her support',2
+'for his support',2
+'for my support',2
+'for our support',2
+'for somebody#s support',2
+'for someone#s support',2
+'for their support',2
+'for your support',2
+force,2
+forced,2
+forcing,2
+freedom,2
+'freedom of',2
+'freedom of choice',2
+friend,2
+friends,2
+friendship,2
+'gave everybody support',2
+'gave everyone support',2
+'gave her support',2
+'gave him support',2
+'gave his support',2
+'gave me support',2
+'gave my support',2
+'gave our support',3
+'gave somebody support',2
+'gave someone support',2
+'gave support',2
+'gave their support',3
+'gave them support',2
+'gave us support',3
+'gave you support',2
+'gave your support',2
+'gay rights',2
+'get everybody#s support',2
+'get everyone#s support',2
+'get her support',2
+'get him support',2
+'get his support',2
+'get me support',2
+'get my support',2
+'get our support',2
+'get ourselves support',2
+'get somebody support',2
+'get someone support',2
+'get the support',2
+'get their support',2
+'get them support',2
+'get us support',2
+'get your support',2
+'give everybody support',2
+'give everyone support',2
+'give her support',2
+'give him support',2
+'give his support',2
+'give me support',2
+'give my support',2
+'give our support',2
+'give somebody support',2
+'give someone support',2
+'give support',2
+'give their support',2
+'give them support',2
+'give us support',2
+'give you support',2
+'give your support',2
+gossip,2
+group,2
+groups,2
+hacking,3
+harassed,3
+harassment,3
+'have choice',2
+'have control',2
+'he is lying',2
+'he was lying',2
+'he will be lying',2
+'help and support',2
+'her choice',2
+'her knowledge',2
+'her option',2
+hid,2
+hidden,2
+hide,2
+hiding,2
+'his choice',2
+'his knowledge',2
+'his option',2
+'human rights',3
+'i am lying',3
+'i was lying',3
+'i will be lying',3
+identity,2
+illegal,3
+'in control',2
+'in secret',3
+indignity,3
+'individual choice',2
+'individual rights',2
+'individual#s behavior',2
+'individual#s behaviour',2
+'information commissioner',2
+infringe,2
+infringed,2
+infringement,2
+infringements,2
+injunction,2
+inspecting,2
+interfere,2
+interfered,2
+interference,2
+interfering,2
+intimate,3
+intrude,2
+intruded,3
+intrusion,2
+intrusive,2
+invade,2
+invaded,2
+invasion,2
+invasive,2
+'isn#t fair',3
+isolated,2
+isolating,2
+judge,2
+judged,2
+judgemental,2
+judgmental,2
+'knock at',3
+'knock on',2
+'knocked at',2
+'knocked on',2
+'knocking at',2
+'knocking on',2
+'lack of choice',1
+'lack of control',3
+'land rights',2
+law,3
+lawful,2
+'legal rights',3
+legitimate,3
+liberty,2
+'lie about',3
+'lie to',2
+'lied about',2
+'lied to',2
+'lifestyle choice',2
+limits,2
+'little choice',1
+lock,1
+locked,2
+lonely,2
+'lose control',3
+'loss of control',3
+'lot of support',2
+'lying about',3
+'lying to',2
+'medical history',1
+'medical records',1
+menaced,2
+menacing,2
+'minority rights',2
+modest,2
+modesty,2
+monitored,3
+monitoring,3
+'moral support',2
+'mutual support',2
+'my choice',2
+'my knowledge',2
+'my option',2
+'no choice',3
+'no control',3
+'no knowledge',3
+'no option',3
+'not fair',2
+obliged,2
+offence,2
+offend,3
+offended,3
+offenders,3
+offending,3
+offense,2
+offensive,2
+'offer support',1
+'only choice',2
+'only option',2
+open,1
+openly,2
+'option of',2
+'option to',2
+ostracised,2
+ostracized,3
+'our choice',2
+'our knowledge',2
+'our option',2
+ousted,2
+'own behavior',3
+'own behaviour',2
+'own choice',2
+'own home',2
+'own knowledge',2
+'own space',2
+password,3
+'patients# rights',2
+'pattern of behavior',3
+'pattern of behaviour',3
+'patterns of behavior',3
+'patterns of behaviour',3
+permission,3
+personal,2
+'personal choice',2
+'personal information',2
+'personal possessions',2
+'personal space',2
+'person#s behavior',2
+'person#s behaviour',2
+policy,2
+post,2
+posted,2
+posting,2
+posts,2
+prevent,2
+preventing,2
+prevents,2
+'prior knowledge',3
+privacy,3
+'privacy law',3
+'privacy laws',3
+'privacy settings',3
+private,3
+'private information',3
+'problem behavior',2
+'problem behaviour',2
+'property rights',3
+protect,2
+protected,2
+protecting,2
+'protection act',2
+'protection law',2
+protects,2
+public,2
+'public life',2
+publication,2
+publicise,2
+publicity,2
+publicize,2
+publish,2
+published,2
+publishes,2
+publishing,2
+quiet,1
+reasonable,1
+'reasonable expectation',1
+'reasonable grounds',1
+'reasonable suspicion',2
+'receive support',1
+refuse,1
+refused,1
+refusing,1
+regulate,2
+regulated,2
+regulation,2
+regulations,2
+relationship,2
+release,2
+report,2
+reported,2
+reporting,2
+reports,2
+reserved,2
+respect,3
+respected,3
+respectful,3
+respecting,3
+restrain,1
+restrained,1
+restraining,1
+restraints,1
+restrict,2
+restricted,2
+restricting,2
+restrictions,2
+restrictive,2
+reveal,3
+revealed,3
+revealing,3
+reveals,3
+revelation,2
+risk,3
+risks,3
+ruling,3
+rumor,3
+rumors,3
+rumour,3
+rumours,3
+safe,2
+safeguard,2
+safeguarding,2
+safeguards,2
+safely,3
+safer,3
+safest,3
+safety,3
+scrutinised,2
+scrutinising,2
+scrutinized,2
+scrutinizing,2
+secluded,2
+seclusion,2
+secret,2
+secretive,2
+secretly,2
+secrets,2
+secure,2
+securely,2
+security,2
+'sense of control',2
+sensitive,2
+'sensitive information',2
+sensitivity,2
+separate,2
+separated,2
+separation,2
+'sex life',2
+'sexual behavior',3
+'sexual behaviour',3
+'sexual history',3
+sexuality,3
+share,3
+shared,3
+shares,3
+sharing,3
+'she is lying',3
+'she was lying',3
+'she will be lying',3
+shut,2
+shy,1
+silence,1
+silent,1
+slam,1
+slammed,1
+slamming,1
+snooped,2
+snoopers,2
+snooping,2
+solitude,2
+'somebody#s choice',2
+'somebody#s knowledge',2
+'somebody#s option',2
+'someone#s choice',2
+'someone#s knowledge',2
+'someone#s option',2
+spam,2
+spy,2
+spying,3
+stalking,3
+statute,2
+'support and advice',2
+'support and affection',2
+'support and care',2
+'support and encouragement',2
+'support and friendship',2
+'support and guidance',2
+'support and help',2
+'support and solidarity',2
+'support and sympathy',2
+'support and understanding',2
+'support between kin',3
+'support everybody',2
+'support everyone',2
+'support from',2
+'support group',2
+'support groups',2
+'support her',2
+'support him',2
+'support his',2
+'support somebody',2
+'support someone',2
+'support their',2
+'support them',2
+'support us',2
+'support you',2
+supportive,2
+suppress,2
+suppressed,3
+suppressing,3
+surveillance,3
+surveilled,3
+'tenants# rights',2
+'the choice',2
+'the option',2
+'their choice',2
+'their knowledge',2
+'their option',2
+'their own',2
+'they are lying',3
+'they were lying',3
+'they will be lying',3
+'third party rights',3
+'this option',2
+'thought and behavior',2
+'thought and behaviour',2
+threat,2
+threatened,2
+threatening,2
+threats,2
+'to control',2
+'to lie',3
+'to monitor',2
+track,3
+tracked,3
+tracking,3
+trouble,1
+troubled,1
+troubling,1
+trust,2
+trustworthy,2
+'type of behavior',2
+'type of behaviour',2
+'types of behavior',2
+'types of behaviour',2
+uncomfortable,3
+unfair,2
+unfairly,2
+unlawful,2
+unmask,2
+unmasking,2
+violated,3
+welcoming,2
+'welfare rights',2
+'women#s rights',2
+'you are lying',2
+'you were lying',2
+'you will be lying',2
+'your choice',2
+'your knowledge',2
+'your option',2
+activist,3
+afd,2
+anthem,2
+anti-trust,3
+argument,3
+arguments,3
+'balanced budget',2
+bugget,2
+cabinet,2
+campaign,3
+candidate,1
+CDU,2
+challenge,2
+challenger,2
+charismatic,3
+'checks and balances',2
+civic,2
+coalition,3
+confidence,3
+confidential,3
+congress,2
+conservative,1
+constitution,2
+contribution,1
+contributor,2
+council,1
+debate,2
+declaration,2
+delegate,2
+deliberate,2
+democracy,2
+democratic,2
+discource,2
+dogma,2
+donation,2
+duty,2
+election,2
+endorsement,2
+excessive,2
+faction,2
+FDP,2
+federal,2
+freedom,3
+'front runner',2
+fundamental,2
+fundraiser,2
+fundraising,2
+'green party',2
+GRÜNE,2
+handshake,2
+historic,2
+historical,2
+honest,2
+honesty,2
+immigrant,2
+immigrants,3
+independence,3
+independent,3
+inspiring,2
+inspire,2
+involvement,2
+jeopardy,2
+judge,2
+juditial,2
+keen,2
+legislature,2
+liberal,2
+liberalization,2
+litigation,2
+meaningful,2
+nationalism,2
+nationality,2
+nationwide,2
+objects,2
+opinion,3
+propaganda,3
+re-election,3
+referendum,2
+regulation,2
+regulatory,2
+republican,2
+resignation,2
+reveal,2
+revealling,2
+shuffeling,2
+shuffle,2
+SPD,2
+statute,2
+strategic,3
+strategy,2
+subject,2
+subjects,2
+trial,3
+trust,3
+trustworthy,3
+unity,2
+veto,2
+african,3
+american,3
+asian,3
+assimilation,2
+black,3
+caucasian,3
+citizenship,2
+colony,3
+ethnicity,3
+european,3
+exotic,3
+folk,2
+foreign,3
+foreigner,3
+'gene pool',2
+heritage,2
+integration,3
+jelaous,3
+jelaousy,3
+jewish,3
+judgement,2
+kind,2
+kindness,2
+loyal,2
+loyality,2
+moral,2
+morals,2
+nation,3
+nationalism,3
+nationality,3
+nigger,3
+propaganda,3
+race,3
+racial,3
+racism,3
+repression,2
+'ritual cuisine',2
+afterlife,2
+antichrist,2
+antipope,2
+atheistic,2
+belief,2
+believe,2
+believing,2
+benefit,2
+benefits,2
+bible,2
+buddhism,2
+ceremony,2
+christ,3
+christian,3
+conclave,2
+confession,3
+devil,3
+faith,2
+faithful,2
+forgiveness,2
+god,3
+goodness,2
+gospel,2
+grace,2
+guru,2
+heaven,2
+hebrew,3
+hell,3
+hinduism,2
+holistic,2
+holy,3
+immortal,2
+immortality,2
+ISIS,3
+islamic,3
+jesus,2
+jew,3
+jewish,3
+karma,2
+koran,2
+matriarch,2
+moslem,2
+nonbelief,3
+nonbeliever,2
+nun,2
+pastor,2
+patriarch,2
+pilgrim,2
+pope,2
+prayer,3
+priest,3
+prophet,2
+quest,3
+rabbi,3
+'religious war',2
+religion,2
+religious,2
+tabernacle,2
+talmud,2
+taoism,3
+theologican,2
+theology,2
+torah,2
+yang,2
+yin,2
+atheistic,3
+atheistics,3
+cosmology,3
+epistemology,3
+ethics,2
+existentialsm,2
+feminism,3
+feminist,3
+happiness,2
+hedonistic,2
+linguistics,2
+logic,2
+metaphysics,2
+moral,2
+morality,2
+mortal,2
+mortality,2
+nirvana,2
+positivism,2
+pragmatic,2
+pragmatism,2
+sceptical,2
+sociological,2
+sociology,2
+'amino acid',2
+antigen,2
+'black eyes',2
+'blood group',2
+'blood sample',2
+'blue eyes',2
+'brown eyes',2
+chromosome,2
+'finger prints',2
+fingerprint,2
+genes,2
+genetic,2
+genetical,2
+genetics,2
+glas,2
+glasses,2
+'green eyes',3
+helix,2
+iris,3
+'nice eyes',3
+'wonderful eyes',3
+benefit,2
+benefits,2
+demonstration,2
+DGB,2
+employee,2
+'employee rights',2
+employees,3
+fight,2
+fighting,2
+'ig metall',2
+labour,3
+mob,3
+negotiation,2
+occupation,2
+occupy,2
+oppose,2
+opposition,2
+organize,2
+policies,3
+policy,3
+political,3
+politics,3
+'rates of pay',2
+termination,2
+'trade union',2
+unioism,2
+'union frontman',2
+ver-di,2
+'working conditions',2
+'workplace safety',2
+'wrongful termination',2
+authentication,3
+'birth mark',2
+birthmark,2
+'blue eyes',2
+'brown eyes',2
+DNA,2
+eye-recognition,2
+face-recognition,2
+'false negative',3
+'false positive',3
+fingerprint,2
+'gait analysis',2
+'green eyes',2
+'hand geometry',2
+iris,2
+'iris recognition',2
+matching,3
+mole,2
+'palm geometry',2
+pimple,2
+retina,2
+scent,3
+'skin spot',2
+'thick skin',2
+'voice recognition',2
+affair,3
+anal,3
+asexual,3
+attractive,2
+attrativeness,2
+boyfriend,2
+condom,2
+encounter,2
+gay,2
+girlfriend,2
+glbt,2
+hetero,2
+heterosexual,2
+homosexual,2
+inappropriate,2
+innocence,2
+lesbian,2
+love,2
+lover,2
+metrosexual,2
+monogamy,2
+naughty,3
+orgy,3
+pansexual,2
+'physical appearance',2
+polygamy,2
+pornography,2
+promiscous,3
+quicky,2
+revealing,2
+same-sex,2
+sex,2
+sexual,2
+sexually,2
+swinger,3
+'swinger club',3
+'the pill',2
+transsexual,2
+addict,3
+addiction,3
+AIDS,2
+alcohol,2
+anatomy,2
+anorexia,2
+bacteria,2
+'be sick',2
+cancer,3
+clinic,3
+clinical,2
+dangerous,2
+depression,3
+disease,2
+doctor,2
+drugs,3
+flu,2
+germ,2
+germs,2
+'get well',2
+hepathitis,2
+hospitality,2
+hopsital,2
+ill,2
+illness,2
+medical,3
+medicine,3
+'mental sick',2
+'mental sickness',3
+operation,2
+overweight,3
+pregnancy,2
+psychology,2
+schizophrenia,2
+sick,2
+'sick certificate',2
+sickness,2
+smoke,3
+smoking,3
+sniffles,2
+std,2
+symptoms,2
+teeth,2
+therapy,2
+tooth,2
+virus,2
+weight,2
+'three of my friends have lost legs to heroin due to femoral injecting in the groin',1
+'this is the (unfinished) story of my drastic overdose some 7 years ago. ',2
+'i#d done crack with the local junkies for a year before this happened. ',1
+'i held out my arm and the injection went straight in the mainline. you know how obsessive i can get on a high. have you ever spent hours doing something half aware and high as a kite',2
+'they had given me narcan or naloxone to bring me round but still i didn#t wake up till next afternoon.  i was very upset about this afterwards because despite having spent years depressed and having suicidal feelings now i#d come point blank to death not even trying  just from an overdose',1
+'and don#t you know it these asshole people who call themselves doctors won#t even give me a xanax or klonopine. ',2
+'another crack head of the rnr that puffed too many joints. ',1
+'just sitting here drinking an iron maiden trooper beer and listening to murders in the rue morgue',2
+'yes i am a drunk',2
+'i noticed when i drove past your house today all the beer cases',1
+'after a couple of drinks i am as witty as dorothy parker and as beautiful as sophia loren',1
+'i#ve become no one so i#ll drink to fill that hole and that hole becomes bigger because that#s what alcohol does it makes you needy and sad and covetous',2
+'but i drink too much. i drink seven nights a week. sometimes just a glass of wine but usually two or three or even more. i always seem to have some sort of excuse like today was an exceptionally stressful day so i deserve an extra glass now that it#s all done',1
+'i drank often when elby was a baby to help deal with the stress of a new infant. i found myself drinking more than i had before i became a parent and i drank with other moms to bond and unwind (yes i#m the cocktail play date mom and i stand by it being a healthy thing to do in moderation in walking distance if you#re not me). before i got pregnant with the twins i had pretty much stopped drinking because i felt it was becoming a habit so when i was pregnant it was extremely easy not to drink. but when the twins were born and i was home and my milk was dried up and postpartum was setting in the simplest thing to do seemed to be have a glass of wine',2
+'it was only too darn easy to fall back into the pattern (especially once the babies started having a regular bedtime) of having my wine every night. for some people i#m sure this is a nice thing a tribunal thing (a drink at the end of the day with their spouse or friends). for others it might be a once in awhile treat to go out and have a couple of cocktails',1
+'i did not start drinking heavily until i moved to another state with my husband and two children. i turned to drinking. the only time during my 8 years of living here that i have stayed sober more than a few weeks is when i got pregnant with my third child at 40. a complete shocker and i was drunk when i got pregnant',2
+'i have not had a drink in 4 days and i pray i can make it through memorial day weekend sober',1
+'i too started increasing my drinking since they were born. two glasses soon become at least a bottle a night. i have had no booze since monday and see the doctor again tomorrow. they think my prolonged and daily drinking has caught up with me. i am scared  frightened ashamed and could kill for a glass of red wine',2
+'i too have developed a drinking problem. with two kids ages 2 and 4 i have gone from drinking very little before kids to a bottle a night. waking up with shaking hands and a hangover everyday is getting old',1
+'for the first time ever i will admit that i have a drinking problem now.  my husband and i are in the midst of a messy divorce and i have turned to drinking for relief as unhealthy as it may be',2
+'i always was just the fun drunk',1
+'my husband was working very long hours and i was home with a crying baby so i started to have a beer when i was waiting for him',2
+'fast-forward twelve years and i am an alcoholic. i drink up-to two bottles of wine a night',1
+'i know that i am an alcoholic. my drinking became a real issue after my last son was born. dealing with 2 year old twin boys and an infant was too much for me to deal with so i would unwind with a couple of glasses of wine. now two years later i drink everyday and it is more like 5-7 glasses. i haven#t admitted that i am an alcoholic to anyone including my husband although i am sure he is aware',2
+'the best part about drinking boxed wine is you can blow up the bag and use it as a pillow',1
+'let the vodka take you where it will. ',2
+' hurry up this bar won#t let me order big pitchers of beer for just myself',1
+'the weed is temporarily burning the grammar section of my brain library',2
+'him being a republican bothers me way more than his coke problem',1
+'but i am a bit nostalgic for the sweet swoony buzz from a good drink or two-the kind that used to make me feel warm and liquid and a little light-headed. the kind of buzz that made me both ferociously horny and oblivious to who saw me making out (or more) in taxis restaurants wherever. i miss the bliss of getting lost in both the alcohol and the person i#m with so that it feels like there is no tomorrow',2
+'i was never one of those savoring-the-fine-wine types of drinkers. i was more like which drink will get me out of my head fastest? the drunken podcast was the culmination of one too many mornings waking up feeling like i#d made a fool of myself the night before. i allowed myself the occasional once or twice a year drink but even that-i#ve recently decided-is a bit too much for me to handle.',1
+'i don#t know if not drinking makes me a better lover or not. ',1
+'she looked at me so intensely i truly wished i could add something boozy if only to let her know that i thought she was hot and that i was potentially interested. ',2
+'if i were drunk (or if he were) i#d fear that we might go too far and do things we might regret',1
+'drank everclear never even got a buzz and ended up passing out twice in front of someone#s mother',2
+'phoenix tequila tasting - w/rattlesnake heads on our plates',1
+'too much red wine spiked disco ball across the room spat wine in bartender#s face',2
+'drinking story would probably be from my high school days. i used drinking to be extroverted and fun. ',1
+'my drinking style was punk rock recklessness a splash of hedonism & stomach pump on the side',1
+'in past drinking days personally i would tell peers to monitor my intake. ',1
+'i#ve toned down my drinking because i#m not depressed like before. now i only have one glass of wine every now and then',1
+'the first time i got drunk was during a new year#s eve party my parents threw when i was a kid. i stole three unattended glasses of red wine and secretly gulped them down while sitting underneath the kitchen table. ',1
+'my first drink was mad dog at a cast party my junior year in high school then my ex-boyfriend#s new love interest threw up on me and a six-foot-two guy passed out on top of me',1
+'i was eighteen a freshman drama major at howard university when i had my first drink. it was a strange mixture of mogen david grape wine and ginger ale. ',1
+'the tequila bottle passed by me and with everyone watching i took a swig',1
+'i have very early memories of sitting on a barstool when i was two or three and my dad would give me a shot glass of beer so that i could pretend i was a customer',1
+'apparently mormons don#t drink alcohol so whenever his champagne glass was filled i would offer to drink it for him so he wouldn#t feel self-conscious',2
+'i had my first taste of alcohol when i was a very young child-maybe five or six. i snuck a sip of my father#s beer. ',1
+'i see alcohol as part of living a full life until something goes horribly wrong in your constitution.  i like the feeling of the first or second drink. i choose not to drink because once i start i don#t know when i am going to stop and the consequences of the 3rd 4th and 5th are not really that cute or sexy. the repercussions of the 6th 7th and 8th  drink are downright disastrous',2
+' without a drink i didn#t know how to have fun. in retrospect i think that perfect feeling alcohol gave me was presence: a brief flight from time when i neither dwelled on bitterness of yore nor worried some fear fantasy. that peaceful feeling was soon overwhelmed by an invisible beast who seemed to burst out of my ribcage with a mission to consume whatever alcohol i could scrounge up. ',1
+'then there are the wines that put everything on dim and on those days the wine travels to a different place and i go deeper further into the darkest corners of my own head which can be a threatening place made of words that come back to me my own and others#',2
+'the problem with me is that booze turns me into such a freak show it actually costs me my ability to choose. well i guess i do have a choice technically but it#s not drink or don#t drink it#s like live or die. when i drink a switch goes off in my brain that is like keep going at all costs and don#t stop and really that train leads to drugs rather than just more drinks because i prefer drugs to drinking. ',1
+'i don#t drink it if i#m in a self-hating mood and i don#t lower my defenses when i#m not around people i trust',2
+'there#s a tiny relaxation switch that gets flipped when i have a glass of wine - maybe it#s mostly psychological really but i feel like i#m loosening my collar and rolling up my sleeves. that#s the way i drink now compared to the way i drank as a college kid where drinking was the beginning of a wild party. ',1
+'i drink in large part because it makes me feel good and not just the tipsy heady forget-about-your-problems good. i believe that regular moderate wine drinking makes my body work better. i love the social aspect of drinking.  i love sharing a bottle of wine with my girlfriends.  i love being able to serve my friends a drink when i#m working.  ',2
+'at parties and dinners i use a cocktail to relax and open up. two drinks are my limit. if i have a third drink i get loud and stupid and that#s not going to win me prizes in a social setting',1
+'i like the ceremony of it having a friend over opening a bottle of wine to drink together.  there can be a real symbolic weight to that like breaking bread together has weight',2
+'aside from the incredible variety what i also love about drinking is the ritual. i have tried to find a way to create another evening habit that has no calories (or alcohol) that can make me feel as at home relaxed and rewarded as drinking does but truth is nothing is quite the same. the idea of an evening walk with my family comes close but weather circumstance and layers of responsibility keep interrupting that well-intended notion while the chilled bottle of wine is right there in the fridge and i can enjoy it while doing the necessary nightly duties',1
+'i like the way wine removes me from reality just slightly. i don#t like getting drunk but i love the slight lift of gentle tipsiness the swooshing elevation of perception',1
+'i never drink alone',1
+'i use drinking as anesthetic and balm. nothing seems unbearable after the first few glasses of wine. ',2
+'i most liked the way a drink could help relieve anxiety and stress-how it seemed to throw a warm blanket over whatever might have been worrying me at the time. ',1
+'no. i#m not going to have three drinks i#m not going to have four. i#m going to have two and that#s it folks',2
+'i#m gonna have a drink a day or two. i know how to handle it so there. i#m proud of the fact that i can handle a couple of drinks',1
+'at some point perhaps years before the night of my book party alcohol and drinking began to occupy an increasing amount of my mental real estate. during the workday i eagerly anticipated cocktail hour. or i perseverated over where to purchase a bottle of wine on my way home from work. ',2
+'between work and home there were several options for buying booze but i favored the best cellars on boylston street and bauer wines & spirits on newbury. i could walk in pet the store cat spooky make a thoughtful selection be complimented on said selection as i paid and depart feeling as if i had just had a cultural experience rather than bought liquor.',1
+'i preferred to think of my alcohol-purchasing behavior as culturally savvy and was sensitive to the subtleties of less highbrow locations.  still i wondered if the people working there ever noticed how frequently i bought wine or liquor. their poker faces never revealed whether they found it strange for a young professional woman to purchase two nips of tanqueray gin and perhaps a quart of milk for good measure. ',2
+'once i had returned home with a bottle of wine my preoccupation shifted to how i would limit my consumption. that i was thinking about the second glass before i finished the first did not bode well for my ability to control myself. anticipation dissolved into guilt as i poured a second third and sometimes a fourth glass emptying the bottle in a few hours. those evenings of drinking at home alone usually consisted of trashy television mindless online shopping dozing off on the couch and a few other fuzzy recollections. ',1
+'drinking helped. it numbed me to my experience and allowed me to get away from myself and my pain if only temporarily. eventually even the slightest discomfort led me to the bottle creating a vicious cycle. when i stopped drinking 6 years ago those feelings got worse',1
+'i wasn#t anywhere near sober yet when regret caught up with me on the trailways bus back upstate. and what business had i had drinking mojitos - two of them? i#d never been good at handling hard liquor',1
+'but at the holiday party for the midtown law firm my husband serviced as an i.t. guy i found myself inexplicably drawn to the tray of tall sparkly cocktail glasses on the bar each one garnished with fragrant green mint leaves and a sugar cane stalk for a stirrer. i#d never tried a mojito before. how refreshing and sweet i thought and then quickly learned how hard it is to stop drinking something so refreshing and sweet',1
+'at the holiday party two years prior - with maybe only half a glass of wine in me - i#d let her in on my ambivalence about parenthood',2
+'this much i know for certain about the night of the mojitos the party where i was 43. almost two years later thanks to a couple of potent drinks it remains unclear to me whether i did or i didn#t',1
+'jen and i were drinking buddies of the best kind-we always had fun and it never got ugly. when she got tipsy or even drunk she never lost her aura-she became even more upbeat full of laughter and prone to shouting things like woo hoo! for jen drinking was an expected part of life like eating or breathing. i came from a house where alcohol was forbidden. even though my mother had been sober since i was nine i always felt that she was on shaky ground and that alcohol was dangerous. we invented our own imaginary newsletter boozers and losers. drinking every night went along with that laissez-faire attitude.',2
+'we spent many a night drinking together hooting and hollering at the bar where her sister worked or at parties. we also spent our share of nights commiserating about men at dollar beer nights in our neighborhood bar',1
+'sometimes she supplied the wine',1
+'when you#re drinking the right alcohol in the right amount with the right friend the whole world seems to take on a rosy glow',2
+'my insensitivity was overwhelmingly obvious to everyone but me and i hadn#t even started drinking yet that night!  while this doesn#t excuse my behavior my drinking and my life#s circumstances had me in a bit of a depression. what a recipe for disaster-just add alcohol',1
+'i doubt i need to describe what happened later in the evening after we both had been drinking.  some people get mushy but-when drinking-i have found myself in many more contentious situations than kind compassionate ones. frankly i almost can#t describe it because it is very blurry (my drinking can be categorized as some sporadic fun/incident-free moments mixed in with many black and brown outs). ',2
+'i found out that my illness goes far beyond my inability to safely consume and metabolize alcohol.  my physical allergy to alcohol is quite nicely paired with a host of insecurities fears and coping mechanisms that greatly impact my ability to unselfishly connect',1
+'for me while alcohol sometimes made moments more exciting or wild it was always fleeting',2
+'i asked mike to freshen our drinks in celebration because we have been talking about this compatible drinking theory with family and friends for decades.  many moons ago without spending a dime on research (unless you factor in the cost of the alcohol) my brilliant husband came up with the law of equivalent drinking or as we call it led (not to be confused with light emitting diode).   led or the law of equivalent drinking as mike explained it one night over a round of martinis with friends provides that everyone-married or not- gets along best with people who drink roughly the same amount. the fact is we tend to gravitate toward and get along best with people who drink like we do-and we know others do too. mike enjoys the company of men who can appreciate a fine scotch.  we like to share a bottle of wine with dinner.  we like to see the excitement in our friends# faces when we bring over an oversized glass container of fruit-infused vodka.  we like to start our saturday night out with a martini.  i have a few wonderful girlfriends that are truly special to me- even though they order a diet coke instead of a glass of wine at dinner.  i get that some people do not like to drink.  i get that some people cannot have a drink and of course i respect that.   but on the wholewe spend an awful lot of time with people who drink like we do.  but i do know for sure that we will share a toast over a nice bottle of cabernet this valentine#s day. and there is no doubt in my mind that because of law of equivalent drinking we will finish that bottle.',1
+'my parents were european and some form of alcohol was always close by. they sipped wine at home with dinner plum brandy or a bloody mary with friends. if i asked for a taste they always said yes and as i grew into adulthood we enjoyed countless dinners together during which the wine flowed freely. i#m not sure it was the alcohol that made them love life at those moments but i imagine it was a potent enhancement. ',2
+'i never knew you could drink with your parents till college. my mother is a recovered alcoholic so we never had liquor in the house growing up. some of the most fun i#ve ever had was drinking with my friends# parents. in college i so envied my friends whose parents would take us out drinking. a few of my wildest nights in college were spent drinking with my friends# parents: once in paris drinking wine at la coupole and then at various bars and another time at a fancy dinner in my college town where the wine was flowing.  drinking parents are parents who could still have fun and a bonding experience the one time that adults and their children could even the score. i always hope that i#ll be able to enjoy drinking when it#s appropriate. ',1
+'i have a glass of wine at the very end of most days for enjoyment and as a health measure. i admit - wine and cheese are actually my two favorite food indulgences (even over chocolate)! sure there are times when i have to resist a second or third glass of wine (or piece of cheese)',2
+'i convinced myself that the glass of wine would loosen me up allow the words to flow grease the finger joints a little. one glass invariably turned into two which made it difficult to concentrate and hold the thread of an idea',1
+'when i drank i spent more time thinking about writing than actually writing',2
+'i had one glass of white wine at the hotel bar before we went out one glass of pinot grigio with dinner and then one glass of wine at the dance place before switching to water',1
+'i had the kind of hangover i used to get in college after a room#s party where i drank all night mixing vodka and gin and beer and god-knows-what-else. ',2
+'i miss drinking when i#m eating a good dinner. there is no doubt that for me wine not only takes the edge off but also enhances flavors adding to my enjoyment of food',1
+'after some experimentation with lsd and mushrooms the floodgates flew open. each time i experienced an elevated high i was able to bring that awareness back into my sober life at least in part. having used these psychedelic drugs to reach a certain level_2 of awareness i was then able to set them aside and pursue spirituality for its own sake. ',2
+'before my breakthrough dmt experience i tried smaller doses twice as was recommended on so many other dmt posts. during the very first experience i took only one medium hit and sat back on a couch. instantly my body felt heavy (with a strong tingling sensation) and my vision turned from sharp edges to wavy lines. this type of body feeling can sometimes be associated with mushrooms but in this case it came on almost instantly and increased rapidly until i was sure i was going to breakthrough. during my second dmt experience weeks later i was much more prepared and decided to try a medium dose before going for the gusto. this time i had a babysitter (friend) nearby to take the pipe from me and to check on my every minute or so.. although the visions and feelings were more intense i was in a safe place and was open to whatever the dmt experience could bring. there was no doubt about what i was seeing and i explained it afterwards as a 3-d hallucination.  i guess you could say quite frankly that dmt causes an out of body experience of sorts.',1
+'while it#s hard to say exactly what i saw my dmt experience was filled with strange and brightly colored fractals in constant motion. i#ve read many instances of people having a difficult time with smoking enough to breakthrough but i had no such experience. each time i tried to reach a certain level_2 i would measure out the dmt smoke it and_ poof',1
+'oh at parties i#d take a civil toke on a joint or polite puff on a pipe and pass it along. while i was happy to encourage maryjane for others my personal preferences were pills powders and potions. good kentucky bourbon my mainstay the occasional dexy for deadlines and the odd line of coke reserved for romance. but here i was the only nonsmoker on the high times masthead tapped for an official expedition to test a machine that by some cockamamie alchemy converted crappy marijuana into connoisseur quality herb',2
+'it#s 4:20 time for mary jane to come out and play. oh mary jane she is my soul mate forever bringing me up whenever i am down. mary jane is my other half. if i lose sight of mary jane i hunt her down by her distinct glorious smell. before i met mary jane i was a helpless soul.  and then mary jane came along and cast a spell on me. mary jane vanquished my fears manipulating me to be careless in an enriching way i find difficult to put in words. i became mary jane#s best friend and she discovered my free spirit allowing me to find myself. when i see with my flaming red mary jane eyes everything is beautiful. mary jane#s allies are able to relax and find themselves joyous by her spirit!  i believe this only happens when one is not satisfied with mary jane#s love alone and goes looking for other more pleasing unhealthy friendships.  if that is the case you are not worthy enough to dwell in my mary jane#s presence. when my mind becomes influenced by mary jane i think more intuitively about my real purpose in this life. i question my thoughts and their existence. spending time with mary jane is a self-enriching experience that one can only personally find. it is illegal for mary jane and i to spend time together but we long for the thrill. my fellow companions of mary jane usually join us to cherish the freedom. as soon as we let mary jane take over happiness prevails. we laugh uncontrollably and often times forget what happened only minutes ago. mary jane stamps a smile onto our faces that we cannot remove. i spend time with my girl mary jane daily. if you told me i was addicted to her i#d be ashamed. i am not addicted but rather rejoice the peace she has graced us with on this earth.  without mary jane i wouldn#t be the thriving appreciative soul that i am. without mary jane i would not know myself.  oh i love you mary jane',1
+'i smoke weed every day yet it was quite a while since the last time i reflected on the actual reasons for my continued use',2
+'i still didn#t make the connection until a year or so later when i quit smoking for a month by my own volition (a.k.a. what us potheads call #tolerance breaks#). this resulted in another migraine and was accompanied by the realization that smoking marijuana has to be the reason i don#t get them anymore',1
+'to put it another way weed doesn#t just help me to have a more lighthearted disposition but rather it aides in the accurate evaluation of ever day occurrences such that i don#t put too much thought on inconsequential events in my life (like an awkward social encounter or something having to do with money). to me getting high makes very apparent not merely what#s important on the fundamental human experience level_2 but also what#s important to me as an individual human navigating through that experience',1
+'i don#t drink much anymore. but when i did i went hard as a mother fucker. and indeed in my oft inebriated stupor i fell prey on a number of occasions to the unwanted sexual advances of the older ladies. why james you#re likely wondering what does your history of traumatic bondage-style sexual encounters with older women have anything to do with the reasons you smoke weed? answer: shit like that doesn#t happen when i#m high.',1
+'i kicked a nasty drug addiction (which initiated my hiatus) got a real job (no comment on my previous #fake# job) and moved to a new city and state',1
+'i smoked one day during lunch and then had to give a presentation in english class',1
+'i was sitting at home smoking a bowl reading some story about jwow from jersey shore',2
+'it really puzzles me to see marijuana connected with narcotics dope and all that crap. it#s a thousand times better than whiskey - it#s an assistant - a friend',1
+'i used to smoke marijuana. but i#ll tell you something: i would only smoke it in the late evening',2
+'instead of taking five or six of the prescriptions i decided to go a natural route and smoke marijuana',1
+'i enjoy smoking cannabis and see no harm in it',2
+'why can#t i just have relaxed highs like everybody else. instead of lighting up a joint when 4:20 hits i#ll be lighting a cigarette whilst all my friends are getting high. i wish i could just get high without being overwhelmed with depersonalisation and anxiety',1
+'i remember bowling with friends which was pretty much like bowling at the bowling alley but instead of rolling one ball down the lane you#re smoking balls of weed',2
+'if you can#t handle the headfuck from strong weed have you considered trying to get some good quality hashish',1
+'holy fucking shit i took my first pill of mdma today',2
+'seriously it#s been nearly 3-4 years since good pills what happened. pretty sure #xtc# is a thing of the past and most people choose the mellow sleepy brown molly shit',1
+'i#ve smoked it in a crackie before and it wasn#t pleasant. you get high but it#s not really worth it. i#ve smoked a few bongs with mdma crystals in the mix with some dickhead friends and got pretty fucked up off it. it felt kind of psychedelic for about 10 minutes and nothing was real',2
+'is there a consensus on whether taking amphetamines (including mdma) on an acidic stomach reduces their effect?  i really want to drop tomorrow at an event (tired of snorting it) but i#ve been having a lot of heartburn problems lately and i think my stomach is generally very acidic',1
+'so i was capping this mdma and it burned a bit on my finger tips',2
+'with weed even small use can cloud my mind up and make me worse at studying for days/weeks but i don#t know about mdma',1
+'in a couple days time i#m going to be dropping 250mg with a 100mg top up an hour after the 250. however i#m pretty fucking bored so if i snorted 50mg of mdma  now would i feel anything now and also would i still feel good on saturday',2
+'so my girlfriend dropped about 250/300 mg of high quality mdma. half an hour later she is rolling hard but she keeps asking the same questions over and over like not even 30 seconds apart. i#m really worried about this now but she did drink as well so i#m hoping it was just a bad interaction',1
+'iknow mdma and ket is lovely but i#ve heard something about the mix of dopamine reuptake inhibitors and mdma causing problems. is this true? i want to take mxe with mdma and i#m not the biggest fan of neurotoxicity',2
+'my first time i can#t remember exact dosage but they were notorious called shiva i think',1
+'i took a huge dosage: most insane visuals massive clarity and ego suppression',1
+'anyone got any experience with 25i nboh? i hear it#s a lot like 25i nbome just less potent and with a shorter duration so someone with experience with any 25i should do',2
+'i plan on taking 2mg of it tomorrow just because i feel like something different though i#ve never experienced an nbome or an nboh before though i#ve lots of experience with lsd have tried al-lad and lsz too as well as trying a few 2-c compounds',1
+'that#s called paranoia. take some benzos with your meth and become speedy chill dude',2
+'2 days ago i had 3 ritalin la pills 2 of them opened',1
+'you could try crushing your adderall pills and snorting the powder. if you don#t give a fuck try downing it with vodka too',2
+'have been on 10mg 34-ctmp for about 17 hours now. but then i redosed another 10mg snorted this time. i redosed because although i wasn#t high i was still stimmed as fuck even though i took a fuck load of etizolam. i have like 8 etizolam left.i also am addicted to the etizolam',1
+'if you are still taking anti psychotics i#m not sure stims will work very well. basically anti psychotics cancel the effects of most stims. i have taken them for this purpose to get some sleep after a long binge and they certainly cancel out amphetamines',2
+'just pull apart an inhaler cut up the cotton rod and swallow it. if you#re looking for just enough stimulation to stay awake you might only want to take half because taking the whole thing can get pretty euphoric at times',1
+'i#m on abilify and meth does absolutely nothing for me. besides if you need to take antipsychotics for a legitimate reason i wouldn#t necessarily recommend fucking with stims because you#ll be predisposed to easily getting amphetamine psychosis. for me personally i start getting all squirrelly and looking out the blinds after one bowl',2
+'so i#m about to cop a bag of good nyc #4 heroin. it#ll be my first time using h and i just have a few questions. i plan on snorting it because i don#t want to waste anything by smoking it and iv is risky on several different levels not to mention i don#t have any access to syringes. i#ve never snorted anything before though so could i was wondering if someone could tell me just what snorting h is like',1
+'i can be a major asshole on stimulants but never on opiates i just feel love. i really think it depends what drug camp you fall into. i love stimulants from d-amphetamine to meth to mdma to methylone but i could live without them.  i don#t know if i can say the same for opioids l love every single one i touched but then i know people the opposite of this. heroin is worse than meth in people predisposed to like opiates and meth is worse than heroin in people predisposed to like stimulants at least that#s what i believe',2
+'well heroin feels incredible. it#s the greatest drug i#ve tried. heroin is a warm euphoric blanket of chemical love that wraps itself around your entire being. as for acquiring a habit it tends to happen more gradually than that one hit made me an addict. i used occasionally for a few years before i became physically addicted',1
+'i get a very peculiar stimulating effect on any type of opiate. it#s nothing like speed in the sense that my focus and alertness is still shit but the euphoria is so fucking pronounced and orgasmic that i can#t help but do something with myself',2
+'i posted how my friend left me his 15 bags and fresh syringes we bought the night before the day he left for inpatient. i wasn#t going to but i changed my mind and want to bang a few since i#m getting clean for a while once these run out. the only problem is i#ve only iv#d a handful of times and with 29g 1/2-1 needles these are 31g 6mm (i don#t know the conversion to inches think it was like 5/16) and significantly smaller compared to the ones i have used. i basically have virgin veins so i can hit anywhere what#s the easiest to access with these',1
+'he also knows that the weed he gave me was barely enough to get one person high. there are crack addicts more willing to part with their last few rocks. my neighbors get higher off my second hand smoke seeping through the wall than he ever got me',1
+'don#t try to correct me if you haven#t done any research all i do is read..go check the next nigga not this one',2
+'girls never expect the guy to get hurt.',1
+'hey canada fuck you',1
+'still trying to figure out why big girls think they can wear small clothes. #gross #lookinthemirrorplease #youdontlookgood',2
+'republicans were dead-enders then they#re dead-enders now http://t.co/fyohuifn6h',1
+'racist rich assholes - republican shutdown continues http://t.co/jgztnxtccb',1
+'why do black ass people get tatted.  you can#t see that shit',1
+'fake ass gangstas piss me off',2
+'my followers suck',2
+'rt @lnsanetweets: if a girl takes your bullshit it#s clear that she#s a keeper but it#s also clear that you don#t deserve her',1
+'relationships last longer when everybody doesn#t know ur business',2
+'i hate when niggers sneak diss',2
+'had to separate myself from you fuck niggers .',1
+'do niggers helmet come off in madden 25',2
+'feminists: complain about stereotypes... by stereotyping. yes i just stereotyped feminists in the process. no i don#t understand irony',1
+'one thing i hate though about stereotypes is how everyone thinks every latin person is mexican. there#s other spanish speaking countries',2
+'tbh idc when black talk about mexicans i just hate when they assume all hispanic ppl are mexican. get your life',1
+'all spanish people are the same no matter where you from ',2
+'@fon7s @soar_reckzo all spanish people are basically the same they have their different stereotypes but overall we are all the same',1
+'so apparently the koreans at the nail salon really really like watching days of our lives lol',2
+'my mom blatantly talks about people right in front of us in italian but makes it more obvious than koreans at a nail salon',1
+'at the nail salon the koreans be all up in your business like https://vine.co/v/habb72ixjpv_',2
+'breaking news i went to a nail salon. i was just as lost as the koreans were trying to understand me',1
+'fuckin faggots',2
+'@uberciph im a regular sized black girl...i allow the big girl jokes from the faggots. but im a regular chubby black broad',1
+'woke up early as fuck and there are 0 spots on rolling..........you#re all faggots',2
+'i also hate it when people that aren#t from the south say y#all. do y#all not realize how stupid you sound? it#s ebmarassing for everyone',1
+'hey everybody! i have been informed by two douce bags that all people from the south are incest!  #idiots',2
+'hey all you dumb business majors if you#re ever feeling down just know that today i met two people with a chemistry and engineering degre',1
+'who has a party on a thursday night? you can#t wait one more night? oh yeah you#re all business majors so you can do whatever you want',2
+'iowa state cancels all classes today! in other words the rest of us get to feel like business majors for a day',1
+'i find it funny when everyone talk shit about bereamidpark and me and herbs are over here like fuck all of you and your schools  #dropouts',2
+'i don#t understand why people follow you and then wait for a follow back and then unfollow you. like you#re gay',1
+'y#all ever notice asians don#t ever have acne ',0
+'you know not all asians are bad drivers. yeah well not all terrorists are arab except they are so..',2
+'hell yeah. teeth be all fucked up rt @shanewill96: asians are either really attractive or ugly as shit. there is no in between',2
+'if my tweets offend you : 1 - im sorry 2 - it won#t happen again 3 - 1 & 2 are lies 4 - you#re a cunt',2
+'if you#re not watching #teamusa hockey right now you#re probably a communist',1
+'why do people make make out they#re #curvy# when they are actually severely obese with diabetes and chronic heart disease',2
+'if i dislike you or you dislike/hate me something is deff wrong with you because i#m a sweetheart & get along with everyone ',3
+'i feel like everyone is a hypocrite. everyone likes to have fun. everyone can#t keep up with what they said a month ago. nobody#s perfect',2
+'lmao omg all you white people piss me off',1
+'fuck all you white people in alameda .. fuck alameda',2
+'i love white people fyi. all people are cool unless they personally suck ass',2
+'i think it is fucking crazy that people act like all white people are racist',1
+'i bet the only americans not routing for america right now are all pittsburgh fans because crosby takes precedent. worst type of people',2
+'@humble_mickz: you photogenic people are all cunts',1
+'i feel like everyone at texas state is from houston or somewhere down south... where the hell are all the dallas people?',2
+'i know i#m half black and all and i#m not racist in any type of way but why are black people so obnoxious in the cafe',1
+'getting off twitter. y#all are pissing me off. let people be happy in their relationship. you don#t know everything stop acting like you do',2
+'you know youre fucked when you have to fit a rap into a vine about rna and all the white people are in one group @millerben8 @im_marvelous_',1
+'people who always exclusive music i tend to think y#all are the one who steal other dj#s cd bags',2
+'it#s like as soon as it gets nice out people forget how to drive. you all are assholes',1
+'i hate that people are all nice all of a sudent',2
+'christian rebuttals are always entertaining. they never use their own intellect only what had been forced upon their psyche',1
+'episode 43 | arizona#s christians are scumbags',2
+'@barackobama #respect sorry to tell you #christians are going crazy! anti-christ to start world war iii',1
+'@that_guy_yemz muslims have the strongest faiths. christians & catholics are #posed to cover up n pork tattoos n drinking r haram for them2',2
+'@yungbrettle3 yeah christians are easily offended.. hopefully i#ll get lucky and they#ll fuck off ha',1
+'we think dftba is stupid. i dont# like anyone who thinks anorexia is a disorder. i think they are stupid. stuipid matter',2
+'@chrisdjmoyles anyone who says they would not have done the same is probably a tofu eating tree hugger. i know i would off. #chinup',1
+'anyone who#s thinking of purchasing furniture from @lauraashleyuk especially sofas - some advice don#t customer care is disgraceful!',1
+'never ever drop your standards for anyone. no matter what/who it is remember that you always come first',1
+'it sad how fucked up this world is when you can#t trust anyone with anything. its sad how you don#t even know who your real friends are',2
+'anyone who wears a hat in the gym is a prick',1
+'why would anyone wear kbcc merchandise like i didn#t think anyone who goes there is proud of it because they literally had no other choice',0
+'i have learned not to trouble anyone with my problems. god is the only one who cares',1
+'the fact that my dad said anyone who is gay/lesbian should kill their self is why i have little to no respect for him.. wow',2
+'@pcoop125 @peoplesvuepoint @nhlabor_news no getting around it anyone who thinks like @nikkihaley is utterly insane',1
+'damn this hot guy that works at 7-11 just hit on me but that#s crazy bc i thought only indians work there ahahah',2
+'@jimmyfallon - thank you nbc for celebrating black history month...by airing two weeks of snow-lovin# honkeys',1
+'me and others as a kid and continuing the abuse as an adult because i fefuse to join a bunch of racist honkeys with no class or honour',2
+'that#s what#s wrong with these relationships now people always wanna fall back rather than fight for their relationship',1
+'people these days assume they don#t ask. always just believing the first thing they hear hahah',2
+'people these days always getting offended by something',0
+'i really hate america. they always make these slave movies but never make movies to show the people all the great things black have done',1
+'when celebrities come out why are people always like well duh? be happy for these ppl coming out is never easy and always a victory',2
+'why do these ignorant people always roll through my instagram with their haraam talk? can#t even eat an oreo in peace',1
+'the primary purpose of government is to protect its peoplenot to maximise private profits.these two things are not always compatible',1
+'people always say that trans women need to disclose immediately when meeting a guy. but what about these secret fatties wearing spanks',2
+'you wanna know why relationships don#t work these days? because people are selfish. people always want to know what you can do for them',1
+'y#all be wanting too much out of these little young relationships like we grown that#s why people always end up with they feelings hurt. ',2
+'nothing is ever good enough these days is it? there always has to be more? or is it people expect or fill entitled to more? cut me a break',1
+'there#s no such thing as a girl being friends with a guy these days because people always assume there#s something going on',1
+'and this is why i hate people with sob stories being on these shows. will always get that pity vote. yes i said it. #xfactor #xfactorusa',1
+'i hate getting close to people these days i always regret sharing too much caring too much doing too much feeling too much',1
+'i hate getting close to people these days i always regret sharing too much caring too much doing too much feeling too much',2
+'as much as some people don#t like to hear these words there isn#t always light at the end of the tunnel for everyone',1
+'can north jersey and south just become 2 different states these people do not hail from the same state i swear #southside #always',2
+'i hate that one kid who is always waaay too involved in the group project and always on everyone#s ass #gtfo',1
+'alot of y#all dudes r messy one min. u postin how much u luv ur girl and in the same breath in my damn inbox askin for my numba! snake ass.',2
+'i stood outside because its so nice out but i forgot about all of the tourists that would do the same. #statenislandferry #ihatetourists',2
+'@caitlin_massaro you post like 10 a day and they#re all the same',1
+'it#s always weird to see people from high school and not remember their names&see how fat they#ve become',2
+'lol my cousin said fat people are always quick to cry',1
+'why are fat people always at my neck ',2
+'fat people always telling skinny people how skinny they are like they don#t realize they got stomachs on the back of their neck #thefuckup',1
+'when i c a fat person in my mind i shout cow cow cow @marmyla . @umh_manga: i always block people who make fun of fat people',2
+'i have a strong feeling that indians are the best sexters',1
+'will you buy pulsar ss400 over ktm#s duke/rc 390?: we indians are the best when it comes to engineering. ',2
+'he mad at the truth girls just don#t like chillin with niggas cus they try to be slick o well ',2
+'if you#re 7 1/2 months pregnant',2
+'never had much money to go out whenever. and all the black people in my class took it wrong and started hanging up on me and the professor',2
+'omg but why did i just see a thick girl with a crop top & high waisted jeans? with her gut hanging out?? why? at least buy your true size',2
+'everybody keep sayin they need a vacation...but y#all asses neva go n e where...i#m confused ',2
+'most white girls be shining ?? y#all blacks girls gotta step it back up ',2
+'@fisseha505 if a person#s stance isn#t based on a broad principle of standing up for all human rights they#re bound to be fickle',1
+'in a lebanese house hold if you say i#m going to move out.. before you even finish saying the word out your getting your ass beat. #truth',0
+'if you keep looking at a girl and she looks back and doesn#t give a dirty look go fkn talk to her.  she#s waiting for you to ',1
+'we fat niggas waiting outside izzos for it to open',2
+'outside of my bus there was a big poster of paul murphy clearly socialists like to use markets for their own ends... #ironic #le2014',1
+'i#m so done with people getting mad at the boys for hanging out with girls  cause we all know damn well we wish that was us',2
+'son i just found out all black girls have aids',1
+'watching something on tv this nigga said he got diagnosed with breast cancer that#s crazy i never knew niggas could get it',2
+'on to the next one that bitch a disease wish i would give another bitch my heart...nigga pleaseeee!!?',3
+'my arteries clog just seeing the healthy food tweets you all post. enjoy your heart disease america',2
+'youre all sophomores but you act like 8th graders... grow the fuck up',2
+'everything about me. fuck all you. iont trust nunayu',1
+'lol at the boys getting all upset over their game not getting recognized enough when speech and stuff never does. literally shut the fuck up',2
+'once and for all fuck apple products because they require itunes. a big fuck.you boss',2
+'y#all really tripping over some free pancakes like ihop isn#t cheap as fuck already',1
+'fuck all these nigga except paitwan & i mean that from the bottom of my heart right now ',2
+'all the far jobs hiring but i#m bouta just say fuck it and work at them cuz i#ll never get hired fuckig around with these close jobs',1
+'no girl sucks dick but somehow all niggas get head niggas only fuck bad bitches yet all these ugly bitches getting pregnant. somebody lying',2
+'i don#t know why i try to be a good friend all my friends do is put me down and don#t give a fuck if anything were to happen to me',2
+'and i really don#t give a fuck how anybody feels about me. y#all gone wish you supported when i needed it',1
+'i feel bad for girls who drop all their friends because they have a boyfriend. because trust me that boys isn#t always gonna be there',2
+'i try so hard and get treated like shit. most girls are just whores these days',2
+'it#s fat tuesday or for 60\% of americans it#s just tuesday. we all need to lose some weight',1
+'obama and his ilk are traitors to all americans..... http://fb.me/1cuwbsl96 ',1
+'lrt yes white people ask people to prom so cute. black people just don#t care. lol',2
+'no black person should watch 12 years a slave  this shit will make you hate white people yo',2
+'shut the fuck up you stupid black people',3
+'the people from gold#s gym always call me during school. are you not aware that i#m 16? are you not aware that 16 year olds have school',2
+'this woman is exhibit a of why i always sit as far away from people as possible: massive clouds of perfume',2
+'why do people always differentiate us from the others',2
+'why do people always make such a big deal out of others staying/going home from school... like who cares just worry about yourself',2
+'people always stare at me like im not from this planet like wtf',2
+'if you are always looking down on people from your perch then you are not spending enough time on your knees looking up to god ',1
+'i#m sorry but if someone is filling in for you and picking up your slack you don#t then turn around and say they aren#t cut out for it',2
+'all women talk about is feminism. all black people talk about is slavery. all gay people talk about is human rights',1
+'i swear if people ruin nash and cams friendship like they did with harry and louis bcs of these gay ships i#m going to kill them all???',2
+'i hate all gay people and their supporters',1
+'people using twitter like it#s a soppy love story with all these gay sentences. i use twitter like a commentator for the arsenal games?',2
+'all of you against gay rights remind me of the people who were against women#s rights and black rights. you#re on the #wrongsideofhistory',1
+'i hate all gay people even neil patrick harris',2
+'y#all think gay people have it hard here meanwhile in uganda they#ve passed the anti-homosexuality act',2
+'i#d still recommend gay people probably give arizona a bit of a wide berth. all humans actually',2
+'like gay people are awesome. but weed is awesome too. can#t we all just be gay and high together? #legalizeerrthang',3
+'so a prostitute can donate blood but gay people can#t because we all apparently have aids? alright thank you society for the stereotype ',2
+'i wouldn#t be surprised if the russians have installed mass surveillance among all army related equipment in crimea and parts of ukraina',2
+'not sure what all this ukraine and cold war stuff is all about. personally i love white russians',2
+'when there are due dates i work so much harder because i have to...procrastination isn#t so bad after all',2
+'bro if washington d.c. the fuckin capitol of the country legalizes marijuana today wtf are all the other states doing',2
+'millions of academics are not at all bothered by the fact that they work at universities that conduct vile military research',2
+'rumors spread like weeds. you all are weeds',1
+'why are there so many chinese maps all of a sudden..',2
+'if ur always going through rough times sounds more like a habit & a character trait not a rough time we are all going thru it but while',3
+'all women should be required to have a back up camera on their car.',2
+'everytime i tweet everyone (including the media) beleive it is about (a) women. that#s how shallow and convelutred all this is. every bit',2
+'@aubtinh901: i get so heated when other guys say sexist shit like all women need to know how to cook ?????? what a gentleman',2
+'i date beautiful down to earth one of a kind women....not beautiful crazy asf!!!got alot issues all day err day women big difference...',2
+'all women got a little bitch in them lol its natural',2
+'all my asian friends are dating black men ^_^ lmao',1
+'how come that there are no hot asian men in my country at all but when i visit a museum there are like thousands',2
+'also why do old asian men always fall asleep like right outside of the gap everytime they go shopping',2
+'2 non asian men speaking japanese and smoking cigarettes together makes sense',2
+'do american men like asian women because they#re lo meintenance',2
+'some bitches actually are crazy but most of the time men are just selfish emotionally inept egocentric dicks',2
+'i swear whitechapel is full of perverted old asian men ?????? #fuckoff',1
+'she act like them white and asian men ain#t gone beat her too',2
+'effeminate gay asian twink a black homo thug bisexual bimbo slut. i#m tired of gay white men pulling this shit. #notyourasiansidekick',1
+'men in sandos are sexy. #gay #instagay #gaystagram #homo #instahomo #pinoy #asian http://instagram.com/p/lhquwmtejh/ ',2
+'that happy moment when people end up calling you a mexican instead of a indian... #ohyeababy #ihavemyswaaag',1
+'since i was little i would get confused as indian/middle eastern/arabian so im excited to officially be an arabian bride on friday ???',2
+'your gf is crazy if she go thru your favorites too . #dontactup lmfaooooo',1
+'east indian women  feel more comfortable w/ white guys because their sex drives are low',2
+'someone get on this for desperate white girls calling themselves hipsters pic.twitter.com/p8niucvmsr',1
+'eating at the white house.... hipsters everywhere',2
+'i just hate white girls that try to be hipsters. take a shower and go ask your daddy for some money. then please comeback',1
+'whole foods home of the hipsters and rich white folks',1
+'slowing cutting my following down. i follow some real idiots & that#s goin to change',1
+'oh is this from that movie made by white hipsters for white hipsters (and no one else)',2
+'all these white gay hipsters nees to stop. i can walk here too',2
+'@adamfield i know but your chances are higher if more hipsters slash white people go there. or you know china town',1
+'and you faggot white hipsters better stop carrying blades if you aint gonna use it one of these days your gonna get curb stomped',1
+'i bet most of these white girls didn#t even know who nirvana was before hipsters started to wear their shirts #vote1duk #kca',2
+'all the boys i know either horny white boys that use words like mandem or snobby #hipsters# that are unsure of their sexuality',2
+'i feel like los campesinos is the shit white hipsters love to drink hard cider to. i mean i like the band but i#m on point with this one',1
+'lmao at pharrell#s album expecting to flop. i guess those white hipsters he was trying to appeal to didn#t care abt his album..',2
+'get the fuck out of my old #hood you white ass honkey hipsters. ',2
+'closest white people i get are the orthodox jews to my immediate east. closest hipsters are the stroller crew up in park slope',2
+'gotta choose the right luther vandross song because canadians have never heard luther vandross ever',2
+'these canadians came in and i had no clue what they were saying',2
+'it#s been a long winter.  and canadians adapt. #duracell https://www.facebook.com/photo.php?v=768558053154363 _',2
+'canadians are known for being polite because we know it is a good way to get someone to return the favour.http://www.canadafreepress.com/index.php/articles-travel/25958 _  #ssridgen',2
+'the one phrase all canadians know in french: please play again. #reessayezsvp',2
+'yes virginia',1
+'all canadians look alike',0
+'everyone talking about free pancake day at ihops in the states and us canadians are all like where do we get our free pancakes',1
+'like fuck off we don#t all dress up to get ice tea from the store you stupid canadians ?',2
+'saving money is important but not the be-all rob ford. canadians and torontonians are proud of diversity and dignity too. #topoli #fail',1
+'can#t wait to show jimmy kimmel that not all canadians are buffoons like our mayor of toronto. #1iotabethere',2
+'with so much user info available to brands it#s disappointing to get still emails treating canadians like we all live in toronto',1
+'@fridafrag this confirms my suspicions that all canadians always have a flask of maple syrup at the ready',2
+'i#m confused in russia we were all taught that america is a great country of opportunity here americans act like russia hates everyone',1
+'@thoughtfist nope. i was referring to whomever was ignorant. i would never say all americans are ignorant although majority of them are',2
+'hoping to god all americans aren#t as in ya face as these two can see me having a hellish summer ?',2
+'pretty disgusting how if we all are like the americans we would need 4 planets...???????',1
+'americans love wars. all people on earth hate americans because of that. http://goo.gl/usgo1v  #whalewars  #tweet4taiji  #seashepherd',2
+'all the americans in my religion class asked to leave early so they can go to fake patties. so it#ll be me and a bunch of foreigners. booo?',1
+'as all you dumb ass americans embrace socialism and communism .... just take a look at it....',2
+'derbyshire says he is #deeply pessimistic# because #practically all educated black americans for example are communists#',1
+'y#all americans with yo weird ass combos',2
+'i think it#s incredibly hard for americans of all political stripes to view events abroad as not being fundamentally about us',1
+'shit#s on all of us man shit#s on all of us americans canadians europeans all of our overarching governmental structures have f#ed up',2
+'americans will trade patriotism for humanity. we look the other way while our people starve. fuck a border. we are all the same',1
+'why have americans fallen in love with one direction? i am british and i think they are all pieces of shit',2
+'my prof just asked us to name 5 native americans and all i could come up with was pocahontas',1
+'americans don#t want to talk about that we all like sex but somehow we all understand it as it',2
+'@sydneyoxhughes loool americans do it all the time with sausages and all sorts',1
+'@nickflasher it#s not at all racist. chief wahoo is a smiling indian chief. you don#t think some native americans smile',2
+'all thr fucking ignorant ass americans needa take a look at my last retweet ',1
+'if money is the root of all evils then how do americans make it to heaven',2
+'i#m holding all african americans responsible for the mess our country is in',1
+'fuck americans all i fuck is foreign hoez #richieeeee ',2
+'im so tired of ignorant people judging everyone all the time. i dont get why people cant just mind their own business',1
+'some people are so damn ignorant. can#t wait till reality hits y#all',2
+'sometimes i get the urge to unfollow all of the ignorant people thats still in high school who love drama but then what would i laugh at',1
+'if you are uneducated you will #fail lose all the chances of gaining a career that could have you living a comfortable lifestyle',2
+'just waiting for all the uneducated tweets and statuses about russia and ukraine',1
+'sometimes girls feel like they#re the only ones with standards i ain#t settling down with a uneducated girl that smokes weed all day long ',2
+'most annoying experience of all time: witnessing someone uneducated in music critique someone who is',1
+'the world is turning into a useless place where all people do is read the same recycled lame internet-humor jokes over and over at nauseam',2
+'they teach that frere jacques song to kids all over the world so that from a young age they know the french are useless. #childhoodlessons',1
+'i figured it out on my own. y#all useless',1
+'i can#t believe they ruined my classy dunhill box with all these anti-smoking alerts. plus they#re useless no one will change their mind',1
+'everyone is angry with everyone except me. i grew accustomed to the idea that they were all useless ages ago',1
+'thanks for all your help with my accommodation dilemma  truly a useless pack of cunts',1
+'smh y#all are becoming useless n lazy these days @zeenchle88: out of ten@teerz_exclusiv: 0 what ? @zeenchle88: zero@teerz_exclusiv: i',1
+'if you#re a hockey team in canada you stink. now there are varying degrees of this stink. but you all stink',1
+'all are hoes until proven otherwise rt@derrickjinx: if you not a hoe 85\% of my tweets don#t apply to you',1
+'i joke around about being the best/the greatest/ the one n only/etc...but some of y#all are dead serious nd forget you#re only human',1
+'there#s a thin line between handing out game and being a conceited asshole. not all of you are smart enough to teach game so know your role',2
+'@karmarescue you are all disgusting and should be ashamed of yourselves!!',1
+'how the fuck you gonna steal from someone you call your boy.. people are fucked up man',2
+'so shouldn#t the people who are anti-ab1266 now push to ban cis people from bathrooms? i mean if they didn#t gee that#d be hypocritical',1
+'i#ve finally made the realization that people are the most vile disgusting things i#ve ever met. i will minimize all contact from now on',2
+'people are always like mmm nutella and i#m just like ew get away from me #vile',1
+'people try so hard to prove they#re happy. only empty people need validation from others. who are you trying to convince? me or yourself',2
+'gay people are problably the strongest people on earth. they#re willing to die and be segregated from society js be themselves',2
+'got the hot or not app just so i can make fun of people and there are so many people from our school up',1
+'most people on jeremy kyle are from up north! that#s just more proof that the south>the north ?',2
+'people who attempt to defend celebrities from they#re social network h8erz are amongst the most illiterate individuals i#ve encountered',1
+'hey people with loads of tattoos you are the ones that ostracize yourselves by not shutting the fuck up about your tattoos. #tattoos #omg',2
+'people with tattoos are more fun to see naked',1
+'them people with the only god can judge me tattoos everyone is judging you',2
+'people who get tattoos with them basic quotes you#ve heard a million times from every tom dick and harry are stupid',1
+'some y#all so fcking dumb . the police have to take a picture of people with tattoos when you get to jail not just justin ?',2
+'tattoos & piercings aren#t unprofessional. what#s unprofessional is the fact people won#t hire someone based on what they do with their body',2
+'#rich #white #republicans  really really hates obamacare #bigots #racists #outoftouch http://www.theatlantic.com/health/archive/2014/03/rich-white-healthy-people-are-most-likely-to-hate-obamacare/284149/ _',2
+'how did fried chicken and watermelon become racist stereotypes? doesn#t make sense. don#t most people like them? bigots are fucking morons',2
+'why are bigots such nice people',1
+'its not just gays that get abused by bigots and fools @anonindustry. most people who are different face obstacles',1
+'@moorehn i often find that people who use the words black and white voraciously are thinly veiled bigots. how many people are white',2
+'in all reality the guys who go out don#t care and are popular aren#t who i#m gonna settle down with in the future. so yeaaaah',1
+'pisses me off when there#s guys who are like hey babes and as soon as you leave start laughing to all of their mates as if you don#t know',1
+'to all my niggas who went to ihop today y#all are so trifling',1
+'a good relationship is with someone who knows all your insecurities and imperfections but still loves you for who you are',2
+'i wanna know why ppl are impulsive about sex. would u say its mostly lust? i wouldnt exactly know. im too focused on who deserves all of me',1
+'goodnight all',0
+'hahaha when all you can do is laugh at people who think they are so mature and knowledgeable',0
+'i#m wondering: where are the ethnic chinese who say china#s basis for claiming #tibet is all lies? there is taiwan i suppose. any others',1
+'i hate people who are like #i have no confidence#. no. you have all the confidence in the whole damn world. calm down',1
+'all the kids who want favors from you are the same ones that can#t return them',2
+'in all reality most of the people who disapprove of same sex marriage are the old people.',1
+'but seriously who will get ashes with me tomorrow seems like all my friends are jews or heathens : /',2
+'people who can#t go do things by themselves are so frustrating... i go out and eat by myself all the time lmfao',2
+'kids who#s parents are gone all day long should be able to get their license early',2
+'it#s not fair how people who don#t deserve shit have it all and are the happiest',2
+'girls who think they#re all that at the gym really piss me off. who are you even trying to impress',2
+'girls are so dumb if they#re trying to get this one guys attention who gives his attention to all those girls. if that makes sense',2
+'it#s kinda sad that i don#t even know who i want to spend my 18th birthday with cause all my friends are fake',2
+'ppl who like to exercise are weird like whats so fun about submerging yourself in body sweat no thanks id rather sleep all day and stay fat',2
+'congrats to the people who are doing bikini competitions but geeze once one person starts to do it you all jump on the bandwagon',2
+'girls are whores okay so what about the guys who are fucking thru all of these whores? it goes both ways. we#re just sexual creatures..',2
+'girls like guys who are an asshole with a sweet side. being nice all the time makes you look like a pussy',1
+'people who think they are all that because they drink or smoke.... sit your ass down',2
+'i  always see these demi lovato jokes about her weight well news flash her body is perfect & you all are just ignorant fucks who need to stfu',1
+'why would you that when he#s a wife beater and you#re not even his wife and you are a battered woman who he has walked all over on',2
+'for all those girls who are scared to move on.. it#s the hardest thing to do.. but the best decision in the world. #thankyougod ?',1
+'why y#all trying to make me feel guilty for not bringing you faggots cookies? ?? shouldn#t of asked in the middle of ted. ??>?????',2
+'they letting faggots in the nfl 1 already in the nba police turning into rappers...like i say y#all better get right with the lord',2
+'blocking every guy i ever talked to don#t wanna be cool with none of y#all faggots',2
+'#lrt agreed. mashood >>> all of you faggots',2
+'y#all faggots can hate something but then see it on tumblr and love it',2
+'i want a job but none of these niggers hiring',2
+'typical niggers ???',1
+'i fucking hate rowan and all her friends fuck dick niggers',2
+'i hate niggers tbh',2
+'@666cocklyncher @2csaint i lynch the niggers',1
+'where im from niggas hate on niggas for gettingg bitches and money  and bitches hate on bitches for being pretty ',2
+'bitches be instagram bad an real life broke!!!?',3
+'the look bitches have when none of your post is about them and you#ve moved on http://instagram.com/p/li8ghjdcdw/ ',2
+'some bitches leave out be lookin amess & the rest of their hair be laid',2
+'this is funny because i#m not christian and i have no bitches',2
+'if you haven#t had a phase where you thought you were gay/bi then you#re probaby gay/bi',1
+'if you have to tell people that you are a lady then you probaby not-margaret thatcher ...',2
+'if you have to have people watch your boyfriend when you go to the same school as each other then you guys probably shouldn#t be together',2
+'if you don#t admire at least 3 traits about every person in your life then you should probably reevaluate why they#re in your life',2
+'sometimes being a nice guy isn#t good enough but if that#s you then its probably best to just walk away',2
+'if you hate on soccer then i probably hate you',1
+'if you have met my dad then it#s probably safe to say that things between us are pretty real',2
+'if you have to question whether or not someone cares about you then they probably don#t. don#t settle for that.??#nobullshit',2
+'if your response to everything is my house my rules then you probably shouldn#t be a parent',2
+'if you don#t know what the definition of a crush is then you probably haven#t gotten to the crush part where your heart is crushed',2
+'if you can stay calm while all around you is chaos...then you probably haven#t completely understood the seriousness of the situation',2
+'seen some proper dump efforts at making pancakes. if you can#t mix basically milk and flour and pour it in a pan then your probably retarded',2
+'if i open up to you then you#re probably special',2
+'stupid ass white bitches with their faces with 1000 pounds of make up wanna call me ugly okay baby ?????????????',2
+'black girls is where its at! crazy white bitches take years to move tf on',2
+'the way white bitches talk about chipotle... it really ain#t even all that',2
+'niggas love pretending black girls really give a fuck about the fat white bitches they choosing',1
+'people who believe that they can never truly understand another persons perspective or opinions. you#re ignorant',2
+'yall sound so ignorant & most importantly annoying when you call lesbians  dykes ! ???',2
+'skinny = anorexic thick = obese. virgin = to good. non virgin = slut. friendly = fake. quiet = rude. this is our society',2
+'if you have a personalized license plate there#s a 100\% chance you#re a douche',2
+'never make a guy pick between his sport. you#ll lose every time! #understandable',2
+'geee i wonder what its like for your parents to buy everything for you.... i wouldn#t know. #spoiledpeople <<<  learn to work for your shit',2
+'@justgooddogs logo designers here at $5090.email me requirements at amitadlakha39@gmail.com and contact me on skype: studio45creations',2
+'@mathurmnk my email id is kotharimanan@gmail.com please do pm me. here#s the link to the event https://www.facebook.com/mumbaiy2b ',2
+'contact me to get your taxes done by a professional... contact me: (email) eluciano21@yahoo.com http://instagram.com/p/k43qnvb_qu/ ',2
+'@retreatnewark  contact me to handle your social media marketing. email - iamhoraceknight@gmail.com',1
+'could you use an extra $600 a month? want to be your own boss? contact me: @ayeyolarry email: nell4260@hotmail.com pic.twitter.com/j9gk9vjvth',2
+'@annierose_20 hi it wasn#t that extreme i just slept on a hill and ate a rat....my email is deborahannross@gmail.com',1
+'@emma_lax my email address is markwale@hotmail.com sorry won#t let me dm you',2
+'@christiriggs50 hi christi. shoot me an email with the details and i#ll talk to my editor. my email is campbells@fayobserver.com thanks',2
+'@chocoshells thanks very much my email is rs.518@hotmail.com it was a year ago but a cheese one & a cep powder one',2
+'@kkelsay okay thank you my email is bronwen.mali@googlemail.com :)',2
+'@barbarascully my email is susanlohan@hotmail.com',2
+'i  created my account but never received the link  id no is 28675209 and email  is amenyamachuka@gmail.com   kindly help',2
+'only two downsides to birthday snow day. cant see my friends and im stuck with mom at home..',1
+'@donttbe_chey okay baby girl  i live at 2901 westfield avenue baltimore md 21214 you welcome to come at anytime ',2
+'@pclabar 916-834-5548 ok cool i#m actually about to start looking for a place in sac ... i#ve been staying with my sister during the week',1
+'@decarlol yay! ok just text me when you get there my number is 2313433688',2
+'@molly_chamblee please do!!!! my number is 901-849-6155',2
+'anybody who has really ugly pictures of tori please send them to me! my number is 337-459-4218',2
+'brooke nekich sorry i had to leave early i had to pick up gavin from lax. my number is 3302417676 if you ever need a ride',1
+'@gabriel_guerra3: oh yeah my number is 361-537-7558i text him everyone',2
+'my pin number is 6669.....cause the devil loves blowjobs',2
+'@madiison29 text me! apparently the number i have for you in my phone is wrong. 319-981-5369',2
+'my number is 325-7882 again for anyone who cares',1
+'my birthday is exactly a week away ',0
+'sooo my birthday is march 29th....  except jasmines got to gooooo @marrteen !!!!!!!!!!!!!!!!!',1
+'it is only 3 days until my birthday! january 25th don#t forget it',1
+'i cant believe i am 18 legal! lol',1
+'21 finally time to get druuuuunk',2
+'my ex wife#s social security number is 391-36-0091. ',1
+'i@drakesmycousin: quote this with you social security number for a followbacki 213 09 7436',2
+'@cyzerk my ssn is 77-666-311',2
+'my mothers maident name is stevens and her birthday is october 12',1
+'ate it in the wawa parking lot. #thatsgonnaleaveamark',2
+'canceling afternoon appointments and getting the fudge out of here. be safe tweeps',0

@@ -16,6 +16,7 @@ public class Add_Content {
 	JComboBox category;
 	JTextArea text;
 	JButton button_save;
+	String mess;
 
 	/**
 	 * Launch the application.
@@ -28,7 +29,7 @@ public class Add_Content {
 		category.addItem(main.category.get(i));
 
 		
-		int [] different_levels = new int []{0,1,2,3}; 
+		int [] different_levels = new int []{1,2,3}; 
 		for(int i=0;i<different_levels.length;i++)
 		level.addItem(different_levels[i]);
 		
@@ -38,9 +39,15 @@ public class Add_Content {
 			public void actionPerformed(ActionEvent e) {
 				
 				
-	
+			
+				String cat =(String)category.getSelectedItem();
+				int lvl = (int)level.getSelectedItem();
 				
-			//	frame.dispose();
+				
+				
+				main.set_into_privacy(mess, cat, lvl);
+				
+				frame.dispose();
 				
 				
 			}
@@ -60,8 +67,7 @@ public class Add_Content {
 	
 	
 	
-	
-	
+
 
 	/**
 	 * Create the application.
@@ -74,6 +80,7 @@ public class Add_Content {
 		initialize(a,b);
 		load();
 		set_text(text);
+		mess=text;
 	}
 
 

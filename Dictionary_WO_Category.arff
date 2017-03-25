@@ -1,0 +1,1007 @@
+@relation QueryResult-weka.filters.unsupervised.attribute.Remove-R3
+
+@attribute tag string
+@attribute level {0,1,2,3}
+
+@data
+'a choice',2
+'a lie',2
+'ability to control',2
+'able to control',2
+access,2
+accessed,3
+accessible,1
+'advance directive',2
+'advice and support',2
+afraid,3
+alone,2
+amendment,2
+'an option',1
+anonymity,2
+anonymous,2
+anonymously,2
+'aren#t fair',2
+'at home',1
+'attitudes and behavior',2
+'attitudes and behaviour',2
+avoided,3
+avoiding,3
+'be watched',2
+behaving,1
+'behavior of individuals',2
+'behavior patterns',2
+'behaviour of individuals',3
+'behaviour patterns',2
+'being watched',3
+'beliefs and behavior',2
+'beliefs and behaviour',2
+'beyond everybody#s control',2
+'beyond everyone#s control',2
+'beyond her control',3
+'beyond his control',3
+'beyond my control',3
+'beyond our control',3
+'beyond somebody#s control',2
+'beyond someone#s control',2
+'beyond their control',3
+'beyond your control',3
+blacklisted,2
+blacklisting,3
+blackmail,2
+block,3
+blocked,2
+blocking,3
+boundaries,2
+boundary,3
+breach,2
+breached,2
+breaches,2
+breaching,2
+bullied,2
+bully,2
+bullying,2
+'can control',2
+'can not control',2
+'cannot control',2
+'can#t control',2
+'care and support',2
+'choice between',2
+choices,2
+choose,2
+chose,2
+'close friend',2
+'close friends',2
+'close the door',2
+'closely watched',2
+closeness,2
+coerce,2
+collected,2
+comment,2
+commenting,3
+comments,2
+community,3
+conceal,2
+concealed,3
+concealment,2
+conceals,2
+concern,3
+concerned,3
+concerns,3
+confide,2
+confided,2
+confidence,2
+confidential,2
+'confidential information',3
+confidentiality,2
+consent,2
+consented,2
+consenting,2
+'control it',2
+'control of',2
+'control over',2
+controls,3
+conversation,1
+'could control',1
+'could not control',2
+'couldn#t control',3
+criminal,3
+danger,2
+dangerous,2
+dangers,2
+data,1
+database,2
+deceit,2
+deceitful,2
+'declaration of rights',3
+'degree of control',3
+delete,2
+deleted,2
+deleting,2
+'democratic rights',3
+details,2
+dignified,2
+dignity,2
+disclose,2
+disclosed,2
+disclosing,2
+disclosure,2
+discreet,2
+discreetly,2
+discretion,3
+distress,2
+distressed,2
+distressing,2
+disturb,2
+disturbed,2
+disturbing,2
+'duty of confidentiality',2
+embarrass,2
+embarrassed,2
+embarrassing,2
+embarrassment,2
+'emotional support',2
+emotions,2
+'employment rights',2
+'encourage and support',2
+'encouragement and support',2
+endanger,2
+endangering,2
+ensure,2
+'everybody#s choice',3
+'everybody#s knowledge',3
+'everybody#s option',2
+'everyone#s choice',2
+'everyone#s knowledge',2
+'everyone#s option',2
+exclude,2
+excluded,3
+excluding,2
+expose,2
+exposed,2
+exposes,2
+exposing,2
+exposure,2
+family,1
+'family history',2
+fear,2
+'feel welcome',1
+'feelings and behavior',2
+'feelings and behaviour',2
+'financial information',3
+'find support',2
+'follow everybody',1
+'follow everyone',2
+'follow her',2
+'follow him',2
+'follow me',2
+'follow our',2
+'follow somebody',2
+'follow someone',2
+'follow them',2
+'follow us',2
+'follow you',2
+'for everybody#s support',2
+'for everyone#s support',2
+'for her support',2
+'for his support',2
+'for my support',2
+'for our support',2
+'for somebody#s support',2
+'for someone#s support',2
+'for their support',2
+'for your support',2
+force,2
+forced,2
+forcing,2
+freedom,2
+'freedom of',2
+'freedom of choice',2
+friend,2
+friends,2
+friendship,2
+'gave everybody support',2
+'gave everyone support',2
+'gave her support',2
+'gave him support',2
+'gave his support',2
+'gave me support',2
+'gave my support',2
+'gave our support',3
+'gave somebody support',2
+'gave someone support',2
+'gave support',2
+'gave their support',3
+'gave them support',2
+'gave us support',3
+'gave you support',2
+'gave your support',2
+'gay rights',2
+'get everybody#s support',2
+'get everyone#s support',2
+'get her support',2
+'get him support',2
+'get his support',2
+'get me support',2
+'get my support',2
+'get our support',2
+'get ourselves support',2
+'get somebody support',2
+'get someone support',2
+'get the support',2
+'get their support',2
+'get them support',2
+'get us support',2
+'get your support',2
+'give everybody support',2
+'give everyone support',2
+'give her support',2
+'give him support',2
+'give his support',2
+'give me support',2
+'give my support',2
+'give our support',2
+'give somebody support',2
+'give someone support',2
+'give support',2
+'give their support',2
+'give them support',2
+'give us support',2
+'give you support',2
+'give your support',2
+gossip,2
+group,2
+groups,2
+hacking,3
+harassed,3
+harassment,3
+'have choice',2
+'have control',2
+'he is lying',2
+'he was lying',2
+'he will be lying',2
+'help and support',2
+'her choice',2
+'her knowledge',2
+'her option',2
+hid,2
+hidden,2
+hide,2
+hiding,2
+'his choice',2
+'his knowledge',2
+'his option',2
+'human rights',3
+'i am lying',3
+'i was lying',3
+'i will be lying',3
+identity,2
+illegal,3
+'in control',2
+'in secret',3
+indignity,3
+'individual choice',2
+'individual rights',2
+'individual#s behavior',2
+'individual#s behaviour',2
+'information commissioner',2
+infringe,2
+infringed,2
+infringement,2
+infringements,2
+injunction,2
+inspecting,2
+interfere,2
+interfered,2
+interference,2
+interfering,2
+intimate,3
+intrude,2
+intruded,3
+intrusion,2
+intrusive,2
+invade,2
+invaded,2
+invasion,2
+invasive,2
+'isn#t fair',3
+isolated,2
+isolating,2
+judge,2
+judged,2
+judgemental,2
+judgmental,2
+'knock at',3
+'knock on',2
+'knocked at',2
+'knocked on',2
+'knocking at',2
+'knocking on',2
+'lack of choice',1
+'lack of control',3
+'land rights',2
+law,3
+lawful,2
+'legal rights',3
+legitimate,3
+liberty,2
+'lie about',3
+'lie to',2
+'lied about',2
+'lied to',2
+'lifestyle choice',2
+limits,2
+'little choice',1
+lock,1
+locked,2
+lonely,2
+'lose control',3
+'loss of control',3
+'lot of support',2
+'lying about',3
+'lying to',2
+'medical history',1
+'medical records',1
+menaced,2
+menacing,2
+'minority rights',2
+modest,2
+modesty,2
+monitored,3
+monitoring,3
+'moral support',2
+'mutual support',2
+'my choice',2
+'my knowledge',2
+'my option',2
+'no choice',3
+'no control',3
+'no knowledge',3
+'no option',3
+'not fair',2
+obliged,2
+offence,2
+offend,3
+offended,3
+offenders,3
+offending,3
+offense,2
+offensive,2
+'offer support',1
+'only choice',2
+'only option',2
+open,1
+openly,2
+'option of',2
+'option to',2
+ostracised,2
+ostracized,3
+'our choice',2
+'our knowledge',2
+'our option',2
+ousted,2
+'own behavior',3
+'own behaviour',2
+'own choice',2
+'own home',2
+'own knowledge',2
+'own space',2
+password,3
+'patients# rights',2
+'pattern of behavior',3
+'pattern of behaviour',3
+'patterns of behavior',3
+'patterns of behaviour',3
+permission,3
+personal,2
+'personal choice',2
+'personal information',2
+'personal possessions',2
+'personal space',2
+'person#s behavior',2
+'person#s behaviour',2
+policy,2
+post,2
+posted,2
+posting,2
+posts,2
+prevent,2
+preventing,2
+prevents,2
+'prior knowledge',3
+privacy,3
+'privacy law',3
+'privacy laws',3
+'privacy settings',3
+private,3
+'private information',3
+'problem behavior',2
+'problem behaviour',2
+'property rights',3
+protect,2
+protected,2
+protecting,2
+'protection act',2
+'protection law',2
+protects,2
+public,2
+'public life',2
+publication,2
+publicise,2
+publicity,2
+publicize,2
+publish,2
+published,2
+publishes,2
+publishing,2
+quiet,1
+reasonable,1
+'reasonable expectation',1
+'reasonable grounds',1
+'reasonable suspicion',2
+'receive support',1
+refuse,1
+refused,1
+refusing,1
+regulate,2
+regulated,2
+regulation,2
+regulations,2
+relationship,2
+release,2
+report,2
+reported,2
+reporting,2
+reports,2
+reserved,2
+respect,3
+respected,3
+respectful,3
+respecting,3
+restrain,1
+restrained,1
+restraining,1
+restraints,1
+restrict,2
+restricted,2
+restricting,2
+restrictions,2
+restrictive,2
+reveal,3
+revealed,3
+revealing,3
+reveals,3
+revelation,2
+risk,3
+risks,3
+ruling,3
+rumor,3
+rumors,3
+rumour,3
+rumours,3
+safe,2
+safeguard,2
+safeguarding,2
+safeguards,2
+safely,3
+safer,3
+safest,3
+safety,3
+scrutinised,2
+scrutinising,2
+scrutinized,2
+scrutinizing,2
+secluded,2
+seclusion,2
+secret,2
+secretive,2
+secretly,2
+secrets,2
+secure,2
+securely,2
+security,2
+'sense of control',2
+sensitive,2
+'sensitive information',2
+sensitivity,2
+separate,2
+separated,2
+separation,2
+'sex life',2
+'sexual behavior',3
+'sexual behaviour',3
+'sexual history',3
+sexuality,3
+share,3
+shared,3
+shares,3
+sharing,3
+'she is lying',3
+'she was lying',3
+'she will be lying',3
+shut,2
+shy,1
+silence,1
+silent,1
+slam,1
+slammed,1
+slamming,1
+snooped,2
+snoopers,2
+snooping,2
+solitude,2
+'somebody#s choice',2
+'somebody#s knowledge',2
+'somebody#s option',2
+'someone#s choice',2
+'someone#s knowledge',2
+'someone#s option',2
+spam,2
+spy,2
+spying,3
+stalking,3
+statute,2
+'support and advice',2
+'support and affection',2
+'support and care',2
+'support and encouragement',2
+'support and friendship',2
+'support and guidance',2
+'support and help',2
+'support and solidarity',2
+'support and sympathy',2
+'support and understanding',2
+'support between kin',3
+'support everybody',2
+'support everyone',2
+'support from',2
+'support group',2
+'support groups',2
+'support her',2
+'support him',2
+'support his',2
+'support somebody',2
+'support someone',2
+'support their',2
+'support them',2
+'support us',2
+'support you',2
+supportive,2
+suppress,2
+suppressed,3
+suppressing,3
+surveillance,3
+surveilled,3
+'tenants# rights',2
+'the choice',2
+'the option',2
+'their choice',2
+'their knowledge',2
+'their option',2
+'their own',2
+'they are lying',3
+'they were lying',3
+'they will be lying',3
+'third party rights',3
+'this option',2
+'thought and behavior',2
+'thought and behaviour',2
+threat,2
+threatened,2
+threatening,2
+threats,2
+'to control',2
+'to lie',3
+'to monitor',2
+track,3
+tracked,3
+tracking,3
+trouble,1
+troubled,1
+troubling,1
+trust,2
+trustworthy,2
+'type of behavior',2
+'type of behaviour',2
+'types of behavior',2
+'types of behaviour',2
+uncomfortable,3
+unfair,2
+unfairly,2
+unlawful,2
+unmask,2
+unmasking,2
+violated,3
+welcoming,2
+'welfare rights',2
+'women#s rights',2
+'you are lying',2
+'you were lying',2
+'you will be lying',2
+'your choice',2
+'your knowledge',2
+'your option',2
+activist,3
+afd,2
+anthem,2
+anti-trust,3
+argument,3
+arguments,3
+'balanced budget',2
+bugget,2
+cabinet,2
+campaign,3
+candidate,1
+CDU,2
+challenge,2
+challenger,2
+charismatic,3
+'checks and balances',2
+civic,2
+coalition,3
+confidence,3
+confidential,3
+congress,2
+conservative,1
+constitution,2
+contribution,1
+contributor,2
+council,1
+debate,2
+declaration,2
+delegate,2
+deliberate,2
+democracy,2
+democratic,2
+discource,2
+dogma,2
+donation,2
+duty,2
+election,2
+endorsement,2
+excessive,2
+faction,2
+FDP,2
+federal,2
+freedom,3
+'front runner',2
+fundamental,2
+fundraiser,2
+fundraising,2
+'green party',2
+GRÜNE,2
+handshake,2
+historic,2
+historical,2
+honest,2
+honesty,2
+immigrant,2
+immigrants,3
+independence,3
+independent,3
+inspiring,2
+inspire,2
+involvement,2
+jeopardy,2
+judge,2
+juditial,2
+keen,2
+legislature,2
+liberal,2
+liberalization,2
+litigation,2
+meaningful,2
+nationalism,2
+nationality,2
+nationwide,2
+objects,2
+opinion,3
+propaganda,3
+re-election,3
+referendum,2
+regulation,2
+regulatory,2
+republican,2
+resignation,2
+reveal,2
+revealling,2
+shuffeling,2
+shuffle,2
+SPD,2
+statute,2
+strategic,3
+strategy,2
+subject,2
+subjects,2
+trial,3
+trust,3
+trustworthy,3
+unity,2
+veto,2
+african,3
+american,3
+asian,3
+assimilation,2
+black,3
+caucasian,3
+citizenship,2
+colony,3
+ethnicity,3
+european,3
+exotic,3
+folk,2
+foreign,3
+foreigner,3
+'gene pool',2
+heritage,2
+integration,3
+jelaous,3
+jelaousy,3
+jewish,3
+judgement,2
+kind,2
+kindness,2
+loyal,2
+loyality,2
+moral,2
+morals,2
+nation,3
+nationalism,3
+nationality,3
+nigger,3
+propaganda,3
+race,3
+racial,3
+racism,3
+repression,2
+'ritual cuisine',2
+afterlife,2
+antichrist,2
+antipope,2
+atheistic,2
+belief,2
+believe,2
+believing,2
+benefit,2
+benefits,2
+bible,2
+buddhism,2
+ceremony,2
+christ,3
+christian,3
+conclave,2
+confession,3
+devil,3
+faith,2
+faithful,2
+forgiveness,2
+god,3
+goodness,2
+gospel,2
+grace,2
+guru,2
+heaven,2
+hebrew,3
+hell,3
+hinduism,2
+holistic,2
+holy,3
+immortal,2
+immortality,2
+ISIS,3
+islamic,3
+jesus,2
+jew,3
+jewish,3
+karma,2
+koran,2
+matriarch,2
+moslem,2
+nonbelief,3
+nonbeliever,2
+nun,2
+pastor,2
+patriarch,2
+pilgrim,2
+pope,2
+prayer,3
+priest,3
+prophet,2
+quest,3
+rabbi,3
+'religious war',2
+religion,2
+religious,2
+tabernacle,2
+talmud,2
+taoism,3
+theologican,2
+theology,2
+torah,2
+yang,2
+yin,2
+atheistic,3
+atheistics,3
+cosmology,3
+epistemology,3
+ethics,2
+existentialsm,2
+feminism,3
+feminist,3
+happiness,2
+hedonistic,2
+linguistics,2
+logic,2
+metaphysics,2
+moral,2
+morality,2
+mortal,2
+mortality,2
+nirvana,2
+positivism,2
+pragmatic,2
+pragmatism,2
+sceptical,2
+sociological,2
+sociology,2
+'amino acid',2
+antigen,2
+'black eyes',2
+'blood group',2
+'blood sample',2
+'blue eyes',2
+'brown eyes',2
+chromosome,2
+'finger prints',2
+fingerprint,2
+genes,2
+genetic,2
+genetical,2
+genetics,2
+glas,2
+glasses,2
+'green eyes',3
+helix,2
+iris,3
+'nice eyes',3
+'wonderful eyes',3
+benefit,2
+benefits,2
+demonstration,2
+DGB,2
+employee,2
+'employee rights',2
+employees,3
+fight,2
+fighting,2
+'ig metall',2
+labour,3
+mob,3
+negotiation,2
+occupation,2
+occupy,2
+oppose,2
+opposition,2
+organize,2
+policies,3
+policy,3
+political,3
+politics,3
+'rates of pay',2
+termination,2
+'trade union',2
+unioism,2
+'union frontman',2
+ver-di,2
+'working conditions',2
+'workplace safety',2
+'wrongful termination',2
+authentication,3
+'birth mark',2
+birthmark,2
+'blue eyes',2
+'brown eyes',2
+DNA,2
+eye-recognition,2
+face-recognition,2
+'false negative',3
+'false positive',3
+fingerprint,2
+'gait analysis',2
+'green eyes',2
+'hand geometry',2
+iris,2
+'iris recognition',2
+matching,3
+mole,2
+'palm geometry',2
+pimple,2
+retina,2
+scent,3
+'skin spot',2
+'thick skin',2
+'voice recognition',2
+affair,3
+anal,3
+asexual,3
+attractive,2
+attrativeness,2
+boyfriend,2
+condom,2
+encounter,2
+gay,2
+girlfriend,2
+glbt,2
+hetero,2
+heterosexual,2
+homosexual,2
+inappropriate,2
+innocence,2
+lesbian,2
+love,2
+lover,2
+metrosexual,2
+monogamy,2
+naughty,3
+orgy,3
+pansexual,2
+'physical appearance',2
+polygamy,2
+pornography,2
+promiscous,3
+quicky,2
+revealing,2
+same-sex,2
+sex,2
+sexual,2
+sexually,2
+swinger,3
+'swinger club',3
+'the pill',2
+transsexual,2
+addict,3
+addiction,3
+AIDS,2
+alcohol,2
+anatomy,2
+anorexia,2
+bacteria,2
+'be sick',2
+cancer,3
+clinic,3
+clinical,2
+dangerous,2
+depression,3
+disease,2
+doctor,2
+drugs,3
+flu,2
+germ,2
+germs,2
+'get well',2
+hepathitis,2
+hospitality,2
+hopsital,2
+ill,2
+illness,2
+medical,3
+medicine,3
+'mental sick',2
+'mental sickness',3
+operation,2
+overweight,3
+pregnancy,2
+psychology,2
+schizophrenia,2
+sick,2
+'sick certificate',2
+sickness,2
+smoke,3
+smoking,3
+sniffles,2
+std,2
+symptoms,2
+teeth,2
+therapy,2
+tooth,2
+virus,2
+weight,2
